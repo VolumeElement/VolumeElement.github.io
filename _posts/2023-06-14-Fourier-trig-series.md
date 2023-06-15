@@ -18,7 +18,7 @@ $$\ln(\sin(x))=-\ln(2)-\sum_{n=1}^\infty\frac{\cos(2nx)}{n}$$
 
 and
 
-$\ln(\cos(x))=-\ln(2)-\sum_{n=1}^\infty(-1)^n\frac{\cos(2nx)}{n}.$$
+$$\ln(\cos(x))=-\ln(2)-\sum_{n=1}^\infty(-1)^n\frac{\cos(2nx)}{n}.$$
 
 The derivation of these is rather short and be found on [math.se](https://math.stackexchange.com/questions/292468/fourier-series-of-log-sine-and-log-cos).
 
