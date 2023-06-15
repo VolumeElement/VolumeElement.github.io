@@ -36,11 +36,11 @@ Averaging this new representation of $I$ with the original one, we find that
 
 $$I=\frac{\pi}{4}\int_0^{\frac{\pi}{2}}\frac{\cos(x)}{\cos(x)+\sin(x)}\,\mathrm dx+\frac{1}{2}\int_0^{\frac{\pi}{2}}x\cdot\frac{\sin(x)-\cos(x)}{\sin(x)+\cos(x)}\,\mathrm dx.$$
 
-The $\int_0^{\frac{\pi}{2}}\frac{\cos(x)}{\cos(x)+\sin(x)}\,\mathrm dx$` integral may be easily evaluated to $\frac{\pi}{4}$ by making the substitution $x\mapsto\frac{\pi}{2}-x$ and doing a similar averaging trick. So
+The $\int_0^{\frac{\pi}{2}}\frac{\cos(x)}{\cos(x)+\sin(x)}\,\mathrm dx$ integral may be easily evaluated to $\frac{\pi}{4}$ by making the substitution $x\mapsto\frac{\pi}{2}-x$ and doing a similar averaging trick. So
 
 $$I=\frac{\pi^2}{16}+\frac{1}{2}\int_0^{\frac{\pi}{2}}x\cdot\frac{\sin(x)-\cos(x)}{\sin(x)+\cos(x)}\,\mathrm dx.$$
 
-The remaining integral may be dealt with by integrating by parts. Let $u=x$` and $\mathrm dv=\frac{\sin(x)-\cos(x)}{\sin(x)+\cos(x)}\,\mathrm dx$ so
+The remaining integral may be dealt with by integrating by parts. Let $u=x$ and $\mathrm dv=\frac{\sin(x)-\cos(x)}{\sin(x)+\cos(x)}\,\mathrm dx$ so
 
 $$\int_0^{\frac{\pi}{2}}x\cdot\frac{\sin(x)-\cos(x)}{\sin(x)+\cos(x)}\,\mathrm dx=\underset{J}{\underbrace{\int_0^{\frac{\pi}{2}}\ln\left(\cos(x)+\sin(x)\right)\,\mathrm dx}}.$$
 
