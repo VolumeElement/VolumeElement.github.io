@@ -38,6 +38,7 @@ Clearly, these are not defined for $n=1$, so that case is done. Now for solution
 The first condition implies that $n=2m+1$, combined with the second condition we have
 
 $$\begin{align*}    \text{sgn}\prod_{k=0}^{n-1}\left(\frac{n(n+1)}{2(n-1)}-k\right)^{k-n} &=\text{sgn}\prod_{k=0}^{2m}\left(\frac{n(n+1)}{2(n-1)}-k\right)^{k-2m-1} \\    &= \text{sgn}\prod_{k=0}^{2m}\left(\frac{n(n+1)}{2(n-1)}-k\right)^{k-1} \\    &= \text{sgn}\prod_{k=0}^{m}\left(\frac{n(n+1)}{2(n-1)}-2k\right)^{2k-1} \\    &= \text{sgn}\prod_{k=0}^{m}\left(\frac{n(n+1)}{2(n-1)}-2k\right)\end{align*}$$
+
 as negative factors are only contributed when $k$ is even. For a factor to be negative we must also have
 
 $$\begin{align*}    k &> \frac{n(n+1)}{4(n-1)} \\    &= \frac{(2m+1)(m+1)}{4m} \\    &= \frac{m}{2}+\frac{3}{4}+\frac{1}{4m}.\end{align*}$$
@@ -51,6 +52,7 @@ Or put differently, when is
 $$g(m)=m-\left\lceil \frac{m}{2}+\frac{3}{4}+\frac{1}{4m} \right\rceil$$
 odd? Note that the ceiling function only increases every other value of $m$ and $g(m)$ is odd when $m=2$ and $m=3$, so $g(m)$ alternates odd/even like
 
-$$\begin{tabular}{ c|cccccccccc }  $m$ & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & $\cdots$\\  $g(m)$ & o & o & e & e & o & o & e & e & o & $\cdots$\end{tabular}$$
+| $m$ | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | $\cdots$ |
+| $g(m)$ | o | o | e | e | o | o | e | e | o | $\cdots$ |
 
 (Alternatively, investigate the cases $m=4j$, $m=4j+1$, $m=4j+2$, and $m=4j+3$.) These values of $m$ that make $g(m)$  odd are exactly those satisfying $m\equiv2,\,3\,(\text{mod }4).$ But $n=2m+1$ so this implies we must not have $n\equiv5,\,7\,(\text{mod}\,8)$. And we're done!
