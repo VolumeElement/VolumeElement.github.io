@@ -18,7 +18,7 @@ has a real solution of the form $f(x)=ax^r$ with $a\neq0$.
 
 ## Solution
 
-We show that such an $f$ exists iff $n\neq1$ or $n\not\equiv5,\,7\,(\text{mod}\,8)$
+We show that such an $f$ exists iff $n\neq1$ or $n\not\equiv5,\,7\,(\text{mod}\,8).$
 
 $$\begin{align*}    ax^r &= a^nrx^{r-1}\cdot r(r-1)x^{r-2}\cdots\left(r(r-1)\cdots(r-n+1)x^{r-n}\right) \\    &= a^n\prod_{k=0}^{n-1}(r-k)^{n-k}x^{nr-\frac{n(n+1)}{2}}\end{align*}$$
 
