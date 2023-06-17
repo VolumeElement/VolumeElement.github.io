@@ -18,7 +18,7 @@ has a real solution of the form $f(x)=ax^r$ with $a\neq0$.
 
 ## Solution
 
-We show that such an $f$ exists iff $n\neq1$ or $n\not\equiv5,\,7\,(\text{mod}\,8).$
+We show that such an $f$ exists if $n\neq1$ or $n\not\equiv5,\,7\,(\text{mod}\,8).$
 
 Plugging the solution type of interest into the differential equation yields
 
