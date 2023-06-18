@@ -3,7 +3,7 @@ title: Using log-trig Fourier Series
 # author: dxdydz
 date: 2023-06-14 22:00:00 -0400
 categories: [Calculus]
-tags: [integration, series]
+tags: [integration, infinite series]
 math: True
 pin: False
 ---
