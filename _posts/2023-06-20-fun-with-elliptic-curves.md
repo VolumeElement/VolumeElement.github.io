@@ -95,7 +95,7 @@ print(iterate_pc)
 
 yields the terrifying looking point `(154476802108746166441951315019919837485664325669565431700026634898253202035277999/36875131794129999827197811565225474825492979968971970996283137471637224634055579 : 4373612677928697257861252602371390152816537558161613618621437993378423467772036/36875131794129999827197811565225474825492979968971970996283137471637224634055579 : 1)`.
 
-This does nto have integer coordinates like we want, but fortunately the original curve is projective, so we can just clear the denominators and we'll still get a solution!
+This does not have integer coordinates like we want, but fortunately the original curve is projective, so we can just clear the denominators and we'll still get a solution!
 
 ```
 #Make a, b, and c integers
@@ -124,7 +124,7 @@ which works!
 
 ## An Unusual Cubic Representation Problem
 
-This problem, and its generalization $a/(b+c)+b/(a+c)+c/(a+b)=n$, weas originally covered [in a paper](https://www.researchgate.net/publication/287268415_An_unusual_cubic_representation_problem) by A. Bremner and A. Macleod. They explore various properties of the curve, showing that there are no positive solutions when $n$ is odd, as well as showing there are solutions for an infinite familily of even $n$. Changing $n$ in the script easily gives us solutions to other variants:
+This problem, and its generalization $a/(b+c)+b/(a+c)+c/(a+b)=n$, was originally covered [in a paper](https://www.researchgate.net/publication/287268415_An_unusual_cubic_representation_problem) by A. Bremner and A. Macleod. They explore various properties of the curve, proving that there are no positive solutions when $n$ is odd, as well as showing there are solutions for an infinite familily of even $n$. Changing $n$ in the script easily gives us solutions to other variants:
 
 ### n=6
 
@@ -144,7 +144,7 @@ This problem, and its generalization $a/(b+c)+b/(a+c)+c/(a+b)=n$, weas originall
 
 ## A more monstrous problem
 
-A similar problem is
+A similar problem is:
 
 ![](https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ec_meme_2.png)
 
