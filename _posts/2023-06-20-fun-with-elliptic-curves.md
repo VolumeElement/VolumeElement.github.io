@@ -162,6 +162,6 @@ sudo apt-get upgrade
 sudo apt-get install sagemath
 ```
 
-You can then enter `sage -n jupyter` in WSL to start a notebook. Lastly, go to `localhost:8888` in your browser and start a new notebook!
+You can then enter `sage -n jupyter` in WSL to start a notebook. Lastly, go to `localhost:8888` in your browser and start a new notebook file.
 
 
