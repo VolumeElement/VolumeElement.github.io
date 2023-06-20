@@ -34,7 +34,7 @@ We can then do all of the tough work on $E$ in order to find a point $P\in E$ su
 
 ## Implementation with Sagemath
 
-Sage is a powerful mathematical tool based on python that offers a way to manupulate various comuptationally complex objects like rings, fields, modular forms, and algebraic curves&mdash;with it we can make short work of this problem.
+Sage is a powerful mathematical tool based on python that offers a way to manupulate various computationally complex objects like rings, fields, modular forms, and algebraic curves&mdash;with it we can make short work of this problem.
 
 To start, we specify that we'd like to work over the polynomial ring $\mathbb{Q}[a,\,b,\,c]$ and we define $p(a,\,b,\,c)$ as `proj_cubic`.
 
@@ -69,7 +69,7 @@ $$(a\,:\,b\,:\,c)\overset{\phi}{\mapsto}(-a-c\,:\,a\,:\,6a/91-b/91+6c/91),$$
 
 and
 
-$$(x\,:\,y\,:\,z)\overset{\phi}{\mapsto}(y\,:\,-6x-91z\,:\,-x-y).$$
+$$(x\,:\,y\,:\,z)\overset{\phi^{-1}}{\mapsto}(y\,:\,-6x-91z\,:\,-x-y).$$
 
 Now we can hunt for some point $Q\in E$ to repeatedly add to itself, in hopes that there is some $m$ such that $\phi^{-1}(mQ)$ is a solution to $p(a,\,b,\,c)=0$ with $a,\,b,\,c$ all positive.
 
