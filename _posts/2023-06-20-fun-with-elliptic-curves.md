@@ -152,7 +152,7 @@ An integer point on this curve was found by Noam Elkies, and [using a suprisingl
 
 ## Tips for running Sage
 
-The reccomended approaches to running Sage were not working for me, but the following tricks helped (assuming you already have python and jupyter notebooks installed):
+The recommended approaches to running Sage were not working for me, but the following tricks helped (assuming you already have python and jupyter notebooks installed):
 
 In [WSL](https://apps.microsoft.com/store/detail/windows-subsystem-for-linux/9P9TQF7MRM4R), run the following 3 commands:
 
