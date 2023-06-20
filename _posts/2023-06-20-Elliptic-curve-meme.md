@@ -8,7 +8,7 @@ math: True
 pin: False
 ---
 
-Elliptic curves are a serious topic of study in pure mathematics, they are at the forefront of modern research in number theory, and they have been used to great effect in cryptographic systems.  But what's more important than any of these things is that you can use them to create hopeless problems and let them loose online. A particularly infamous problem that has circulated the internet for a few years now is the following,
+Elliptic curves are a serious topic of study in pure mathematics, they are at the forefront of modern research in number theory, and they have been used to great effect in cryptographic systems.  But what's more important than any of these things is that you can use elliptic curves to create hopeless problems and let them loose online. A particularly infamous problem that has circulated the internet for a few years now is the following,
 
 ![](https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ec_meme_1.png)
 
