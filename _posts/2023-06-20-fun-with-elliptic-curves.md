@@ -124,7 +124,7 @@ which works!
 
 ## An Unusual Cubic Representation Problem
 
-This problem, and its generalization $a/(b+c)+b/(a+c)+c/(a+b)=n$, was originally covered [in a paper](https://www.researchgate.net/publication/287268415_An_unusual_cubic_representation_problem) by A. Bremner and A. Macleod. They explore various properties of the curve, proving that there are no positive solutions when $n$ is odd, as well as showing there are solutions for an infinite familily of even $n$. Changing $n$ in the script easily gives us solutions to other variants:
+This problem, and its generalization $a/(b+c)+b/(a+c)+c/(a+b)=n$, was originally covered [in a paper](https://www.researchgate.net/publication/287268415_An_unusual_cubic_representation_problem) by A. Bremner and A. Macleod. They explore various properties of the curve, proving that there are no positive solutions when $n$ is odd, as well as showing there are solutions for an infinite familily of even $n$. Changing $n$ in the script easily gives us solutions to other variants mentioned in the paper:
 
 ### n=6
 
