@@ -38,7 +38,7 @@ Sage is a powerful mathematical tool based on python that offers a way to manipu
 
 To start, we specify that we'd like to work over the polynomial ring $\mathbb{Q}[a,\,b,\,c]$ and we define $p(a,\,b,\,c)$ as `proj_cubic`.
 
-```sage
+```
 R.<a, b, c> = PolynomialRing(QQ)
 n = 4
 
