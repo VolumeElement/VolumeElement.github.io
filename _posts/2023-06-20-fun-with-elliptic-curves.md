@@ -71,7 +71,7 @@ and
 
 $$(x\,:\,y\,:\,z)\overset{\phi^{-1}}{\mapsto}(y\,:\,-6x-91z\,:\,-x-y).$$
 
-Now we can hunt for some point $Q\in E$ to repeatedly add to itself, in hopes that there is some $m$ such that $\phi^{-1}(mQ)$ is a solution to $p(a,\,b,\,c)=0$ with $a,\,b,\,c$ all positive.
+Now we can hunt for some point $Q\in E$ to repeatedly add to itself in hope that there is some $m$ such that $\phi^{-1}(mQ)$ is a solution to $p(a,\,b,\,c)=0$ with $a,\,b,\,c$ all positive.
 
 ```
 #Find a point Q to iterate over.
