@@ -34,7 +34,7 @@ We can then do all of the tough work on $E$ in order to find a point $P\in E$ su
 
 ## Implementation with Sagemath
 
-Sage is a powerful mathematical tool based on python that offers a way to manupulate various computationally complex objects like rings, fields, modular forms, and algebraic curves&mdash;with it we can make short work of this problem.
+Sage is a powerful mathematical tool based on python that offers a way to manipulate various computationally complex objects like rings, fields, modular forms, and algebraic curves&mdash;with it we can make short work of this problem.
 
 To start, we specify that we'd like to work over the polynomial ring $\mathbb{Q}[a,\,b,\,c]$ and we define $p(a,\,b,\,c)$ as `proj_cubic`.
 
