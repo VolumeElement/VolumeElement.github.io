@@ -1,7 +1,7 @@
 ---
 title: Fun with Elliptic Curves
 # author: dxdydz
-date: 2023-06-20 21:25:00 -0400
+date: 2023-06-20 21:30:00 -0400
 categories: [Number Theory]
 tags: [elliptic curves, sage, python]
 math: True
