@@ -3,7 +3,7 @@ title: Fun with Elliptic Curves
 # author: dxdydz
 date: 2023-06-20 21:15:00 -0400
 categories: [Number Theory]
-tags: [elliptic curves, sage]
+tags: [elliptic curves, sage, python]
 math: True
 pin: False
 ---
