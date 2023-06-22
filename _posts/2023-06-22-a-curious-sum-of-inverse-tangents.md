@@ -12,7 +12,7 @@ pin: False
 
 Evaluate
 
-$$\sum_{n=1}^\infty\text{arctan}\left(\frac{1}{8n^2}\right)$$
+$$\sum_{n=1}^\infty\text{arctan}\left(\frac{1}{8n^2}\right).$$
 
 ## Solution
 
