@@ -144,7 +144,7 @@ This problem, and its generalization $a/(b+c)+b/(a+c)+c/(a+b)=n$, was originally
 
 ## A Sum of three rationals
 
-![](https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ec_meme_2.jpg)
+![](https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ec_meme_3.jpg)
 
 This problem, covered in [Two More Representation Problems](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7EA1CC1326A2B0701A55E081613332C1/S0013091500023397a.pdf/two_more_representation_problems.pdf), can be approached using the same basic technique. Appropriately modifying the above code to account for the different curve, $n=73$, and the rational point $(0,\,0,\,1)$ yeilds a map to
 
@@ -162,7 +162,7 @@ and the solution
 
 A similar problem is:
 
-![](https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ec_meme_2.jpg)
+![](https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ec_meme_2.png)
 
 By [using a suprisingly simple recurrence](https://math.stackexchange.com/a/1613635/239024), starting with a point found by Noam Elkies, it can be shown that the smallest solution in the positive integers has coordinates upwards of $10^{21388}$. This problem is dangerous!
 
