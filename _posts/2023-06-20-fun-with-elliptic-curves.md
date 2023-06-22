@@ -142,6 +142,22 @@ This problem, and its generalization $a/(b+c)+b/(a+c)+c/(a+b)=n$, was originally
 
 `c = 4862378745380642626737318101484977637219057323564658907686653339599714454790559130946320953938197181210525554039710122136086190642013402927952831079021210585653078786813279351784906397934209`
 
+## 
+
+![](https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ec_meme_2.png
+
+This problem, covered in [Two More Representation Problems](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7EA1CC1326A2B0701A55E081613332C1/S0013091500023397a.pdf/two_more_representation_problems.pdf), can be approached using the same basic technique. Appropriately modifying the above code to account for the different curve, $n=73$, and the rational point $(0,\,0,\,1)$ yeilds a map to
+
+$$E/\mathbb{Q}:\,y^2+xy+y=x^3-591594x+175089846$$
+
+and the solution
+
+`a = 5516052940379835723918624062995170304792670702`
+
+`b = 723869051938634952455000067289242669675739356`
+
+`c = 11072099852925046330240381983962055577398063`
+
 ## A more monstrous problem
 
 A similar problem is:
