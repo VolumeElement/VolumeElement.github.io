@@ -144,7 +144,7 @@ This problem, and its generalization $a/(b+c)+b/(a+c)+c/(a+b)=n$, was originally
 
 ## 
 
-![](https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ec_meme_2.png
+![](https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ec_meme_2.jpg)
 
 This problem, covered in [Two More Representation Problems](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7EA1CC1326A2B0701A55E081613332C1/S0013091500023397a.pdf/two_more_representation_problems.pdf), can be approached using the same basic technique. Appropriately modifying the above code to account for the different curve, $n=73$, and the rational point $(0,\,0,\,1)$ yeilds a map to
 
