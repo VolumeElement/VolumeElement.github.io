@@ -2,7 +2,7 @@
 title: An Unintended Route of Integration
 # author: dxdydz
 date: 2023-06-22 17:10:00 -0400
-categories: [Caclulus]
+categories: [Calculus]
 tags: [infinite series, integration]
 math: True
 pin: False
