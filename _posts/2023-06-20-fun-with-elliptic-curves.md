@@ -142,7 +142,7 @@ This problem, and its generalization $a/(b+c)+b/(a+c)+c/(a+b)=n$, was originally
 
 `c = 4862378745380642626737318101484977637219057323564658907686653339599714454790559130946320953938197181210525554039710122136086190642013402927952831079021210585653078786813279351784906397934209`
 
-## A Sum of Three Rationals
+## A Sum of three rationals
 
 ![](https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ec_meme_2.jpg)
 
