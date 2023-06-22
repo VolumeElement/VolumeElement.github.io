@@ -162,7 +162,7 @@ and the solution
 
 A similar problem is:
 
-![](https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ec_meme_2.png)
+![](https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ec_meme_2.jpg)
 
 By [using a suprisingly simple recurrence](https://math.stackexchange.com/a/1613635/239024), starting with a point found by Noam Elkies, it can be shown that the smallest solution in the positive integers has coordinates upwards of $10^{21388}$. This problem is dangerous!
 
