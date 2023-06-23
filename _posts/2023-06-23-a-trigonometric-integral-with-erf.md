@@ -2,7 +2,7 @@
 title: A Trigonometric Integral with Erf
 # author: dxdydz
 date: 2023-06-23 15:10:00 -0400
-categories: [Caclulus]
+categories: [Calculus]
 tags: [differential equations, integration]
 math: True
 pin: False
