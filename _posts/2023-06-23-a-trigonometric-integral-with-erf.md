@@ -20,7 +20,7 @@ Generalize the integral to
 
 $$I=\int_0^{\pi/2}e^{-\alpha\sec^2(x)}\,\mathrm dx.$$
 
-Using the substitution $x=\text{arcsec}(\sqrt{u+1}$ we get
+Using the substitution $x=\text{arcsec}(\sqrt{u+1})$ we get
 
 $$\int_0^{\pi/2}e^{-\alpha\sec^2(x)}\,\mathrm dx = \frac{1}{2e^\alpha}\int_0^\infty\frac{e^{-\alpha u}}{(u+1)\sqrt{u}}\,\mathrm du.$$
 
