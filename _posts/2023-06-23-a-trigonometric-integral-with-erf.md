@@ -36,7 +36,7 @@ where $f(\alpha)=e^\alpha I(\alpha)$. Now multiply both sides by the integrating
 
 $$\frac{\mathrm d}{\mathrm d\alpha}e^{-\alpha}f(\alpha)=-\frac{e^{-\alpha}}{2}\sqrt{\frac{\pi}{\alpha}}.$$
 
-Integrating on the interval $ (with $x$ positive) yields
+Integrating on the interval $(x,\,\infty)$ (with $x$ positive) yields
 
 $$I(x)=\frac{\sqrt{\pi}}{2}\int_x^\infty\frac{e^{-\alpha}}{\sqrt{\alpha}}\,\mathrm d\alpha.$$
 
