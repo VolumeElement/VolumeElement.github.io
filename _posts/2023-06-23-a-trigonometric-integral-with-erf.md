@@ -24,7 +24,7 @@ Using the substitution $x=\text{arcsec}(\sqrt{u+1}$ we get
 
 $$\int_0^{\pi/2}e^{-\alpha\sec^2(x)}\,\mathrm dx = \frac{1}{2e^\alpha}\int_0^\infty\frac{e^{-\alpha u}}{(u+1)\sqrt{u}}\,\mathrm du.$$
 
-We see that $I(1)=I,\,\lim_{\alpha\to\infty}I(\alpha)=0,$ snd
+We see that $I(1)=I,\,\lim_{\alpha\to\infty}I(\alpha)=0,$ and
 
 $$\begin{align*}I(\alpha) &= \frac{1}{2e^\alpha}\int_0^\infty\frac{e^{-\alpha u}}{\sqrt{u}}\,\mathrm du-\frac{1}{2e^\alpha}\int_0^\infty\frac{\sqrt{u}}{u+1}e^{-\alpha u}\,\mathrm du\\ &= \frac{1}{2e^\alpha}\sqrt{\frac{\pi}{\alpha}}+\frac{1}{e^\alpha}\frac{\mathrm d}{\mathrm d\alpha}e^{\alpha}I(\alpha).\end{align*}$$
 
