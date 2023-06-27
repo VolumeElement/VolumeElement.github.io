@@ -14,7 +14,7 @@ Evalaute
 
 $$\int_1^\infty\frac{\left\{x\right\}-\frac{1}{2}}{x}\,\mathrm dx$$
 
-where $\left\{x\right\}$ denotes the fractional part of $x$.
+where the curly braces denote the fractional part of $x$.
 
 ## Solution
 
