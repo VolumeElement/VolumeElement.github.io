@@ -32,4 +32,4 @@ $$\begin{align*}\lim_{m\to\infty}\prod_{n=1}^m\left(\frac{n}{n+1} \right )^{n+1/
 
 So
 
-$$\int_1^\infty\frac{\left\{x\right\}-\frac{1}{2}}{x}\,\mathrm dx=\ln\left(\frac{\sqrt{2\pi}}{e}\right).$$
+$$\int_1^\infty\frac{\left\{x\right\}-\frac{1}{2}}{x}\,\mathrm dx=\frac{1}{2}\ln(2\pi)-1.$$
