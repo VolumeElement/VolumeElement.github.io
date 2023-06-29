@@ -12,7 +12,7 @@ The double sum
 
 $$\sum_{a=1}^{\infty}\sum_{b=1}^{\infty} \frac{a^2b^2}{\sinh(\pi(a+b))}(-1)^{a+b}$$
 
-was asked about on [math.se](https://math.stackexchange.com/questions/4622932), originally I tried evaluating this sum in a way that might make use of modular forms or the Dedekind eta function, but I found there was a wonderful method of evaluation that made use of a symmetry among poles along the real and imaginary axes in the complex plane. The factor $\csc(\pi z)$, originally introduced to account for the alternating sign in the sum, trades places with $\sinh(\pi z)$ along the imaginary axis to give twice the desired sum from the contour integral.
+was asked about on [math.se](https://math.stackexchange.com/questions/4622932). Originally I tried evaluating this sum in a way that might make use of modular forms or the Dedekind eta function, but I found there was a wonderful method of evaluation that made use of a symmetry among poles along the real and imaginary axes in the complex plane. The factor $\csc(\pi z)$, originally introduced to account for the alternating sign in the sum, trades places with $\sinh(\pi z)$ along the imaginary axis to give twice the desired sum from the contour integral.
 
 ## Solution
 
