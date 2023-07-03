@@ -71,7 +71,7 @@ and
 
 $$(x\,:\,y\,:\,z)\overset{\phi^{-1}}{\mapsto}(y\,:\,-6x-91z\,:\,-x-y).$$
 
-Now we can hunt for some point $Q\in E$ to repeatedly add to itself in hope that there is some $m$ such that $\phi^{-1}(mQ)$ is a solution to $p(a,\,b,\,c)=0$ with $a,\,b,\,c$ all positive.
+This map will let us easily hunt for some point $Q\in E$ to repeatedly add to itself in hope that there is some $m$ such that $\phi^{-1}(mQ)$ is a solution to $p(a,\,b,\,c)=0$ with $a,\,b,\,c$ all positive.
 
 ```
 #Find a point Q to iterate over.
@@ -85,7 +85,7 @@ print(Q)
 
 results in `(-725/4 : 7105/8 : 1)` as our point $Q$.
 
-Now we may try to find a suitible $mQ$,
+One more short snippet of code lets us try to find a suitible $mQ$,
 
 ```
 iterate = Q

@@ -18,7 +18,9 @@ $$-\int_0^\infty\frac{\ln(\cos^2(x))}{x^2}\,\mathrm dx.$$
 
 Let
 
-$$I=\int_0^\infty\frac{\ln(\cos^2(x))}{x^2}\,\mathrm dx.$$
+$$I=\int_0^\infty\frac{\ln(\cos^2(x))}{x^2}\,\mathrm dx$$
+
+so
 
 $$\begin{align*}I &=\sum_{n=0}^\infty\int_{2\pi n}^{2\pi(n+1)}\frac{\ln(\cos^2(x))}{x^2}\,\mathrm dx \\  &=\sum_{n=0}^\infty\int_0^{2\pi}\frac{\ln(\cos^2(t+2\pi n))}{(t+2\pi n)^2}\,\mathrm dt,\;x=t+2\pi n \\  &=\int_0^{2\pi}\ln(\cos^2(t))\sum_{n=0}^\infty\frac{1}{(t+2\pi n)^2}\,\mathrm dt,\;\text{monotone convergence} \\  &=\frac{1}{4\pi^2}\int_0^{2\pi}\ln(\cos^2(t))\psi_1\left(\frac{t}{2\pi} \right )\,\mathrm dt\end{align*}$$
 
