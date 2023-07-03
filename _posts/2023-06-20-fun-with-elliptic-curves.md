@@ -79,9 +79,13 @@ try:
     Q = E.gen(0); Q
 except:
     print(f"Solution not found for n={n}.")
+
+print(Q)
 ```
 
-Trying to find $mQ$
+results in `(-725/4 : 7105/8 : 1)` as our point $Q$.
+
+Now we may try to find a suitible $mQ$,
 
 ```
 iterate = Q
