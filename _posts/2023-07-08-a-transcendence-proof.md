@@ -24,7 +24,7 @@ or
 
 $$\left(1+\sqrt{2}\right)^n=\left(1+\sqrt{3}\right)^m.$$
 
-Applying the binomial theorem, we can see that the above equation may be written as $a+b\sqrt{2}=c+d\sqrt{3}$, for some integers $a,\,b,\,c,\,d$. This implies that $d\sqrt{3}-b\sqrt{2}\in\mathbb{Z}.$ Since $d\sqrt{3}-b\sqrt{2}$ is an integer, its square
+Multiplying everything out, we can see that the above equation may be written as $a+b\sqrt{2}=c+d\sqrt{3}$, for some integers $a,\,b,\,c,\,d$. This implies that $d\sqrt{3}-b\sqrt{2}\in\mathbb{Z}.$ Since $d\sqrt{3}-b\sqrt{2}$ is an integer, its square
 
 $$\left(d\sqrt{3}-b\sqrt{2}\right)^2=3d^2+2b^2-2db\sqrt{6}$$
 
