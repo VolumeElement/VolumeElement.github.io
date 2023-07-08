@@ -24,9 +24,9 @@ or
 
 $$\left(1+\sqrt{2}\right)^n=\left(1+\sqrt{3}\right)^m.$$
 
-Applying the binomial theorem, we can see that the above equation may be written as $a_n+b_n\sqrt{2}=c_n+d_n\sqrt{3}$, for some integers $a_n,\,b_n,\,c_m,\,d_m$. This implies that $d_m\sqrt{3}-b_n\sqrt{2}\in\mathbb{Z}.$ Since $d_m\sqrt{3}-b_n\sqrt{2}$ is an integer, its square
+Applying the binomial theorem, we can see that the above equation may be written as $a+b\sqrt{2}=c+d\sqrt{3}$, for some integers $a,\,b,\,c,\,d$. This implies that $d\sqrt{3}-b\sqrt{2}\in\mathbb{Z}.$ Since $d\sqrt{3}-b\sqrt{2}$ is an integer, its square
 
-$$\left(d_m\sqrt{3}-b_n\sqrt{2}\right)^2=3d_m^2+2b_n^2-2d_mb_n\sqrt{6}$$
+$$\left(d\sqrt{3}-b\sqrt{2}\right)^2=3d^2+2b^2-2db\sqrt{6}$$
 
 is also an integer. But rearranging this would show that $\sqrt{6}$ is rational, a contradiction, therefore $\alpha$ is irrational. Now we may apply the Gelfond-Schneider theorem theorem to show transcendence.
 
