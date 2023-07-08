@@ -24,7 +24,7 @@ or
 
 $$\left(1+\sqrt{2}\right)^n=\left(1+\sqrt{3}\right)^m.$$
 
-Applying the binomial theorem, we can see that the above equation may be written as $a_n+b_n\sqrt{2}=c_n+d_n\sqrt{3}$,for some integers $a_n,\,b_n,\,c_m,\,d_m$. This implies that $d_m\sqrt{3}-b_n\sqrt{2}\in\mathbb{Z}.$ Since $d_m\sqrt{3}-b_n\sqrt{2}$ is an integer, its square
+Applying the binomial theorem, we can see that the above equation may be written as $a_n+b_n\sqrt{2}=c_n+d_n\sqrt{3}$, for some integers $a_n,\,b_n,\,c_m,\,d_m$. This implies that $d_m\sqrt{3}-b_n\sqrt{2}\in\mathbb{Z}.$ Since $d_m\sqrt{3}-b_n\sqrt{2}$ is an integer, its square
 
 $$\left(d_m\sqrt{3}-b_n\sqrt{2}\right)^2=3d_m^2+2b_n^2-2d_mb_n\sqrt{6}$$
 
