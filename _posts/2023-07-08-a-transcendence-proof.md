@@ -1,7 +1,7 @@
 ---
 title: A Transcendence Proof
 # author: dxdydz
-date: 2023-07-08 12:00:00 -0400
+date: 2023-07-08 9:20:00 -0400
 categories: [Number Theory]
 tags: [transcendental numbers]
 math: True
