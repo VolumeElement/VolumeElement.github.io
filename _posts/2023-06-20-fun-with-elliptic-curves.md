@@ -10,7 +10,7 @@ pin: False
 
 Elliptic curves are a serious topic of study in pure mathematics, they are at the forefront of modern research in number theory, and they have been used to great effect in cryptographic systems.  But what's more important than any of these things is that you can use them to create hopeless problems and let them loose online. A particularly infamous problem that has circulated the internet for a few years now is the following,
 
-![](/images/ec_meme_1.png)
+<center><a href="https://github.com/VolumeElement/VolumeElement.github.io/blob/main/images/ec_1.jpg"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ec_1.jpg" alt="centered image" height="auto" width="367" title="source: github.com" /></a></center>
 
 which was created in response to the multitude of poorly posed algebra emoji problems that were already out there. The key difference between the above problem and many of the others is that the difficulty clearly does not result from intentional ambiguity. Instead, this has the flavor of a prototypical number theoretic problem&mdash;easy to grasp, but totally intractable with naive methods.
 
@@ -148,7 +148,7 @@ This problem, and its generalization $a/(b+c)+b/(a+c)+c/(a+b)=n$, was originally
 
 ## A Sum of three rationals
 
-![](/images/ec_meme_3.jpg)
+<center><a href="https://github.com/VolumeElement/VolumeElement.github.io/blob/main/images/ec_2.jpg"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ec_2.jpg" alt="centered image" height="auto" width="367" title="source: github.com" /></a></center>
 
 This problem, covered in [Two More Representation Problems](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7EA1CC1326A2B0701A55E081613332C1/S0013091500023397a.pdf/two_more_representation_problems.pdf), can be approached using the same basic technique. Appropriately modifying the above code to account for the different curve, $n=73$, and the rational point $(0,\,0,\,1)$ yields a map to
 
@@ -166,7 +166,7 @@ and the solution
 
 A similar problem is:
 
-![](/images/ec_meme_2.png)
+<center><a href="https://github.com/VolumeElement/VolumeElement.github.io/blob/main/images/ec_3.png"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ec_3.png" alt="centered image" height="auto" width="367" title="source: github.com" /></a></center>
 
 By [using a suprisingly simple recurrence](https://math.stackexchange.com/a/1613635/239024), starting with a point found by Noam Elkies, it can be shown that the smallest solution in the positive integers has coordinates upwards of $10^{21388}$. This problem is dangerous!
 
