@@ -75,7 +75,7 @@ My second design for a Minecraft computer was the first one that I finished asse
 
  With a greater render distance on a better (real) computer, I no longer had to stack my memory vertically, which reduced the pain of wiring it up. The main drawback of this computer is that it was extremely slow, I needed something faster.
 
- ## C3
+## C3
 
 My third and final* Minecraft computer is an 8-bit machine and a signifigant improvement on my previous designs in terms of speed, amount of RAM, amount of ROM, ALU functionality, and instruction size.
 
