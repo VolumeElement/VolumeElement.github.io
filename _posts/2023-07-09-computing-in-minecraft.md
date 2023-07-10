@@ -8,7 +8,7 @@ math: True
 pin: False
 ---
 
-In July of 2010 I was introduced to Minecraft by a friend and he showed me a redstone mechanism he had constructed to operate a door. Although the device itself was quite simple, we were able to see the great potential in redstone, although I don't think I realized how far one could go with it at the time. In September of that same year, theinternetftw uploaded a video about a [16-bit arithmetic logic unit](https://www.youtube.com/watch?v=LGkkyKZVzug) that he had constructed inside the videogame Minecraft. This was the first push towards designing fully functional computer processors inside of Minecraft, an especially impressive feat in light of the fact that redstone was only added to the game two months before as part of the Alpha v1.0.1 update. His early work was inspiring and he also mentioned one of his resources, [The Elements of Computing Systems](https://mitpress.mit.edu/9780262640688/the-elements-of-computing-systems/), to help others get started. I ended up getting a copy of this book and I read through the first sections on logic gates, and got the basic idea of the Harvard architecture, then I proceeded to experiment in Logisim and Minecraft until I got my first CPU working.
+In July of 2010 I was introduced to Minecraft by a friend and he showed me a redstone mechanism he had constructed to operate a door. Although the device itself was quite simple, we were able to see the potential in redstone, although I don't think I realized how far one could go with it at the time. In September of that same year, theinternetftw uploaded a video about a [16-bit arithmetic logic unit](https://www.youtube.com/watch?v=LGkkyKZVzug) that he had constructed. This was the first push towards designing fully functional computer processors inside of Minecraft, an especially impressive feat in light of the fact that redstone was only added to the game two months before as part of the Alpha v1.0.1 update. His early work was inspiring and he also mentioned one of his resources, [The Elements of Computing Systems](https://mitpress.mit.edu/9780262640688/the-elements-of-computing-systems/), which looked like a promising place to start. I ended up getting a copy of this book and I read through the first sections on logic gates, and got the basic idea of the Harvard architecture, then I proceeded to experiment in Logisim and Minecraft until I got my first CPU working.
 
 ## Basic logic gates
 
@@ -61,7 +61,7 @@ Now that I had the ability to do basic calcualtions, I needed a way to store and
 
  <center><a href="https://imgur.com/a/dweOiVs"><img src="https://i.imgur.com/abD7YF3.png" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
 
- In front of the above memory tower is the first program counter I designed. The program counter is responsible for reading lines of the program stored in ROM, and managing the computation cycle. For me this was the most challenging part of a computer to design, as it needs to be efficient and accurate, as data takes time to travel through the whole machine.
+ In front of the above memory tower is the first program counter I designed. The program counter is responsible for reading lines of the program stored in ROM, and managing the computation cycle. For me this was the most challenging part of a computer to design, as it needs to be efficient and accurate, it must be quick but not too quick, as data takes time to travel through the whole machine, so if it were too fast data would not make it to its destination.
 
 ## Second Minecraft computer design
 
@@ -95,7 +95,7 @@ The RAM consists of 16 memory addresses, each of which can store one 8-bit numbe
 
  This image shows writing the number $11101001$ to RAM address 3. This is the second instruction my machine executes in its Fibonacci program. Every time the machine adds two numbers together, it checks to see if the result is greater than or equal to this $11101001$, as this is the largest Fibonacci number the machine can hold before it overflows.
 
-When a redstone block is down a $1$ is being stored, a red block up is a $0$.
+When a redstone block is down a $1$ is being stored, other wise it is a $0$.
 
 ### ALU
 
