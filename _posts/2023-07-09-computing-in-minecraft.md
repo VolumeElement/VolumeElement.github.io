@@ -193,6 +193,6 @@ In order to operate, `constant1` needs to equal $1$ and `constant2` needs to equ
 
 ## C3 download and setup
 
-[download link](https://github.com/VolumeElement/C3-Microprocessor) :arrow_down:
+[download link](https://github.com/VolumeElement/C3-Microprocessor)
 
 The world file is `New World-` and should be run in any Minecraft java version between 1.11.2 and 1.15.2, inclusive. In theory, it can be run on 1.11.2, but the earliest version I could get working was 1.13.2. The computer can't be used in [Minecraft 1.16](https://minecraft.fandom.com/wiki/Java_Edition_1.16#Changes) or any version after that due to the toggleable redstone dust that was implemented. When the world is first loaded, the computer will already be set up to run the Fibonacci program.
