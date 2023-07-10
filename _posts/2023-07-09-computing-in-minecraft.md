@@ -73,7 +73,7 @@ My second design for a Minecraft computer was the first one that I finished asse
 
  <center><a href="https://imgur.com/a/iG3YnNc"><img src="https://i.imgur.com/mqbX3Gb.png" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
 
- With a greater render distance on a better (real) computer, I no longer had to stack my memory vertically, which reduced the pain of wiring it up. The main drawback of this computer is that it was extremely slow, I needed something faster.
+ With a greater render distance on a better (real) computer, I no longer had to stack my memory vertically, which reduced the pain of wiring it up. The main drawback of this redstone computer is that it was extremely slow, I needed something faster.
 
 ## C3
 
@@ -81,7 +81,7 @@ My third and final* Minecraft computer is an 8-bit machine and a signifigant imp
 
  <center><a href="https://imgur.com/XjsGE5j"><img src="https://i.imgur.com/XjsGE5j.gif" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
 
- The above image shows a complete computation cycle in my Fibonacci program (described further below); here is a [labeled image](https://i.imgur.com/lqbnTHk.png) of the machine to give a better idea of what is going on. Another huge upgrade this machine has is a pair of two digit hexadecimal displays instead of a binary readout (which is what my second computer has).
+ The above image shows a complete computation cycle in a program that computes Fibonacci numbers (described further below); here is a [labeled image](https://i.imgur.com/lqbnTHk.png) of the machine to give a better idea of what is going on. Another huge upgrade this machine has is a pair of two digit hexadecimal displays instead of a binary readout (which is what my second computer has).
 
   <center><a href="https://imgur.com/a/aoFG8RC"><img src="https://i.imgur.com/Ot48f53.png" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
 
