@@ -121,7 +121,7 @@ The program counter's job is to read through the ROM line by line, and execute j
 
 ### ROM
 
-There are 64 lines of program memory availible to code in.
+There are 64 lines of program memory available to code in.
 
 <center><a href="https://imgur.com/RvrczwC"><img src="https://i.imgur.com/RvrczwC.gif" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
 
