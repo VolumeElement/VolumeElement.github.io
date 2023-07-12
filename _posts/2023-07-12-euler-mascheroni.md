@@ -1,7 +1,7 @@
 ---
 title: An Integral for the Euler-Mascheroni Constant
 # author: dxdydz
-date: 2023-07-12 4:00:00 -0400
+date: 2023-07-12 16:00:00 -0400
 categories: [Calculus]
 tags: [integration, infinite series]
 math: True
