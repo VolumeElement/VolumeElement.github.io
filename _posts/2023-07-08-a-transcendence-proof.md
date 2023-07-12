@@ -28,7 +28,7 @@ Multiplying everything out, we can see that the above equation may be written as
 
 $$\left(d\sqrt{3}-b\sqrt{2}\right)^2=3d^2+2b^2-2db\sqrt{6}$$
 
-is also an integer. But rearranging this would show that $\sqrt{6}$ is rational, a contradiction, therefore $\alpha$ is irrational. Now we may apply the Gelfond-Schneider theorem theorem to show transcendence.
+is also an integer. But rearranging this would show that $\sqrt{6}$ is rational, a contradiction, therefore $\alpha$ is irrational. Now we may apply the Gelfond-Schneider theorem to show transcendence.
 
 Suppose that $\alpha\in\bar{\mathbb{Q}}\setminus\mathbb{Q}$, then $\left(1+\sqrt{2}\right)^\alpha$ would be transcendental by the Gelfond-Schneider theorem. But
 
