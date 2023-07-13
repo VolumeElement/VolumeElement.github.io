@@ -89,7 +89,7 @@ My third and final* Minecraft computer is an 8-bit machine and a signifigant imp
 
 ### RAM
 
-The RAM consists of 16 memory addresses, each of which can store one 8-bit number. The memory works by storing information in piston states, which relies on [quasi-connectivity](https://minecraft.fandom.com/wiki/Tutorials/Quasi-connectivity).
+The RAM consists of 16 memory addresses, each of which can store one 8-bit number. The memory works by storing information in piston states, which relies on [BUD switches](https://minecraft.fandom.com/wiki/Tutorials/Block_update_detector).
 
  <center><a href="https://imgur.com/P0LDSoL"><img src="https://i.imgur.com/P0LDSoL.gif" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
 
