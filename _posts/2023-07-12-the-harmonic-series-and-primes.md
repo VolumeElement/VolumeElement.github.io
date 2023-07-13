@@ -18,7 +18,7 @@ and it is a well known fact that $H_n\to\infty$ as $n\to\infty$. Often this is p
 
 We start with the inequality $e^x\geq1+x$, with equality only when $x=0$. If we apply this to the exponential of $H_n$ we get
 
-$$\begin{align*}e^{H_n} &>\prod_{k=1}^n\left(1+\frac{1}{k} \right ) \\  &=\prod_{k=1}^n\frac{k+1}{k} \\  &=1+n.\end{align*}$$
+$$\begin{align*}e^{H_n} &>\prod_{k=1}^n\left(1+\frac{1}{k} \right ) \\  &=\prod_{k=1}^n\frac{k+1}{k} \\  &=n+1.\end{align*}$$
 
 Taking the natural logarithm of both sides tells us that $H_n>\ln(n+1)$, and $\ln(n+1)\to\infty$ as $n\to\infty$ yields the desired result.
 
