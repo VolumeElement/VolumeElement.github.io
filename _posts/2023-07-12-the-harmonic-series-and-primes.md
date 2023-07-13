@@ -26,6 +26,6 @@ Taking the natural logarithm of both sides tells us that $H_n>\ln(1+n)$, and $\l
 
 From the Euler product for the Riemann zeta function we have,
 
-$$\sum_{n=1}^\infty\frac{1}{n}=\prod_p\frac{p}{1-p}.$$
+$$\sum_{n=1}^\infty\frac{1}{n}=\prod_p\frac{p}{p-1}.$$
 
 Now if there were a finite number of prime numbers, the right hand side of the above equality would clearly be convergent, but this implies $H_n$ wouldn't tend to infinity. This is a contradiction, so there must be infinitely many prime numbers.
