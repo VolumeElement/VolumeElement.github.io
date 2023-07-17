@@ -50,7 +50,7 @@ Integrating this from $0$ to $1$ shows
 
 $$\sum_{n=1}^\infty\frac{\zeta(2n)}{n(2n+1)}=\ln(2\pi)-1.$$
 
-Similarly, if we integrate [the series for the log-gamma function](https://proofwiki.org/wiki/Taylor_Series_of_Logarithm_of_Gamma_Function),
+Similarly, integrating [the series for the log-gamma function](https://proofwiki.org/wiki/Taylor_Series_of_Logarithm_of_Gamma_Function),
 
 $$\ln(\Gamma(x+1))=-\gamma x+\sum_{n=2}^\infty\frac{(-1)^n\zeta(n)}{n}x^n,$$
 
