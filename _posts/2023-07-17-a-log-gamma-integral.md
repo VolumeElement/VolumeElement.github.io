@@ -56,4 +56,4 @@ $$\ln(\Gamma(x+1))=-\gamma x+\sum_{n=2}^\infty\frac{(-1)^n\zeta(n)}{n}x^n,$$
 
 results in the identity
 
-$$\sum_{n=2}^\infty\frac{(-1)^n\zeta(n)}{n(n+1)}=\frac{1}{2}\ln(2)+\frac{1}{2}\ln(\pi)+\frac{\gamma}{2}-1.$$
+$$\sum_{n=2}^\infty\frac{(-1)^n\zeta(n)}{n(n+1)}=\frac{1}{2}\ln(2\pi)+\frac{\gamma}{2}-1.$$
