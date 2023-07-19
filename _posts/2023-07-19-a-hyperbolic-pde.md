@@ -8,7 +8,7 @@ math: True
 pin: False
 ---
 
-Several months ago I saw [this image](https://i.imgur.com/afTMvuj.jpg) and wondered if the plot shown in the original probelm was actual the solution to the stated PDE. In addition to being a fun problem it's also a good excuse to play with some plots in python.
+Several months ago I saw [this image](https://i.imgur.com/afTMvuj.jpg) and wondered if the plot shown in the original probelm was actually the solution to the stated PDE. In addition to being a fun problem it's also a good excuse to play with some plots in python.
 
 ## Problem
 
