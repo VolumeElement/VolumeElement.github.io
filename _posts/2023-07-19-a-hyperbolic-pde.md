@@ -28,7 +28,7 @@ $$\frac{\partial}{\partial x}f(x,\,y)\bigg\vert_{y=x}=0.$$
 
 First we note this is a hyperbolic partial differential equation with
 
-$$\lambda_1=1,\,\lambda_2=-\frac{1}{4}$$
+$$\lambda_1=1,\,\lambda_2=-\frac{1}{4}.$$
 
 In order to find a solution we start by making a change of variables $u=x+\lambda_1y$ and $v=x+\lambda_2y$. Let $h(u,\,v)=f(x+\lambda_1y,\,x+\lambda_2y)$, differentiating then gives the equations
 
