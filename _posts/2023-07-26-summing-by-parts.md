@@ -24,7 +24,7 @@ so that for every $n>0$, $b_n=B_n-B_{n-1}$ we have
 
 $$\sum_{n=0}^N a_nb_n=a_Nb_N-\sum_{n=0}^{N-1}B_n(a_{n+1}-a_n).$$
 
-In order to evaluate $S$, consier the partial sum
+In order to evaluate $S$, consider the partial sum
 
 $$S_N=\sum_{n=1}^N\frac{1}{n^2}\sum_{k=1}^n\frac{1}{k^2}$$
 
