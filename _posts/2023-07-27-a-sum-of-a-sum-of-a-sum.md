@@ -1,7 +1,7 @@
 ---
 title: A Sum of a Sum of a Sum
 # author: dxdydz
-date: 2023-07-27 16:45:00 -0400
+date: 2023-07-27 16:40:00 -0400
 categories: [Calculus]
 tags: [infinite series, integration]
 math: True
