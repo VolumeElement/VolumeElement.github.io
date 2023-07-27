@@ -18,7 +18,7 @@ where $H_k=\sum_{m=1}^k 1/m$ is the kth harmonic number.
 
 # Solution
 
-Using the same method as in the solution of [AMM12194](https://github.com/VolumeElement/VolumeElement.github.io) we have
+Using the same method as in the solution of [AMM12194](https://volumeelement.github.io/posts/AMM12194/) we have
 
 $$\sum_{k=1}^nH_k=(n+1)H_n-n$$
 
