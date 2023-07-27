@@ -18,7 +18,7 @@ where $H_k=\sum_{m=1}^k 1/m$ is the kth harmonic number.
 
 # Solution
 
-Using the same method as in the solution of [AMM12194](posts/2023-06-18-AMM12194) we have
+Using the same method as in the solution of [AMM12194](https://github.com/VolumeElement/VolumeElement.github.io) we have
 
 $$\sum_{k=1}^nH_k=(n+1)H_n-n$$
 
@@ -34,7 +34,7 @@ and the dilogarithm,
 
 $$\displaystyle{\begin{align*}\sum_{n=1}^\infty\frac{H_n}{n^2} &=\int_0^1\frac{\zeta(2)-\text{Li}_2(x)}{1-x}\,\mathrm dx,\text{ switch }\int\text{ and }\sum\text{ (as all terms have the same sign)} \\ &=\left[-\left(\zeta(2)-\text{Li}_2(x) \right )\ln(1-x) \right ]|_0^1+\int_0^1\frac{\ln^2(1-x)}{x}\,\mathrm dx,\text{ by parts with }\,u=\zeta(2)-\text{Li}_2(x),\,\mathrm dv=\frac{\ln(1-x)}{x}\,\mathrm dx \\ &=\int_0^1\frac{\ln^2(1-x)}{x}\,\mathrm dx \\ &=\int_0^\infty\frac{u^2}{e^u-1}\,\mathrm du,\,1-x=e^{-u} \\ &=2\zeta(3),\end{align*}}$$
 
-where in the last line we've used the classic representation of the Riemann zeta function as a Mellin transform. Orignainally, when I created this problem, I used the same method to evaluate the second Euler sum, but instead I will present an evaluation by chompchump who was able to evaluate this second sum but not the first. Interestingly, this method does not work on the first sum.
+where in the last line we've used the classic representation of the Riemann zeta function as a Mellin transform. Originally, when I created this problem, I used the same method to evaluate the second Euler sum, but instead I will present an evaluation by chompchump who was able to evaluate this second sum but not the first. Interestingly, this method does not work on the first sum.
 
 We begin by noting that
 
