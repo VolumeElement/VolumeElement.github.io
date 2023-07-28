@@ -46,7 +46,7 @@ $$\begin{align*}\sum_{n=1}^\infty\frac{H_n}{n^3} &= \sum_{n=1}^\infty\frac{1}{n^
 
 Now examine twice the sum,
 
-$$\begin{align*}2\sum_{n=1}^\infty\frac{H_n}{n^3} &= \\  &=\sum_{n=1}^\infty\sum_{k=1}^\infty\frac{1}{n^2k(k+n)}+\sum_{n=1}^\infty\sum_{k=1}^\infty\frac{1}{k^2n(n+k)} \\  &=\sum_{n=1}^\infty\sum_{k=1}^\infty\left(\frac{1}{n^2k(k+n)}+\frac{1}{k^2n(n+k)} \right ) \\  &=\sum_{n=1}^\infty\sum_{k=1}^\infty\frac{1}{n^2k^2} \\ &= \zeta^2(2) \\ &= \frac{\pi^4}{36}.\end{align*}$$
+$$\begin{align*}2\sum_{n=1}^\infty\frac{H_n}{n^3} &=\sum_{n=1}^\infty\sum_{k=1}^\infty\frac{1}{n^2k(k+n)}+\sum_{n=1}^\infty\sum_{k=1}^\infty\frac{1}{k^2n(n+k)} \\  &=\sum_{n=1}^\infty\sum_{k=1}^\infty\left(\frac{1}{n^2k(k+n)}+\frac{1}{k^2n(n+k)} \right ) \\  &=\sum_{n=1}^\infty\sum_{k=1}^\infty\frac{1}{n^2k^2} \\ &= \zeta^2(2) \\ &= \frac{\pi^4}{36}.\end{align*}$$
 
 This implies that
 
