@@ -184,7 +184,7 @@ $$X=a^2-b^2,\,Y=2ab-b^2,\,Z=a^2-ab+b^2.$$
 
 ## Sources
 
-$[1]\,\textit{An introduction to group (and Galois) cohomology (part 1)}\text{, Alvaro Lozano-Robledo,}$ https://www.youtube.com/watch?v=oyhqUFmueLs
+$[1]\,\textit{An introduction to group (and Galois) cohomology (part 1)}\text{, Alvaro Lozano-Robledo,}$ [https://www.youtube.com/watch?v=oyhqUFmueLs](https://www.youtube.com/watch?v=oyhqUFmueLs)
 
 $[2]\,\textit{Hilbert's Theorem 90}\text{, Seewoo Lee,}$ https://math.berkeley.edu/~seewoo5/h90.pdf
 
