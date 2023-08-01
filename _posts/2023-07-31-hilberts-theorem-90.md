@@ -184,10 +184,10 @@ $$X=a^2-b^2,\,Y=2ab-b^2,\,Z=a^2-ab+b^2.$$
 
 ## Sources
 
-$[1]\,\textit{An introduction to group (and Galois) cohomology (part 1)}\text{, Alvaro Lozano-Robledo,}$ [https://www.youtube.com/watch?v=oyhqUFmueLs](https://www.youtube.com/watch?v=oyhqUFmueLs)
+$[1]\,\textit{An introduction to group (and Galois) cohomology (part 1)}\text{, Alvaro Lozano-Robledo,}$ [](https://www.youtube.com/watch?v=oyhqUFmueLs)
 
-$[2]\,\textit{Hilbert's Theorem 90}\text{, Seewoo Lee,}$ [https://math.berkeley.edu/~seewoo5/h90.pdf](https://math.berkeley.edu/~seewoo5/h90.pdf)
+$[2]\,\textit{Hilbert's Theorem 90}\text{, Seewoo Lee,}$ [](https://math.berkeley.edu/~seewoo5/h90.pdf)
 
-$[3]\,\textit{Beginnings of Group Cohomology}\text{, R. Sridharan,}$ [https://www.ias.ac.in/article/fulltext/reso/010/09/0037-0052](https://www.ias.ac.in/article/fulltext/reso/010/09/0037-0052)
+$[3]\,\textit{Beginnings of Group Cohomology}\text{, R. Sridharan,}$ [](https://www.ias.ac.in/article/fulltext/reso/010/09/0037-0052)
 
-$[4]\,\textit{Pythagorean Triples and Hilbert's Theorem 90}\text{, Noam Elkies,}$ [https://abel.math.harvard.edu/~elkies/Misc/hilbert.pdf](https://abel.math.harvard.edu/~elkies/Misc/hilbert.pdf)
+$[4]\,\textit{Pythagorean Triples and Hilbert's Theorem 90}\text{, Noam Elkies,}$ [](https://abel.math.harvard.edu/~elkies/Misc/hilbert.pdf)
