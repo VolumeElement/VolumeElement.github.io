@@ -72,7 +72,7 @@ We'll be needing an understanding of what is called the $1\text{st}$ cohomology 
 
 Let $M$ be an abelian group and consider the group action of $G$ on $M$ as a $G$-module. We will denote the action of $\sigma\in G$ on $m\in M$ as $\sigma\cdot m$. One of the simplest objects related to fixed points we may study is the collection of points that are fixed under all actions of $G$,
 
-$$M^G=\left\\{m\in M\,\|\,\forall \sigma\in G,\,\sigma\cdot m=m\right\\}.$$
+$$M^G=\left\{m\in M\,\|\,\forall \sigma\in G,\,\sigma\cdot m=m\right\}.$$
 
 It's also not hard to see that $M^G$ is a group, as $0\in M$ is always a fixed point and $\sigma\cdot(m+n)=\sigma\cdot m+\sigma\cdot n$. The $0\text{th}$ cohomology group is simply
 
