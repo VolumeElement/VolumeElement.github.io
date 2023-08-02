@@ -8,7 +8,7 @@ math: True
 pin: False
 ---
 
-It has been known since the time of the Babylonians that it is possible to parametrize all primitive<sup>1</sup> Pythagorean triples using a rather simple collection of expressions <code>&#8212;</code>  their understanding of this is recorded on [Plimpton 322](https://en.wikipedia.org/wiki/Plimpton_322). A fantastic geometric derivation of the same parametrization was also discovered later in ancient Greece. Consider a circle of unit radius centered at the origin and a line of rational slope passing through the point $(-1,\,0)$.
+It has been known since the time of the Babylonians that it is possible to parametrize all primitive<sup>&dagger;</sup> Pythagorean triples using a rather simple collection of expressions <code>&#8212;</code>  their understanding of this is recorded on [Plimpton 322](https://en.wikipedia.org/wiki/Plimpton_322). A fantastic geometric derivation of the same parametrization was also discovered later in ancient Greece. Consider a circle of unit radius centered at the origin and a line of rational slope passing through the point $(-1,\,0)$.
 
 <center><a href="https://imgur.com/a/h07jx0w"><img src="https://i.imgur.com/auWDssN.png" alt="centered image" height="auto" width="367" title="source: imgur.com" /></a></center>
 
@@ -36,7 +36,7 @@ $$b^2=\frac{Z+X}{2}.$$
 
 It follows that $Y=2ab$. Solving the above pair of equations for $X$ and $Z$ shows that $X=a^2-b^2$ and $Z=a^2+b^2$, so every Pythagorean triple may be written in this way.
 
-<sup>1: Primitive meaning all values in the solution are coprime.</sup>
+<sup>&dagger; Primitive meaning all values in the solution are coprime.</sup>
 
 ### Another derivation
 
@@ -120,7 +120,7 @@ so $p-q$ is a fixed point in $M$, this means the obstruction to fixed points und
 
 ### Proving theorem 90
 
-We're now ready to prove the main theorem. Consider $L^\times$ as a $G$-module where $G=\text{Gal}(L/K)$. A map $\phi$ is a $1$-cocycle in $Z^1(G,\,L^\times)$ if, by definition<sup>2</sup>,
+We're now ready to prove the main theorem. Consider $L^\times$ as a $G$-module where $G=\text{Gal}(L/K)$. A map $\phi$ is a $1$-cocycle in $Z^1(G,\,L^\times)$ if, by definition<sup>&Dagger;</sup>,
 
 $$\phi(\sigma\tau)=\phi(\sigma)(\sigma\cdot\phi(\tau)),\,\forall\sigma,\,\tau\in G.$$
 
@@ -128,7 +128,7 @@ For any given $\phi$, define the action
 
 $$\sum_{\sigma\in G}\phi(\sigma)\sigma:\,L\to L.$$
 
-Note that since the automorphisms $\sigma$ of $L$ are linearly independent over the coefficient ring $L$ (see [^2], although it's not difficult to verify), this gurantees that the above sum is different than the $0$-map and it is possible to find $\theta\in L$ such that
+Note that since the automorphisms $\sigma$ of $L$ are linearly independent over the coefficient ring $L$ (see Lee[^2], although it's not difficult to verify), this gurantees that the above sum is different than the $0$-map and it is possible to find $\theta\in L$ such that
 
 $$\gamma\overset{\text{def}}{=}\sum_{\sigma\in G}\phi(\sigma)(\sigma\cdot\theta)\neq0.$$
 
@@ -136,13 +136,13 @@ Examining $\sigma\cdot\gamma$ tells us that
 
 $$\begin{align*}\sigma\cdot\gamma &=\sum_{\sigma\in G}(\sigma\cdot\phi(\tau))\sigma\tau\cdot\theta \\  &=\sum_{\tau\in G}(\phi(\sigma))^{-1}\phi(\sigma\tau)(\sigma\tau\cdot\theta) \\  &=(\phi(\sigma))^{-1}\sum_{\tau\in G}\phi(\sigma\tau)(\sigma\tau\cdot\theta) \\  &=(\phi(\sigma))^{-1}\gamma.\end{align*}$$
 
-This implies that $\phi(\sigma)=\gamma/(\sigma\cdot\gamma)$. In the case that $L/K$ is a cyclic extension of degree $n$ we may pick some $\alpha\in L$ such that $N_{L/K}(\alpha)=1$. This lets us define a $1$-cocycle $\alpha:\, G\to L^\times$ (which is really $\alpha\overset{\text{def}}{=}\phi(\sigma)$). But since $H^1(E,\,L^\times)=0$, i.e. the first cohomology group is trivial, this means that any $1$-cocycle is a $1$-coboundary, so there is a $\beta\in L$ such that* $\phi(\sigma)=\beta(\sigma\cdot\beta)^{-1}$. But this is exactly
+This implies that $\phi(\sigma)=\gamma/(\sigma\cdot\gamma)$. In the case that $L/K$ is a cyclic extension of degree $n$ we may pick some $\alpha\in L$ such that $N_{L/K}(\alpha)=1$. This lets us define a $1$-cocycle $\alpha:\, G\to L^\times$ (which is really $\alpha\overset{\text{def}}{=}\phi(\sigma)$). But since $H^1(E,\,L^\times)=0$, i.e. the first cohomology group is trivial, this means that any $1$-cocycle is a $1$-coboundary, so there is a $\beta\in L$ such that $\phi(\sigma)=\beta(\sigma\cdot\beta)^{-1}$. But this is exactly
 
 $$\alpha=\frac{\beta}{\sigma(\beta)}$$
 
 like we wanted!
 
-<sup>2: Here we have switched out our previous additive notation for multiplicitve notation because L<sup>&#215;</sup> is a multiplicative group; addition becomes multiplication and negation corresponds to multiplicative inverses.</sup>
+<sup>&Dagger; Here we have switched out our previous additive notation for multiplicitve notation because L<sup>&#215;</sup> is a multiplicative group; addition becomes multiplication and negation corresponds to multiplicative inverses.</sup>
 
 ## Parametrizing other integer triangles
 
