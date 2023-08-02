@@ -148,7 +148,7 @@ It was hinted by Elkies [4] that the same methodology that we used to parametriz
 
 $$X^2+XY+Y^2=Z^2.$$
 
-Setting $X=xz$ and $Y=yz$ we get
+Setting $X=xZ$ and $Y=yZ$ we get
 
 $$\begin{align*}x^2+xy+z^2&=1,\end{align*}$$
 
