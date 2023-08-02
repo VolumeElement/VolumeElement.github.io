@@ -8,7 +8,7 @@ math: True
 pin: False
 ---
 
-It has been known since the time of the Babylonians that it is possible to parametrize all primitive Pythagorean triples using a rather simple collection of expressions <code>&#8212;</code>  their understanding of this is recorded on [Plimpton 322](https://en.wikipedia.org/wiki/Plimpton_322). A fantastic geometric derivation of the same parametrization was also discovered later in ancient Greece. Consider a circle of unit radius centered at the origin and a line of rational slope passing through the point $(-1,\,0)$.
+It has been known since the time of the Babylonians that it is possible to parametrize all primitive<sup>1</sup> Pythagorean triples using a rather simple collection of expressions <code>&#8212;</code>  their understanding of this is recorded on [Plimpton 322](https://en.wikipedia.org/wiki/Plimpton_322). A fantastic geometric derivation of the same parametrization was also discovered later in ancient Greece. Consider a circle of unit radius centered at the origin and a line of rational slope passing through the point $(-1,\,0)$.
 
 <center><a href="https://imgur.com/a/h07jx0w"><img src="https://i.imgur.com/auWDssN.png" alt="centered image" height="auto" width="367" title="source: imgur.com" /></a></center>
 
@@ -36,6 +36,8 @@ $$b^2=\frac{Z+X}{2}.$$
 
 It follows that $Y=2ab$. Solving the above pair of equations for $X$ and $Z$ shows that $X=a^2-b^2$ and $Z=a^2+b^2$, so every Pythagorean triple may be written in this way.
 
+<sup>1: Primitive meaning all values in the solution are coprime.</sup>
+
 ### Another derivation
 
 We will now prove the same result with the titular theorem.
@@ -62,7 +64,7 @@ $$H^1(G,\,L^\times)=0.$$
 
 Deciphering what this actually means was my initial motivation to understand Galois cohomology and cohomology in general. For a while I have been aware that Galois cohomology is an indispensable tool in modern number theory as it has the power to extract algebraic information about Galois groups that is normally veiled. One major place it shows up is in class field theory, which is another basic element of the modern number theorist's toolkit (and is something else I have been tackling).
 
-The following notes in this section are primarily assembled from $[1]$ and $[2]$. I found $[1]$ to be a fantastic resource as it introduces the topic in, what was for me, a familiar setting.
+The following notes in this section are primarily assembled from [^1] and [^2]. I found [^1] to be a fantastic resource as it introduces the topic in, what was for me, a familiar setting.
 
 *Here $0$ represents the trivial group.
 
@@ -114,11 +116,11 @@ To such a $[p]$ we may associate a unique $1$-cocycle (unique modulo $N$) $\phi(
 
 $$\begin{align*}\sigma\cdot(p-q) &= \sigma\cdot p-\sigma\cdot q\\  &=p-q, \\ \end{align*}$$
 
-so $p-q$ is a fixed point in $M$, this means the obstruction to fixed points under the lift $M/N\to M$ is tied to the existence of nontrivial elements in $H^1(G,\,M)$. $[3]$ Put differently, if $H^1(G,\,M)=0$ then there is no obstruction to lifting fixed points.
+so $p-q$ is a fixed point in $M$, this means the obstruction to fixed points under the lift $M/N\to M$ is tied to the existence of nontrivial elements in $H^1(G,\,M)$. [^3] Put differently, if $H^1(G,\,M)=0$ then there is no obstruction to lifting fixed points.
 
 ### Proving theorem 90
 
-We're now ready to prove the main theorem. Consider $L^\times$ as a $G$-module where $G=\text{Gal}(L/K)$. A map $\phi$ is a $1$-cocycle in $Z^1(G,\,L^\times)$ if, by definition,
+We're now ready to prove the main theorem. Consider $L^\times$ as a $G$-module where $G=\text{Gal}(L/K)$. A map $\phi$ is a $1$-cocycle in $Z^1(G,\,L^\times)$ if, by definition<sup>2</sup>,
 
 $$\phi(\sigma\tau)=\phi(\sigma)(\sigma\cdot\phi(\tau)),\,\forall\sigma,\,\tau\in G.$$
 
@@ -126,7 +128,7 @@ For any given $\phi$, define the action
 
 $$\sum_{\sigma\in G}\phi(\sigma)\sigma:\,L\to L.$$
 
-Note that since the automorphisms $\sigma$ of $L$ are linearly independent over the coefficient ring $L$ (see $[2]$, although it's not difficult to verify), this gurantees that the above sum is different than the $0$-map and it is possible to find $\theta\in L$ such that
+Note that since the automorphisms $\sigma$ of $L$ are linearly independent over the coefficient ring $L$ (see [^2], although it's not difficult to verify), this gurantees that the above sum is different than the $0$-map and it is possible to find $\theta\in L$ such that
 
 $$\gamma\overset{\text{def}}{=}\sum_{\sigma\in G}\phi(\sigma)(\sigma\cdot\theta)\neq0.$$
 
@@ -140,11 +142,11 @@ $$\alpha=\frac{\beta}{\sigma(\beta)}$$
 
 like we wanted!
 
-*Here we have switched out our previous additive notation for multiplicitve notation because $L^\times$ is a multiplicative group; addition becomes multiplication and negation corresponds to multiplicative inverses.
+<sup>2: Here we have switched out our previous additive notation for multiplicitve notation because L<sup>&#215;</sup> is a multiplicative group; addition becomes multiplication and negation corresponds to multiplicative inverses.</sup>
 
 ## Parametrizing other integer triangles
 
-It was hinted by Elkies [4] that the same methodology that we used to parametrize Pythagorean triples may also be employed to describe the solutions of Diophantine equations defined by norms of elements of a quadratic field $\mathbb{Q}(\sqrt{d})$. A natural context to use this in geometry arises when finding all triangles with integer side lengths and an angle equal to $2\pi/3$. We begin by making use of the law of cosines with $\theta=2\pi/3$, this tells us that the side lengths of any such triangle must satisfy
+It was hinted by Elkies [^4] that the same methodology that we used to parametrize Pythagorean triples may also be employed to describe the solutions of Diophantine equations defined by norms of elements of a quadratic field $\mathbb{Q}(\sqrt{d})$. A natural context to use this in geometry arises when finding all triangles with integer side lengths and an angle equal to $2\pi/3$. We begin by making use of the law of cosines with $\theta=2\pi/3$, this tells us that the side lengths of any such triangle must satisfy
 
 $$X^2+XY+Y^2=Z^2.$$
 
@@ -184,10 +186,10 @@ $$X=a^2-b^2,\,Y=2ab-b^2,\,Z=a^2-ab+b^2.$$
 
 ## Sources
 
-$[1]\,\textit{An introduction to group (and Galois) cohomology (part 1)}\text{, Alvaro Lozano-Robledo,}$ [https://www.youtube.com/watch?v=oyhqUFmueLs](https://www.youtube.com/watch?v=oyhqUFmueLs)
+[^1]: *An introduction to group (and Galois) cohomology (part 1)*, Alvaro Lozano-Robledo, [https://www.youtube.com/watch?v=oyhqUFmueLs](https://www.youtube.com/watch?v=oyhqUFmueLs)
 
-$[2]\,\textit{Hilbert's Theorem 90}\text{, Seewoo Lee,}$ [https://math.berkeley.edu/~seewoo5/h90.pdf](https://math.berkeley.edu/~seewoo5/h90.pdf)
+[^2]: *Hilbert's Theorem 90*, Seewoo Lee, [https://math.berkeley.edu/~seewoo5/h90.pdf](https://math.berkeley.edu/~seewoo5/h90.pdf)
 
-$[3]\,\textit{Beginnings of Group Cohomology}\text{, R. Sridharan,}$ [https://www.ias.ac.in/article/fulltext/reso/010/09/0037-0052](https://www.ias.ac.in/article/fulltext/reso/010/09/0037-0052)
+[^3]: *Beginnings of Group Cohomology*, R. Sridharan, [https://www.ias.ac.in/article/fulltext/reso/010/09/0037-0052](https://www.ias.ac.in/article/fulltext/reso/010/09/0037-0052)
 
-$[4]\,\textit{Pythagorean Triples and Hilbert's Theorem 90}\text{, Noam Elkies,}$ [https://abel.math.harvard.edu/~elkies/Misc/hilbert.pdf](https://abel.math.harvard.edu/~elkies/Misc/hilbert.pdf)
+[^4]: *Pythagorean Triples and Hilbert's Theorem 90*, Noam Elkies, [https://abel.math.harvard.edu/~elkies/Misc/hilbert.pdf](https://abel.math.harvard.edu/~elkies/Misc/hilbert.pdf)
