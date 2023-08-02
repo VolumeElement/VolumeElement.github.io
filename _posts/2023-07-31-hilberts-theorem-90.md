@@ -18,7 +18,7 @@ Here we take $a$ and $b$ to be two coprime, positive integers with $a>b$. If we 
 
 $$\left(\frac{a^2-b^2}{a^2+b^2},\,\frac{2ab}{a^2+b^2}\right).$$
 
-Because this point is a solution to $x^2+y^2=1$, we may plug this point in and clear the denomiators to show that $X=a^2-b^2$, $Y=2ab$, $Z=a^2+b^2$ is a solution to $X^2+Y^2=Z^2$, i.e. it's a Pythagorean triple. In fact, as we vary $a$ and $b$ through all such pairs of coprime integers we get all Pythagorean triples. To see this, note that in any primitive Pythagorean triple either $X$ or $Y$ must be even, suppose $Y$ is even so that $Y=2n$, then we have
+Because this point is a solution to $x^2+y^2=1$, we may plug this point in and clear the denomiators to show that $X=a^2-b^2$, $Y=2ab$, $Z=a^2+b^2$ is a solution to $X^2+Y^2=Z^2$, i.e. it's a Pythagorean triple. In fact, as we vary $a$ and $b$ through all such pairs of coprime integers we get all primitive Pythagorean triples. To see this, note that in any primitive Pythagorean triple either $X$ or $Y$ must be even, suppose $Y$ is even so that $Y=2n$, then we have
 
 $$4n^2=Z^2-X^2$$
 
