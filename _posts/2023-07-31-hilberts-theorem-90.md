@@ -64,7 +64,7 @@ $$H^1(G,\,L^\times)=0.$$
 
 Deciphering what this actually means was my initial motivation to understand Galois cohomology and cohomology in general. For a while I have been aware that Galois cohomology is an indispensable tool in modern number theory as it has the power to extract algebraic information about Galois groups that is normally veiled. One major place it shows up is in class field theory, which is another basic element of the modern number theorist's toolkit (and is something else I have been tackling).
 
-The following notes in this section are primarily assembled from [^1] and [^2]. I found [^1] to be a fantastic resource as it introduces the topic in, what was for me, a familiar setting.
+The following notes in this section are primarily assembled from Lozano-Robledo's lecture[^1] and Seewoo Lee's notes[^2]. I found the lecture to be a fantastic resource as it introduces the topic in, what was for me, a familiar setting.
 
 *Here $0$ represents the trivial group.
 
@@ -116,7 +116,7 @@ To such a $[p]$ we may associate a unique $1$-cocycle (unique modulo $N$) $\phi(
 
 $$\begin{align*}\sigma\cdot(p-q) &= \sigma\cdot p-\sigma\cdot q\\  &=p-q, \\ \end{align*}$$
 
-so $p-q$ is a fixed point in $M$, this means the obstruction to fixed points under the lift $M/N\to M$ is tied to the existence of nontrivial elements in $H^1(G,\,M)$. [^3] Put differently, if $H^1(G,\,M)=0$ then there is no obstruction to lifting fixed points.
+so $p-q$ is a fixed point in $M$, this means the obstruction to fixed points under the lift $M/N\to M$ is tied to the existence of nontrivial elements in $H^1(G,\,M)$.[^3] Put differently, if $H^1(G,\,M)=0$ then there is no obstruction to lifting fixed points.
 
 ### Proving theorem 90
 
@@ -146,7 +146,7 @@ like we wanted!
 
 ## Parametrizing other integer triangles
 
-It was hinted by Elkies [^4] that the same methodology that we used to parametrize Pythagorean triples may also be employed to describe the solutions of Diophantine equations defined by norms of elements of a quadratic field $\mathbb{Q}(\sqrt{d})$. A natural context to use this in geometry arises when finding all triangles with integer side lengths and an angle equal to $2\pi/3$. We begin by making use of the law of cosines with $\theta=2\pi/3$, this tells us that the side lengths of any such triangle must satisfy
+It was hinted by Elkies[^4] that the same methodology that we used to parametrize Pythagorean triples may also be employed to describe the solutions of Diophantine equations defined by norms of elements of a quadratic field $\mathbb{Q}(\sqrt{d})$. A natural context to use this in geometry arises when finding all triangles with integer side lengths and an angle equal to $2\pi/3$. We begin by making use of the law of cosines with $\theta=2\pi/3$, this tells us that the side lengths of any such triangle must satisfy
 
 $$X^2+XY+Y^2=Z^2.$$
 
