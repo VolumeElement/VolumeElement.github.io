@@ -8,7 +8,7 @@ math: True
 pin: False
 ---
 
-It has been known since the time of the Babylonians that it is possible to parametrize all primitive<sup>&dagger;</sup> Pythagorean triples using a rather simple collection of expressions <code>&#8212;</code>  their understanding of this is recorded on [Plimpton 322](https://en.wikipedia.org/wiki/Plimpton_322). A fantastic geometric derivation of the same parametrization was also discovered later in ancient Greece. Consider a circle of unit radius centered at the origin and a line of rational slope passing through the point $(-1,\,0)$.
+It has been known since the time of the Babylonians that it is possible to parametrize all primitive* Pythagorean triples using a rather simple collection of expressions <code>&#8212;</code>  their understanding of this is recorded on [Plimpton 322](https://en.wikipedia.org/wiki/Plimpton_322). A fantastic geometric derivation of the same parametrization was also discovered later in ancient Greece. Consider a circle of unit radius centered at the origin and a line of rational slope passing through the point $(-1,\,0)$.
 
 <center><a href="https://imgur.com/a/h07jx0w"><img src="https://i.imgur.com/auWDssN.png" alt="centered image" height="auto" width="367" title="source: imgur.com" /></a></center>
 
@@ -36,7 +36,7 @@ $$b^2=\frac{Z+X}{2}.$$
 
 It follows that $Y=2ab$. Solving the above pair of equations for $X$ and $Z$ shows that $X=a^2-b^2$ and $Z=a^2+b^2$, so every Pythagorean triple may be written in this way.
 
-<sup>&dagger; Primitive meaning all values in the solution are coprime.</sup>
+<sup>* Primitive meaning all values in the solution are coprime.</sup>
 
 ### Another derivation
 
@@ -58,7 +58,7 @@ $$(a^2-b^2)^2+(2ab)^2=(a^2+b^2)^2.$$
 
 ## Galois cohomology and theorem 90
 
-So where does this theorem come from? Hilbert's theorem 90 can be seen as a consequence of the fact that the $1\text{st}$ cohomology group is trivial*,
+So where does this theorem come from? Hilbert's theorem 90 can be seen as a consequence of the fact that the $1\text{st}$ cohomology group is trivial<sup>&dagger;</sup>,
 
 $$H^1(G,\,L^\times)=0.$$
 
@@ -66,7 +66,7 @@ Deciphering what this actually means was my initial motivation to understand Gal
 
 The following notes in this section are primarily assembled from Lozano-Robledo's lecture[^1] and Seewoo Lee's notes[^2]. I found the lecture to be a fantastic resource as it introduces the topic in, what was for me, a familiar setting.
 
-*Here $0$ represents the trivial group.
+<sup>&dagger; Here 0 represents the trivial group.</sup>
 
 ### Basics of group cohomology
 
