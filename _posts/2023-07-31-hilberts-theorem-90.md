@@ -70,7 +70,7 @@ The following notes in this section are primarily assembled from Lozano-Robledo'
 
 ### Basics of group cohomology
 
-We'll be needing an understanding of what is called the $1\text{st}$ cohomology group. As a vague prelude to where we're going, we are interested in the fixed points of certain group actions which I'll attempt to elucidate.
+We'll be needing an understanding of what is called the $1\text{st}$ cohomology group. To give a rough sense of where we're going, we are interested in stufying fixed points under group actions.
 
 Let $M$ be an abelian group and consider the group action of $G$ on $M$ as a $G$-module. We will denote the action of $\sigma\in G$ on $m\in M$ as $\sigma\cdot m$. One of the simplest objects related to fixed points we may study is the collection of points that are fixed under all actions of $G$,
 
