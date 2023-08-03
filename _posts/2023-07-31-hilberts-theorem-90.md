@@ -8,7 +8,7 @@ math: True
 pin: False
 ---
 
-It has been known since the time of the Babylonians that it is possible to parametrize all primitive* Pythagorean triples using a rather simple collection of expressions <code>&#8212;</code>  their understanding of this is recorded on [Plimpton 322](https://en.wikipedia.org/wiki/Plimpton_322). A fantastic geometric derivation of the same parametrization was also discovered later in ancient Greece. Consider a circle of unit radius centered at the origin and a line of rational slope passing through the point $(-1,\,0)$.
+It has been known since the time of the Babylonians that it is possible to parametrize all primitive Pythagorean triples using a rather simple collection of expressions <code>&#8212;</code>  their understanding of this is recorded on [Plimpton 322](https://en.wikipedia.org/wiki/Plimpton_322). A fantastic geometric derivation of the same parametrization was also discovered later in ancient Greece. Consider a circle of unit radius centered at the origin and a line of rational slope passing through the point $(-1,\,0)$.
 
 <center><a href="https://imgur.com/a/h07jx0w"><img src="https://i.imgur.com/auWDssN.png" alt="centered image" height="auto" width="367" title="source: imgur.com" /></a></center>
 
@@ -18,7 +18,7 @@ Here we take $a$ and $b$ to be two coprime, positive integers with $a>b$. If we 
 
 $$\left(\frac{a^2-b^2}{a^2+b^2},\,\frac{2ab}{a^2+b^2}\right).$$
 
-Because this point is a solution to $x^2+y^2=1$, we may plug this point in and clear the denomiators to show that $X=a^2-b^2$, $Y=2ab$, $Z=a^2+b^2$ is a solution to $X^2+Y^2=Z^2$, i.e. it's a Pythagorean triple. In fact, as we vary $a$ and $b$ through all such pairs of coprime integers we get all primitive Pythagorean triples. To see this, note that in any primitive Pythagorean triple either $X$ or $Y$ must be even, suppose $Y$ is even so that $Y=2n$, then we have
+Because this point is a solution to $x^2+y^2=1$, we may plug this point in and clear the denomiators to show that $X=a^2-b^2$, $Y=2ab$, $Z=a^2+b^2$ is a solution to $X^2+Y^2=Z^2$, i.e. it's a Pythagorean triple. In fact, as we vary $a$ and $b$ through all such pairs of coprime integers we get all primitive* Pythagorean triples. To see this, note that in any primitive Pythagorean triple either $X$ or $Y$ must be even, suppose $Y$ is even so that $Y=2n$, then we have
 
 $$4n^2=Z^2-X^2$$
 
@@ -35,8 +35,6 @@ and
 $$b^2=\frac{Z+X}{2}.$$
 
 It follows that $Y=2ab$. Solving the above pair of equations for $X$ and $Z$ shows that $X=a^2-b^2$ and $Z=a^2+b^2$, so every Pythagorean triple may be written in this way.
-
-<sup>* Primitive meaning all values X, Y, Z in a solution to X<sup>2</sup>+Y<sup>2</sup>=Z<sup>2</sup> are coprime.</sup>
 
 ### Another derivation
 
