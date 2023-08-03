@@ -34,7 +34,7 @@ and
 
 $$b^2=\frac{Z+X}{2}.$$
 
-It follows that $Y=2ab$. Solving the above pair of equations for $X$ and $Z$ shows that $X=a^2-b^2$ and $Z=a^2+b^2$, so every Pythagorean triple may be written in this way.
+It follows that $Y=2ab$. Solving the above pair of equations for $X$ and $Z$ shows that $X=a^2-b^2$ and $Z=a^2+b^2$, so every primitive Pythagorean triple may be written in this way.
 
 <sup>* Primitive meaning all values X, Y, Z in a solution to X<sup>2</sup>+Y<sup>2</sup>=Z<sup>2</sup> are coprime.</sup>
 
