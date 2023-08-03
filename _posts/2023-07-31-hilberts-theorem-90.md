@@ -14,7 +14,7 @@ It has been known since the time of the Babylonians that it is possible to param
 
 $$x^2+y^2=1,\,b(x+1)/a=y$$
 
-Here we take $a$ and $b$ to be two coprime, positive integers with $a>b$. If we find the intersection of these two curves we get the obvious point of intersction, $(1,\,0)$, and the point
+Here we take $a$ and $b$ to be two coprime, positive integers, with $a>b$. If we find the intersection of these two curves we get the obvious point of intersction, $(1,\,0)$, and the point
 
 $$\left(\frac{a^2-b^2}{a^2+b^2},\,\frac{2ab}{a^2+b^2}\right).$$
 
