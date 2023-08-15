@@ -7,16 +7,20 @@ order: 4
 I have a broad range of interests in mathematics, physics, computer science, and the Earth sciences. Much of what I post will cover one of my hobbies, the evaluation of integrals and series, but more serious topics will usually fall into one of the following categories:
 
 * Number theory:
-    - I enjoy algebraic number theory, and the study of elliptic curves and modular forms.
+    - Algebraic number theory
+    - Elliptic curves and modular forms
 
 * Physics:
-    - My favorite topics here are quantum mechanics and general relativity, low temperature physics and black holes are fascinating to me.
+    - General relativity and astrophysics
+    - Quantum mechanics
 
 * Computer science:
-    - As a hobby, I like to design microprocessors and microcode computer systems.
-    - On the more serious side, I like scientific computing and data science.
+    - Microprocessors and microcode computer systems
+    - Scientific computing and data science
 
 
 * Earth science:
-    - Geology: I hunt for fossils and minerals, like to learn about the history of the land around us, and enjoy leanring the science of how it got that way.
-    - Astronomy: Anything in astronomy and astrophysics is of interest to me.
+    - Geology
+
+
+The image in the sidebar is an icosahedral tessellation of a sphere as shown in [Continued Fractions and Modular Functions](https://www.math.ucla.edu/~wdduke/preprints/bams4.pdf) by W. Duke. The symmetries of this tiling correspond to M&ouml;bius transformations that are intimately relate to the functional equations satisfied by Ramanujan's continued fraction.
