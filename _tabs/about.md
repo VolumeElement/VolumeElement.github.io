@@ -23,4 +23,4 @@ I have a broad range of interests in mathematics, physics, computer science, and
     - Geology
 
 
-The image in the sidebar is an icosahedral tessellation of a sphere as shown in [Continued Fractions and Modular Functions](https://www.math.ucla.edu/~wdduke/preprints/bams4.pdf) by W. Duke. The symmetries of this tiling correspond to M&ouml;bius transformations that are intimately relate to the functional equations satisfied by Ramanujan's continued fraction.
+The image in the sidebar is an icosahedral tessellation of a sphere as shown in [Continued Fractions and Modular Functions](https://www.math.ucla.edu/~wdduke/preprints/bams4.pdf) by W. Duke. The symmetries of this tiling correspond to M&ouml;bius transformations that are intimately related to the functional equations satisfied by Ramanujan's continued fraction.
