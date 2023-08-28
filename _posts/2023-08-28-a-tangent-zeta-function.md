@@ -58,3 +58,25 @@ and
 $$\zeta(2n)=\frac{1}{n+\frac{1}{2}}\sum_{k=1}^{n-1}\zeta(2k)\zeta(2n-2k)\tag{4}$$
 
 for the Riemann zeta function. Notably, we also have the well known fact that $\zeta(0)=-1/2$ and we see this special value show up in $(3)$ and $(4)$. In a similar manner, the value $-3/2$ show up in the same spots in the equatiosn for $\zeta_t(s)$. So it seems reasonable to conjecture that, upon analytic continuation, we'd have $\zeta_t(0)=-3/2$.
+
+## Some additional thoughts
+
+Originally, I tried to prove this using the asymptotic method outlined in a paper on the Casimir effect inside of sphere[^1], but this proved unsucessful due to the poles of $y(z)$ along $\mathbb{R}^+$ and other unfortunate asymptotic behavior. Another idea that ended up not being fruitful was to rotate $y(z)$ into $y(iz)$ and integrate that instead, as done in [this similar problem](https://math.stackexchange.com/questions/2012717/mellin-transform-of-the-tan-function) on math.se.
+
+This led me to consider the *possible* idnetities
+
+$$\int_0^\infty\left(-\frac{x^2}{2(x\coth(x)-1)}-\frac{x^2}{2(1-x)}+\frac{1}{2(1-x)}\right)x^{s-1}\,\mathrm dx=\frac{\pi\zeta_t(-s)}{\sin(\pi s)}$$
+
+or
+
+$$\frac{\sin(\pi s)}{\pi}\left(\int_0^\infty\left(f_1(x)-f_2(x)\right)x^{s-1}\,\mathrm dx+\alpha\Gamma(s)\right)=\zeta_t(-s)$$
+
+where
+
+$$f_1(x)=-\frac{x^2}{2(x\coth(x)-1)}$$
+
+and
+
+$$f_2(x)=-\frac{3}{2}e^{-x}+\frac{x^2}{2(1-x)}-\frac{1}{2(1-x)}$$
+
+with the intention that the second integral is only valid for $\alpha=-3/2$. The hope here is that they could possibly have been given some numerical evidence. Unsuprisingly, neither of these integral identities actually worked out numerically, as they are acquired by formal manipulation only without regard to important unknown facts about locations of additional poles and zeros of $\zeta_t(s)$ that could arise when analytically continued. Perhaps these approaches could be modified to work in some way that I do not see, and if not, these methods could at least be avoided by anyone that takes a stab at this.
