@@ -63,7 +63,7 @@ for the Riemann zeta function. Notably, we also have the well known fact that $\
 
 Originally, I tried to prove this using the asymptotic method outlined in a paper on the Casimir effect inside of sphere[^1], but this proved unsucessful due to the poles of $y(z)$ along $\mathbb{R}^+$ and other unfortunate asymptotic behavior. Another idea that ended up not being fruitful was to rotate $y(z)$ into $y(iz)$ and integrate that instead, as done in [this similar problem](https://math.stackexchange.com/questions/2012717/mellin-transform-of-the-tan-function) on math.se.
 
-This led me to consider the *possible* idnetities
+This led me to consider the *possible* identities
 
 $$\int_0^\infty\left(-\frac{x^2}{2(x\coth(x)-1)}-\frac{x^2}{2(1-x)}+\frac{1}{2(1-x)}\right)x^{s-1}\,\mathrm dx=\frac{\pi\zeta_t(-s)}{\sin(\pi s)}$$
 
