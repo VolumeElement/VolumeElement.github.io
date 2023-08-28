@@ -1,7 +1,7 @@
 ---
 title: A Tangent "Zeta Function"
 # author: dxdydz
-date: 2023-08-28 15:20:00 -0400
+date: 2023-08-28 15:15:00 -0400
 categories: [Calculus]
 tags: [complex analysis, infinite series, infinite products, generating functions]
 math: True
