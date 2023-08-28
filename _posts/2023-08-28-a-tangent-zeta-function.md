@@ -40,3 +40,9 @@ where $\zeta(s)$ is the Riemann zeta function. This allows us to calculate $\zet
 | $6$ | $2753/186232921875$ |
 
 A much nicer recurrance in the form of a convolution identity can be established by noting that the function in $(1)$ is a solution to the Riccati equation
+
+$$zy'(z)-\frac{z^2}{2}+\frac{9}{8}=2y^2(z).$$
+
+Plugging in $y(z)=-z^2/(2(1-z\cot(z)))+3/2$ and applying Cauchy convolution again gives the much nicer relation
+
+$$\zeta_t(2n)=\frac{1}{n+\frac{3}{2}}\sum_{k=1}^{n-1}\zeta_t(2k)\zeta_t(2n-2k).\tag{2}$$
