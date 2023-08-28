@@ -19,3 +19,13 @@ $$f(x)=\frac{\sin(x)}{x}-\cos(x)$$
 which has the same solutions as $\tan(x)=x$ (excluding $x=0$) and admits the Weierstrass factorization
 
 $$f(z)=\frac{z^2}{3}\prod_{n=1}^\infty\left(1-\frac{z^2}{x_n^2}\right).$$
+
+Taking the logarithmic derivative of the above product, applying the geometric series, and interchanging the order of the resulting sums yields the generating function
+
+$$-\frac{z^2}{2(1-z\cot(z))}+\frac{3}{2}=\sum_{n=1}^\infty\zeta_t(2n)z^{2n}.\tag{1}$$
+
+Applying the Cauchy product to $(1)$ and comparing like powers of $z$ gives the recurrence relation
+
+$$\zeta_t(2n+2)=9\frac{\zeta(2n+4)}{\pi^{2n+4}}-6\sum_{k=0}^{n-1}\frac{\zeta_t(2k+2)\zeta(2n-2k+2)}{\pi^{2n-2k+2}},\qquad n\geq0$$
+
+where $\zeta(s)$ is the Riemann zeta function. This allows us to calculate $\zeta_t(2n)$ for $n\geq1$, for example, the first few such values are as follows.
