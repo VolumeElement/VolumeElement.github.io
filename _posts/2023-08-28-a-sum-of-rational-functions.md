@@ -44,7 +44,7 @@ We want to show that the truth of the $m\text{th}$ case of $(1)$ implies the tru
 
 $$\begin{align*}\prod_{n=0}^{m+1}(1-x^{2^n}+x^{2^{n+1}}) &=\left( \prod_{n=0}^{m}(1-x^{2^n}+x^{2^{n+1}})\right )(1-x^{2^{m+1}}+x^{2^{m+2}}) \\  &=\frac{1+x^{2^{m+1}}+x^{2^{m+2}}}{1+x+x^2}(1-x^{2^{m+1}}+x^{2^{m+2}}) ,\qquad\text{by our assumption} \\ &= \frac{1+x^{2^{m+2}}+x^{2^{m+3}}}{1+x+x^2},\end{align*}$$
 
-which demonstrates the truth of the $(m+1)\text{th}$ case. Now we may take $\\|x\\|<1$ so
+which demonstrates the truth of the $(m+1)\text{th}$ case. Now we may take $\|x\|<1$ so
 
 $$\lim_{m\to\infty}\prod_{n=0}^m(1-x^{2^n}+x^{2^{n+1}}) =\frac{1}{1+x+x^2},$$
 
