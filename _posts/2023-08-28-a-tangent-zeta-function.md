@@ -65,11 +65,11 @@ Originally, I tried to prove this using the asymptotic method outlined in a pape
 
 This led me to consider the *possible* identities
 
-$$\int_0^\infty\left(-\frac{x^2}{2(x\coth(x)-1)}-\frac{x^2}{2(1-x)}+\frac{1}{2(1-x)}\right)x^{s-1}\,\mathrm dx=\frac{\pi\zeta_t(-s)}{\sin(\pi s)}$$
+$$\int_0^\infty\left(-\frac{x^2}{2(x\coth(x)-1)}-\frac{x^2}{2(1-x)}+\frac{1}{2(1-x)}\right)x^{s-1}\,\mathrm dx\overset{\text{?}}{=}\frac{\pi\zeta_t(-s)}{\sin(\pi s)}$$
 
 or
 
-$$\frac{\sin(\pi s)}{\pi}\left(\int_0^\infty\left(f_1(x)-f_2(x)\right)x^{s-1}\,\mathrm dx+\alpha\Gamma(s)\right)=\zeta_t(-s)$$
+$$\frac{\sin(\pi s)}{\pi}\left(\int_0^\infty\left(f_1(x)-f_2(x)\right)x^{s-1}\,\mathrm dx+\alpha\Gamma(s)\right)\overset{\text{?}}{=}\zeta_t(-s)$$
 
 where
 
