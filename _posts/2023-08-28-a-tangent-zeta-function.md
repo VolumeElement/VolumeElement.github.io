@@ -80,3 +80,7 @@ and
 $$f_2(x)=-\frac{3}{2}e^{-x}+\frac{x^2}{2(1-x)}-\frac{1}{2(1-x)}$$
 
 with the intention that the second integral is only valid for $\alpha=-3/2$. The hope here is that they could possibly have been given some numerical evidence. Unsuprisingly, neither of these integral identities actually worked out numerically, as they are acquired by formal manipulation only without regard to important unknown facts about locations of additional poles and zeros of $\zeta_t(s)$ that could arise when analytically continued. Perhaps these approaches could be modified to work in some way that I do not see, and if not, these methods could at least be avoided by anyone that takes a stab at this.
+
+## References
+
+[1]: *Bessel &#950;-function approach to the Casimir effect of a scalar field in a spherical bag*, August Romeo, [https://journals.aps.org/prd/abstract/10.1103/PhysRevD.52.7308](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.52.7308)
