@@ -57,7 +57,7 @@ and
 
 $$\zeta(2n)=\frac{1}{n+\frac{1}{2}}\sum_{k=1}^{n-1}\zeta(2k)\zeta(2n-2k)\tag{4}$$
 
-for the Riemann zeta function. Notably, we also have the well known fact that $\zeta(0)=-1/2$ and we see this special value show up in $(3)$ and $(4)$. In a similar manner, the value $-3/2$ show up in the same spots in the equations for $\zeta_t(s)$. So it seems reasonable to conjecture that, upon analytic continuation, we'd have $\zeta_t(0)=-3/2$.
+for the Riemann zeta function. Notably, we also have the well known fact that $\zeta(0)=-1/2$ and we see this special value show up in $(3)$ and $(4)$. In a similar manner, the value $-3/2$ appears in the same spots in the equations for $\zeta_t(s)$. So it seems reasonable to conjecture that, upon analytic continuation, we'd have $\zeta_t(0)=-3/2$.
 
 ## Some additional thoughts
 
