@@ -3,7 +3,7 @@ title: A Tangent "Zeta Function"
 # author: dxdydz
 date: 2023-08-28 15:15:00 -0400
 categories: [Calculus]
-tags: [complex analysis, infinite series, infinite products, generating functions]
+tags: [complex analysis, infinite series, infinite products, generating functions, differential equations]
 math: True
 pin: False
 ---
