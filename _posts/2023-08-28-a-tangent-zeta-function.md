@@ -83,4 +83,4 @@ with the intention that the second integral is only valid for $\alpha=-3/2$. The
 
 ## References
 
-[1]: *Bessel &#950;-function approach to the Casimir effect of a scalar field in a spherical bag*, August Romeo, [https://journals.aps.org/prd/abstract/10.1103/PhysRevD.52.7308](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.52.7308)
+[^1]: *Bessel &#950;-function approach to the Casimir effect of a scalar field in a spherical bag*, August Romeo, [https://journals.aps.org/prd/abstract/10.1103/PhysRevD.52.7308](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.52.7308)
