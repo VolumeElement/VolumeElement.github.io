@@ -8,5 +8,5 @@ math: True
 pin: False
 ---
 
-Let the sequence $\left\{x_n\right\}_{n=1}^\infty$ be the positive solutions to $\tan(x)=x$ ordered by increasing magnitude and define the function
+Let the sequence $\left\\{x_n\right\\}_{n=1}^\infty$ be the positive solutions to $\tan(x)=x$ ordered by increasing magnitude and define the function
 
