@@ -12,7 +12,7 @@ Let the sequence $\left\\{x_n\right\\}_{n=1}^\infty$ be the positive solutions t
 
 $$\zeta_t(s)=\sum_{n=1}^\infty\frac{1}{x_n^s}.$$
 
-It is not hard to show that $\zeta_t(s)$ converges for $\Re s>1$. Also consider the function
+It is not hard to show that $\zeta_t(s)$ converges for $\Re(s)>1$. Also consider the function
 
 $$f(x)=\frac{\sin(x)}{x}-\cos(x)$$
 
