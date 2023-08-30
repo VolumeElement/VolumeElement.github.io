@@ -79,7 +79,7 @@ and
 
 $$f_2(x)=-\frac{3}{2}e^{-x}+\frac{x^2}{2(1-x)}-\frac{1}{2(1-x)}$$
 
-with the intention that the second integral is only valid for $\alpha=-3/2$. The hope here is that they could possibly have been given some numerical evidence. Unsuprisingly, neither of these integral identities actually worked out numerically, as they are acquired by formal manipulation only without regard to important unknown information about $\zeta_t(s)$, such as the loactions of possible poles. There is also th issue that I couldn't find a way to use Ramanujan's master theorem in quite the way I wanted to. Perhaps these approaches could be modified to work in some way that I do not see, and if not, these methods could at least be avoided by anyone that takes a stab at this.
+with the intention that the second integral is only valid for $\alpha=-3/2$. The hope here is that they could possibly have been given some numerical evidence. Unsuprisingly, neither of these integral identities actually worked out numerically, as they are acquired by formal manipulation only without regard to important unknown information about $\zeta_t(s)$, such as the loactions of possible poles. I also couldn't find a way to apply Ramanujan's master theorem in quite the way I wanted to. Perhaps these approaches could be modified to work in some way that I do not see, and if not, these methods could at least be avoided by anyone that takes a stab at this.
 
 ## References
 
