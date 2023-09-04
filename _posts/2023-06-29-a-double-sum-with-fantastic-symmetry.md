@@ -16,7 +16,7 @@ was asked about on [math.se](https://math.stackexchange.com/questions/4622932). 
 
 ## Solution
 
-We start by turning the doubly infintie series into a single infinite series. Collecting all $a,\,b$ that satisfy $a+b=n$ gives
+We start by turning the doubly infinite series into a single infinite series. Collecting all $a,\,b$ that satisfy $a+b=n$ gives
 
 $$\begin{align*}\sum_{a=1}^{\infty}\sum_{b=1}^{\infty} \frac{a^2b^2}{\sinh(\pi(a+b))}(-1)^{a+b} &= \sum_{n=2}^\infty\frac{(-1)^n}{\sinh(\pi n)}\sum_{k=1}^{n-1}k^2(n-k)^2 \\&= \frac{1}{30}\sum_{n=2}^\infty\frac{(n^5-n)(-1)^n}{\sinh(\pi n)} \\&= \frac{1}{60}\sum_{n\in\mathbb{Z}\setminus\left\{0\right\}}\frac{(n^5-n)(-1)^n}{\sinh(\pi n)}.\end{align*}$$
 
