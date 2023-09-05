@@ -32,7 +32,7 @@ $$\psi(1+z)=-\gamma+\sum_{n=1}^\infty\left(\frac{1}{n}-\frac{1}{n+z}\right)$$
 
 for the digamma function. The integrals in $(1)$ are readily done by parts to get
 
-$$\begin{align*}\int_0^1 u\psi(u)\,\mathrm du &=\int_0^1\ln(\Gamma(u))\,\mathrm du \\  &= \frac{1}{2}\ln(2\pi),\tag{2}\end{align*}$$
+$$\begin{align*}\int_0^1 u\psi(u)\,\mathrm du &=-\int_0^1\ln(\Gamma(u))\,\mathrm du \\  &= -\frac{1}{2}\ln(2\pi),\tag{2}\end{align*}$$
 
  the detail for this is shown [here](https://volumeelement.github.io/posts/a-log-gamma-integral/). For the remaining two integrals we have
 
