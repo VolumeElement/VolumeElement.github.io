@@ -32,7 +32,7 @@ $$\begin{align*}I &= I(0) \\  &=-(\lim_{s\to\infty}I(s)-I(0)) \\  &=-\int_0^\inf
 
 The above can be generalized to
 
-$$\int_0^1\frac{1-x}{1+x+x^2+\cdots+x^n}\cdot\frac{1}{\ln(x)}\,\mathrm dx=\ln\left(\frac{\Gamma^2\left(\frac{s+2}{n+1}\right)}{\Gamma\left(\frac{s+1}{n+1}\right)\Gamma\left(\frac{s+3}{n+1}\right)}\right).$$
+$$\int_0^1\frac{1-x}{1+x+x^2+\cdots+x^n}\cdot\frac{x^s}{\ln(x)}\,\mathrm dx=\ln\left(\frac{\Gamma^2\left(\frac{s+2}{n+1}\right)}{\Gamma\left(\frac{s+1}{n+1}\right)\Gamma\left(\frac{s+3}{n+1}\right)}\right).$$
 
 Another neat integral is
 
