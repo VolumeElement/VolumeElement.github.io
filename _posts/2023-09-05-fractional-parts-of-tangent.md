@@ -42,6 +42,6 @@ Using $(2)$ and $(3)$ on $(1)$ tells us that
 
 $$I=\frac{1}{2}\ln(\Gamma(1+i)\Gamma(1-i))+\frac{\pi}{2}.$$
 
-Recognizing that the product of gamma fucntions may be written as $i\Gamma(i)\Gamma(1-i)$ and applying the reflection formula gives the much nicer closed form
+Recognizing that the product of gamma functions may be written as $i\Gamma(i)\Gamma(1-i)$ and applying the reflection formula gives the much nicer closed form
 
 $$\int_0^\frac{\pi}{2}\frac{\left\{\tan(x)\right\}}{\tan(x)}\,\mathrm dx=\frac{1}{2}\ln(\pi\text{csch}(\pi))+\frac{\pi}{2}.$$
