@@ -40,7 +40,11 @@ $$\begin{align*}\int_0^1 u\psi(u)\,\mathrm du &=\int_0^1\ln(\Gamma(u))\,\mathrm 
 
  and
 
- $$\begin{align*}\int_0^1\ln(\Gamma(u+\alpha))\,\mathrm du &=\int_\alpha^{\alpha+1}\ln(\Gamma(u))\,\mathrm du \\  &=\int_0^1\ln(\Gamma(u))\,\mathrm du+\int_1^{\alpha+1}\ln(\Gamma(u))\,\mathrm du-\int_0^\alpha\ln(\Gamma(u))\,\mathrm du \\  &=\frac{1}{2}\ln(2\pi)+\int_0^\alpha\ln(\Gamma(u+1))\,\mathrm du-\int_0^\alpha\ln(\Gamma(u))\,\mathrm du \\  &=\frac{1}{2}\ln(2\pi)+\int_0^\alpha\ln\left(\frac{\Gamma(u+1)}{\Gamma(u)}\right)\,\mathrm du \\  &= \frac{1}{2}\ln(2\pi)+\int_0^\alpha\ln(u)\,\mathrm du \\ &= \frac{1}{2}\ln(2\pi)+\alpha\ln(\alpha)-\alpha.\tag{3}\end{align*}$$
+ $$\begin{align*}\int_0^1\ln(\Gamma(u+\alpha))\,\mathrm du &=\int_\alpha^{\alpha+1}\ln(\Gamma(u))\,\mathrm du \\  &=\int_0^1\ln(\Gamma(u))\,\mathrm du+\int_1^{\alpha+1}\ln(\Gamma(u))\,\mathrm du-\int_0^\alpha\ln(\Gamma(u))\,\mathrm du \\  &=\frac{1}{2}\ln(2\pi)+\int_0^\alpha\ln(\Gamma(u+1))\,\mathrm du-\int_0^\alpha\ln(\Gamma(u))\,\mathrm du \\  &=\frac{1}{2}\ln(2\pi)+\int_0^\alpha\ln\left(\frac{\Gamma(u+1)}{\Gamma(u)}\right)\,\mathrm du \\  &= \frac{1}{2}\ln(2\pi)+\int_0^\alpha\ln(u)\,\mathrm du \\ &= \frac{1}{2}\ln(2\pi)+\alpha\ln(\alpha)-\alpha.\end{align*}$$
+
+ So
+
+ $$\begin{align*}\int_0^1 u\psi(u+\alpha)\,\mathrm du &=\ln(\Gamma(\alpha+1))-\frac{1}{2}\ln(2\pi)-\alpha\ln(\alpha)+\alpha. \tag{3}\end{align*}$$
 
 Using $(2)$ and $(3)$ on $(1)$ tells us that
 
