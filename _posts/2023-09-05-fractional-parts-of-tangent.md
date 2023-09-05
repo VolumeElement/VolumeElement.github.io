@@ -1,5 +1,5 @@
 ---
-title: Some Integrals with Logarithms in the Denominator
+title: An Integral Involving Fractional Parts of the Tangent
 # author: dxdydz
 date: 2023-09-05 17:20:00 -0400
 categories: [Calculus]
