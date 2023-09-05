@@ -22,7 +22,7 @@ $$I(s)=\int_0^1\frac{1-x}{1+x}\cdot\frac{x^s}{\ln(x)}\,\mathrm dx$$
 
 so that $I(0)=I$ and $\lim_{s\to\infty}I(s)=0$, then consider $I'(s)$. We have
 
-$$\begin{align*}I'(s) &=\int_0^1\frac{1-x}{1+x}x^s\,\mathrm dx \\  &=\int_0^1\frac{(1-x)^2}{1-x^2}x^s\,\mathrm dx \\  &=\frac{1}{2}\int_0^1\frac{(1-u^{1/2})^2u^{s/2}}{(1-u^2)u^{1/2}}\,\mathrm du,\,x=u^{1/2} \\  &\;\;\vdots\qquad\text{(some unexciting algebra)} \\  &=\int_0^1\frac{1-u^{s/2}}{1-u}\,\mathrm du-\frac{1}{2}\int_0^1\frac{1-u^{(s+1)/2}}{1-u}\,\mathrm du-\frac{1}{2}\int_0^1\frac{1-u^{(s-1)/2}}{1-u}\,\mathrm du \\  &= \text{H}_{s/2}-\text{H}_{(s+1)/2}-\text{H}_{(s-1)/2} \\ &= \text{H}_{s/2}-\text{H}_{(s-1)/2}-\frac{1}{1+s} \\ &= \psi\left(\frac{s}{2}+1 \right )-\psi\left(\frac{s+1}{2} \right )-\frac{1}{1+s}\end{align*}$$
+$$\begin{align*}I'(s) &=\int_0^1\frac{1-x}{1+x}x^s\,\mathrm dx \\  &=\int_0^1\frac{(1-x)^2}{1-x^2}x^s\,\mathrm dx \\  &=\frac{1}{2}\int_0^1\frac{(1-u^{1/2})^2u^{s/2}}{(1-u^2)u^{1/2}}\,\mathrm du,\,x=u^{1/2} \\  &\;\;\vdots\qquad\text{(some unexciting algebra)} \\  &=\int_0^1\frac{1-u^{s/2}}{1-u}\,\mathrm du-\frac{1}{2}\int_0^1\frac{1-u^{(s+1)/2}}{1-u}\,\mathrm du-\frac{1}{2}\int_0^1\frac{1-u^{(s-1)/2}}{1-u}\,\mathrm du \\  &= \text{H}_{s/2}-\frac{1}{2}\text{H}_{(s+1)/2}-\frac{1}{2}\text{H}_{(s-1)/2} \\ &= \text{H}_{s/2}-\text{H}_{(s-1)/2}-\frac{1}{1+s} \\ &= \psi\left(\frac{s}{2}+1 \right )-\psi\left(\frac{s+1}{2} \right )-\frac{1}{1+s}\end{align*}$$
 
 where $\text{H}_z$ is the zth harmonic number and $\psi(z)$ is the digamma function. Integrating and making use of the special values of $I(s)$ that we noted before yields the result we're after.
 
