@@ -1,7 +1,7 @@
 ---
 title: Some Integrals with Logarithms in the Denominator
 # author: dxdydz
-date: 2023-09-05 17:25:00 -0400
+date: 2023-09-05 17:20:00 -0400
 categories: [Calculus]
 tags: [integration, infinite series]
 math: True
