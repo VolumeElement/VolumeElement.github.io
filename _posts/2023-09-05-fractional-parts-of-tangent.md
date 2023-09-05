@@ -24,7 +24,7 @@ $$I=\int_0^\infty\frac{\left\{u\right\}}{u(1+u^2)}\,\mathrm du$$
 
 then expand the integral into an infinite series as follows,
 
-$$\begin{align*}I &=\int_0^\infty\frac{u-\left \lfloor u \right \rfloor}{u(1+u^2)}\,\mathrm du \\ &=\sum_{n=0}^\infty\int_n^{n+1}\frac{u-\left \lfloor u \right \rfloor}{u(1+u^2)}\,\mathrm du \\  &=\sum_{n=0}^\infty\int_0^1\frac{u+n-\left \lfloor u+n \right \rfloor}{(u+n)(1+(u+n)^2)}\,\mathrm du,\,u\mapsto u+n \\  &=\int_0^1 u\sum_{n=0}^\infty\frac{1}{(u+n)(1+(u+n)^2)}\,\mathrm du \\  &= \int_0^1 u\sum_{n=1}^\infty\left( \frac{1}{n-1+u}-\frac{1}{2(n-1+x+i)}-\frac{1}{2(n-1+x-i)}\right )\,\mathrm du \\ &= \int_0^1 u\left(\frac{1}{2}\psi(x+i)+\frac{1}{2}\psi(x-i)-\psi(x)\right)\,\mathrm du\tag{1}\end{align*}$$
+$$\begin{align*}I &=\int_0^\infty\frac{u-\left \lfloor u \right \rfloor}{u(1+u^2)}\,\mathrm du \\ &=\sum_{n=0}^\infty\int_n^{n+1}\frac{u-\left \lfloor u \right \rfloor}{u(1+u^2)}\,\mathrm du \\  &=\sum_{n=0}^\infty\int_0^1\frac{u+n-\left \lfloor u+n \right \rfloor}{(u+n)(1+(u+n)^2)}\,\mathrm du,\,u\mapsto u+n \\  &=\int_0^1 u\sum_{n=0}^\infty\frac{1}{(u+n)(1+(u+n)^2)}\,\mathrm du \\  &= \int_0^1 u\sum_{n=1}^\infty\left( \frac{1}{n-1+u}-\frac{1}{2(n-1+u+i)}-\frac{1}{2(n-1+u-i)}\right )\,\mathrm du \\ &= \int_0^1 u\left(\frac{1}{2}\psi(u+i)+\frac{1}{2}\psi(u-i)-\psi(u)\right)\,\mathrm du\tag{1}\end{align*}$$
 
 where in the last line we've used the series
 
