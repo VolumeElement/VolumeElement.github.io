@@ -124,4 +124,4 @@ $$\int_0^1\prod_{n=1}^\infty(1+x^{2n-1})^2(1-x^{2n})\,\mathrm dx=\pi\coth(\pi)$$
 
 $$\int_0^1\prod_{n=1}^\infty(1+x^n)^2(1-x^n)\,\mathrm dx=\frac{2\pi\tanh\left(\frac{\pi\sqrt{7}}{2}\right)}{\sqrt{7}}$$
 
-which I was very happy to find as an undergrad! One of my professors found the values $\sqrt{23}$ and $\sqrt{7}$ appearing to be mysterious, as there's really no hint they should show up at all when looking at the integrand. In light of the prodcut to sum identities, the mystery reveals itself, as these numbers are related to the solutions of $1+z(3z-1)/2=0$ and $1+z(z+1)/2=0$, respectively.
+which I was very happy to find as an undergrad! One of my professors found the values $\sqrt{23}$ and $\sqrt{7}$ appearing to be mysterious, as there's really no hint they should show up at all when looking at the integrand. In light of the product to sum identities, the mystery reveals itself, as these numbers are related to the solutions of $1+z(3z-1)/2=0$ and $1+z(z+1)/2=0$, respectively.
