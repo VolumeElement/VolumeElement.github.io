@@ -102,7 +102,7 @@ This follows from evaluating the integral
 
 $$I=\lim_{N\to\infty}\frac{1}{2\pi i}\oint_{C_N}\pi\cot(\pi z)f(z)\,\mathrm dz$$
 
-in two ways. Here, $C_N$ is a square contour with vertices at $(N+1/2)e^{mi\pi/4}\sqrt{2}$ for $m=1,\,3,\,5,\,7$.
+in two ways. Here, $C_N$ is a square contour with vertices at $(N+1/2)e^{m\pi i/4}\sqrt{2}$ for $m=1,\,3,\,5,\,7$.
 
 <center><a href="https://imgur.com/a/79yla3V"><img src="https://i.imgur.com/Yfe1q0C.png" alt="centered image" height="auto" width="367" title="source: imgur.com" /></a></center>
 
