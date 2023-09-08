@@ -17,7 +17,9 @@ The answer is to turn it into a series, of course!
 ## Product to sum identities
 
 > **Theorem 1:** The Jacobi triple product
-> $$\prod_{n=1}^\infty(1-x^{2n})(1+x^{2n-1}z^2)(1+x^{2n-1}z^{-2})=\sum_{n=-\infty}^\infty x^{n^2}z^{2n}$$
+>
+> $$\displaystyle{\prod_{n=1}^\infty(1-x^{2n})(1+x^{2n-1}z^2)(1+x^{2n-1}z^{-2})=\sum_{n=-\infty}^\infty x^{n^2}z^{2n}}$$
+>
 > $$\,$$
 
 **Proof:** [See Wolfram.](https://mathworld.wolfram.com/JacobiTripleProduct.html) $\blacksquare$
@@ -29,7 +31,9 @@ $$\prod_{n=1}^\infty(1-x^{2na})(1-x^{2na-a+b})(1-x^{2na-a-b})=\sum_{n=-\infty}^\
 Upon setting $a=3/2$ and $b=1/2$, we acquire the following well known result,
 
 > **Theorem 2:** Euler's pentagonal number theorem
-> $$\prod_{n=1}^\infty(1-x^n)=\sum_{n=-\infty}^\infty(-1)^nx^{n(3n-1)/2}.$$
+>
+> $$\displaystyle{\prod_{n=1}^\infty(1-x^n)=\sum_{n=-\infty}^\infty(-1)^nx^{n(3n-1)/2}.}$$
+>
 > $$\,$$
 
 so-named because of the occurence of the pentagonal numbers, $n(3n-1)/2$. The product in the pentagonal number theorem is sometimes written as $\phi(x)$.
@@ -57,21 +61,27 @@ $$\prod_{n=1}^\infty(1-x^n)^3=\sum_{n=0}^\infty(-1)^n(2n+1)x^{n(n+1)/2}$$
 or written differently,
 
 > **Corollary 1:**
-> $$\prod_{n=1}^\infty(1-x^n)^3=\sum_{n=-\infty}^\infty(-1)^nnx^{n(n+1)/2}.$$
+>
+> $$\displaystyle{\prod_{n=1}^\infty(1-x^n)^3=\sum_{n=-\infty}^\infty(-1)^nnx^{n(n+1)/2}.}$$
+>
 > $$\,$$
 
 It's remarkable that if you cube $\phi(x)$, which contains $x$ to the power of pentagonal numbers, that you get another sum which contains $x$ to the power of triangular numbers.
 
 The last two product to sum idenities we need are comparitively simple, in the triple product we let $z=1$ and see that
 
-> **Corollary 2:** 
-> $$\prod_{n=1}^\infty(1+x^{2n-1})^2(1-x^{2n})=1+2\sum_{n=1}^\infty x^{n^2}.$$
+> **Corollary 2:**
+>
+> $$\displaystyle{\prod_{n=1}^\infty(1+x^{2n-1})^2(1-x^{2n})=1+2\sum_{n=1}^\infty x^{n^2}.}$$
+>
 > $$\,$$
 
 And for the very last time, in the triple product let $z\mapsto x$ and then make the change $x\mapsto x^{1/2}$, giving
 
 > **Corollary 3:**
-> $$2\prod_{n=1}^\infty(1+x^n)^2(1-x^n)=\sum_{n=-\infty}^\infty x^{n(n+1)/2}.$$
+>
+> $$\displaystyle{2\prod_{n=1}^\infty(1+x^n)^2(1-x^n)=\sum_{n=-\infty}^\infty x^{n(n+1)/2}.}$$
+>
 > $$\,$$
 
 ## Evaluating bilateral infinite series
@@ -83,7 +93,9 @@ $$|f(z)|<\frac{M}{|z|^k}.$$
 When these conditions are met, we have
 
 > **Theorem 3:**
-> $$\sum_{n=-\infty}^\infty f(n)=-\pi\sum_{\zeta\in S}\underset{z=\zeta}{\text{Res}}\left[f(z)\cot(\pi z)\right].$$
+>
+> $$\displaystyle{\sum_{n=-\infty}^\infty f(n)=-\pi\sum_{\zeta\in S}\underset{z=\zeta}{\text{Res}}\left[f(z)\cot(\pi z)\right].}$$
+>
 > $$\,$$
 
 This follows from evaluating the integral
