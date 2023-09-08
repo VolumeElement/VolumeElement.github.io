@@ -106,11 +106,11 @@ in two ways. Here, $C_N$ is a square contour with vertices at $(N+1/2)e^{mi\pi/4
 
 <center><a href="https://imgur.com/a/79yla3V"><img src="https://i.imgur.com/Yfe1q0C.png" alt="centered image" height="auto" width="367" title="source: imgur.com" /></a></center>
 
-The first way is by the residue theorem to show that
+The first evaluation method is to employ the residue theorem to show that
 
 $$I=\sum_{n=-\infty}^\infty f(n)+\pi\sum_{\zeta\in S}\underset{z=\zeta}{\text{Res}}\left[f(z)\cot(\pi z)\right],$$
 
-and the second by bounding the integrals along the edges of the square to show $I=0$. The details of the bounding argument may be seen [here](http://people.uncw.edu/hermanr/complex/summation-series-residue.pdf).
+and the second such method is by bounding the integrals along the edges of the square to show $I=0$. The details of the bounding argument may be seen [here](http://people.uncw.edu/hermanr/complex/summation-series-residue.pdf).
 
 ## The integrals
 
