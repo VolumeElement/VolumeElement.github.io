@@ -42,7 +42,7 @@ We may also acquire a similar identity involving the triangular numbers. Startin
 
 $$\prod_{n=1}^\infty(1-x^{2n})(1-x^{2n}z)(1-x^{2n-2}z^{-1})=\sum_{n=0}^\infty(-1)^nx^{n^2+n}(z^n-z^{-n-1}).$$
 
-Now if we apply
+Applying
 
 $$\prod_{n=1}^\infty(1-x^{2n-2}z^{-1})=(1-z^{-1})\prod_{n=1}^\infty(1-x^{2n}z^{-1})$$
 
