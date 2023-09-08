@@ -1,5 +1,5 @@
 ---
-title: Integrals of the Jacobi Triple Product
+title: Integrals and the Jacobi Triple Product
 # author: dxdydz
 date: 2023-09-08 11:40:00 -0400
 categories: [Calculus]
