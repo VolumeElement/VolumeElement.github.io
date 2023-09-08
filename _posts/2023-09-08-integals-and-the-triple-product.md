@@ -32,7 +32,7 @@ Upon setting $a=3/2$ and $b=1/2$, we acquire the following well known result,
 
 > **Theorem 2:** Euler's pentagonal number theorem
 >
-> $$\displaystyle{\prod_{n=1}^\infty(1-x^n)=\sum_{n=-\infty}^\infty(-1)^nx^{n(3n-1)/2}.}$$
+> $$\displaystyle{\prod_{n=1}^\infty(1-x^n)=\sum_{n=-\infty}^\infty(-1)^nx^{n(3n-1)/2}}$$
 >
 > $$\,$$
 
