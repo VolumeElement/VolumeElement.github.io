@@ -66,7 +66,7 @@ or written differently,
 >
 > $$\,$$
 
-It's remarkable that if you cube $\phi(x)$, whose corresponding contains $x$ to the power of pentagonal numbers, that you get another sum which contains $x$ to the power of triangular numbers.
+It's remarkable that if you cube $\phi(x)$, whose corresponding sum contains $x$ to the power of pentagonal numbers, that you get another sum which contains $x$ to the power of triangular numbers.
 
 The last two product to sum idenities we need are comparatively simple, in the triple product we let $z=1$ and see that
 
@@ -124,4 +124,4 @@ $$\int_0^1\prod_{n=1}^\infty(1+x^{2n-1})^2(1-x^{2n})\,\mathrm dx=\pi\coth(\pi)$$
 
 $$\int_0^1\prod_{n=1}^\infty(1+x^n)^2(1-x^n)\,\mathrm dx=\frac{2\pi\tanh\left(\frac{\pi\sqrt{7}}{2}\right)}{\sqrt{7}}$$
 
-which I was very happy to find as an undergrad! One of my professors found the values $\sqrt{23}$ and $\sqrt{7}$ appearing to be mysterious, as there's really no hint they should show up at all when looking at the integrands. In light of the product to sum identities, the mystery reveals itself, as these numbers are related to the solutions of $1+z(3z-1)/2=0$ and $1+z(z+1)/2=0$, respectively. I found it surprising that the closed form for the integral involving $\phi^3(x)$ is simpler than the one with just $\phi(x)$.
+which I was very happy to find as an undergrad! One of my professors found the appearance of the values $\sqrt{23}$ and $\sqrt{7}$ mysterious, as there's really no hint they should show up at all when looking at the integrands. In light of the product to sum identities, the mystery reveals itself, as these numbers are related to the solutions of $1+z(3z-1)/2=0$ and $1+z(z+1)/2=0$, respectively. I found it surprising that the closed form for the integral involving $\phi^3(x)$ is simpler than the one with just $\phi(x)$.
