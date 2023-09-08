@@ -114,7 +114,7 @@ and the second such method is by bounding the integrals along the edges of the s
 
 ## The integrals
 
-Integrating series term-by-term, applying summation by residues, and excising a lot of boring algebra yields the four integrals
+Integrating series term-by-term, applying summation by residues, and doing a lot of boring algebra yields the four integrals
 
 $$\int_0^1\prod_{n=1}^\infty(1-x^n)\,\mathrm dx=\frac{4\pi\sqrt{3}}{\sqrt{23}}\cdot\frac{\text{sinh}\left(\frac{\pi\sqrt{23}}{3} \right )}{\text{cosh}\left(\frac{\pi\sqrt{23}}{2} \right )}$$
 
