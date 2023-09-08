@@ -86,7 +86,7 @@ And for the very last time, in the triple product let $z\mapsto x$ and then make
 
 ## Evaluating bilateral infinite series
 
-Let $f(z)$ be a meromorphic with a finite set $S$ of poles $\zeta$ that are not integers. We will also restrict $f(z)$ to be a function such that there exists $k>1$ and a constant $M$ such that
+Let $f(z)$ be a meromorphic function with a finite set $S$ of poles $\zeta$ that are not integers. We will also restrict $f(z)$ to be a function such that there exists $k>1$ and a constant $M$ such that
 
 $$|f(z)|<\frac{M}{|z|^k}.$$
 
