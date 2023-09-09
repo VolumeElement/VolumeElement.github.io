@@ -18,7 +18,7 @@ $$I=\int_0^{\pi/2}e^{-\sec^2(x)}\,\mathrm dx.$$
 
 Generalize the integral to
 
-$$I=\int_0^{\pi/2}e^{-\alpha\sec^2(x)}\,\mathrm dx.$$
+$$I(\alpha)=\int_0^{\pi/2}e^{-\alpha\sec^2(x)}\,\mathrm dx.$$
 
 Using the substitution $x=\text{arcsec}(\sqrt{u+1})$ we get
 
