@@ -92,11 +92,7 @@ $$|f(z)|<\frac{M}{|z|^k}.$$
 
 When these conditions are met, we have
 
-> **Theorem 3:**
->
-> $$\displaystyle{\sum_{n=-\infty}^\infty f(n)=-\pi\sum_{\zeta\in S}\underset{z=\zeta}{\text{Res}}\left[f(z)\cot(\pi z)\right].}$$
->
-> $$\,$$
+$$\displaystyle{\sum_{n=-\infty}^\infty f(n)=-\pi\sum_{\zeta\in S}\underset{z=\zeta}{\text{Res}}\left[f(z)\cot(\pi z)\right].}$$
 
 This follows from evaluating the integral
 
@@ -111,6 +107,14 @@ The first evaluation method is to employ the residue theorem to show that
 $$I=\sum_{n=-\infty}^\infty f(n)+\pi\sum_{\zeta\in S}\underset{z=\zeta}{\text{Res}}\left[f(z)\cot(\pi z)\right],$$
 
 and the second such method is by bounding the integrals along the edges of the square to show $I=0$. The details of the bounding argument may be seen [here](http://people.uncw.edu/hermanr/complex/summation-series-residue.pdf).
+
+For the alternating bilateral sums we have the similar identity
+
+$$\sum_{n=-\infty}^\infty(-1)^n f(n)=-\pi\sum_{\zeta\in S}\underset{z=\zeta}{\text{Res}}\left[f(z)\csc(\pi z)\right]$$
+
+which can be seen from applying the same type of argument to
+
+$$\lim_{N\to\infty}\frac{1}{2\pi i}\oint_{C_N}\pi\csc(\pi z)f(z)\,\mathrm dz$$
 
 ## The integrals
 
