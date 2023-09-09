@@ -1,7 +1,7 @@
 ---
 title: Integrals and the Jacobi Triple Product
 # author: dxdydz
-date: 2023-09-08 11:40:00 -0400
+date: 2023-09-08 21:30:00 -0400
 categories: [Calculus]
 tags: [infinite products, infinite series, integration, contour integration, complex analysis]
 math: True
@@ -114,7 +114,7 @@ $$\sum_{n=-\infty}^\infty(-1)^n f(n)=-\pi\sum_{\zeta\in S}\underset{z=\zeta}{\te
 
 which can be seen from applying the same type of argument to
 
-$$\lim_{N\to\infty}\frac{1}{2\pi i}\oint_{C_N}\pi\csc(\pi z)f(z)\,\mathrm dz$$
+$$\lim_{N\to\infty}\frac{1}{2\pi i}\oint_{C_N}\pi\csc(\pi z)f(z)\,\mathrm dz.$$
 
 ## The integrals
 
