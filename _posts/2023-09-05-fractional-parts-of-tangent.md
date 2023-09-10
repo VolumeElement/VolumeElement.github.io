@@ -53,3 +53,5 @@ $$I=\frac{1}{2}\ln(\Gamma(1+i)\Gamma(1-i))+\frac{\pi}{2}.$$
 Recognizing that the product of gamma functions may be written as $i\Gamma(i)\Gamma(1-i)$ and applying the reflection formula gives the much nicer closed form
 
 $$\int_0^\frac{\pi}{2}\frac{\left\{\tan(x)\right\}}{\tan(x)}\,\mathrm dx=\frac{1}{2}\ln(\pi\text{csch}(\pi))+\frac{\pi}{2}.$$
+
+**An afterthought:** I realized that this proof can be made much simpler &#8212; in the sense that the log-gamma integrals can be avoided &#8212; by using a method similar to what I used to solve [AMM12338](https://volumeelement.github.io/posts/AMM12338/). But I'll the leave the post as it is in case I want to reference these log-gamma integrals in the future.
