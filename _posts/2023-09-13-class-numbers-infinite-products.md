@@ -1,7 +1,7 @@
 ---
 title: Dirichlet's Class Number Formula and Infinite Products
 # author: dxdydz
-date: 2023-09-13 10:50:00 -0400
+date: 2023-09-13 11:00:00 -0400
 categories: [Number Theory]
 tags: [algebraic number theory, infinite products, infinite series]
 math: True
