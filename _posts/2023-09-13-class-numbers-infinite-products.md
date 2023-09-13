@@ -69,7 +69,7 @@ Setting $d=29$ has $p=29$, $h(29)=1$, and $\epsilon=\frac{5+\sqrt{29}}{2}$ which
 
 $$\frac{5+\sqrt{29}}{2}=\prod_{n=0}^\infty\frac{(29n+2)(29n+3)(29n+8)(29n+10)(29n+11)(29n+12)(29n+14)(29n+15)(29n+17)(29n+18)(29n+19)(29n+21)(29n+26)(29n+27)}{(29n+1)(29n+4)(29n+5)(29n+6)(29n+7)(29n+9)(29n+13)(29n+16)(29n+20)(29n+22)(29n+23)(29n+24)(29n+25)(29n+28)}.$$
 
-And that will be the last one because thigns are starting to get hideous.
+And that will be the last one because things are starting to get hideous.
 
 ## Algebraic gamma quotients
 
