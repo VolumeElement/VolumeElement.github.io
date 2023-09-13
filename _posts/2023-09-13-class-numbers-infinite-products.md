@@ -8,23 +8,23 @@ math: True
 pin: False
 ---
 
- Some time ago I was messing around and brewed up a cute little Wallace-type product for the golden ratio,
+Some time ago I was messing around and brewed up a cute little Wallace-type product for the golden ratio,
 
- $$\begin{align*}\phi=\frac{2\cdot3}{1\cdot4}\cdot\frac{7\cdot8}{6\cdot9}\cdot\frac{12\cdot13}{11\cdot14}\cdot\frac{17\cdot18}{16\cdot19}\cdot\frac{22\cdot23}{21\cdot24}\cdots.\tag{1}\end{align*}$$
+$$\begin{align*}\phi=\frac{2\cdot3}{1\cdot4}\cdot\frac{7\cdot8}{6\cdot9}\cdot\frac{12\cdot13}{11\cdot14}\cdot\frac{17\cdot18}{16\cdot19}\cdot\frac{22\cdot23}{21\cdot24}\cdots.\tag{1}\end{align*}$$
 
- At first glance this identity is pretty mundane, but there's something very odd about it &#8212; all of the denominator terms are quadractic residues mod $5$ and all of the numerator terms are quadratic non-residues mod $5$. Perhaps a proof of this product will shed light on why this is happening.
+At first glance this identity is pretty mundane, but there's something very odd about it &#8212; all of the denominator terms are quadractic residues mod $5$ and all of the numerator terms are quadratic non-residues mod $5$. Perhaps a proof of this product will shed light on why this is happening.
 
- **Proof of (1):** We can start with the fact that $2\cos\left(\frac{\pi}{5}\right)=\phi$, which implies $\frac{\sin\left(2\pi/5\right)}{\sin\left(\pi/5\right)}=\phi$. Applying Euler's product for the sine yields
+**Proof of (1):** We can start with the fact that $2\cos\left(\frac{\pi}{5}\right)=\phi$, which implies $\frac{\sin\left(2\pi/5\right)}{\sin\left(\pi/5\right)}=\phi$. Applying Euler's product for the sine yields
 
- $$\begin{align*}\frac{\sin\left(\frac{2\pi}{5} \right )}{\sin\left(\frac{\pi}{5} \right )} &=\frac{\frac{2\pi}{5}\prod_{n=1}^\infty\left(1-\frac{(2\pi/5)^2}{n^2\pi^2} \right )}{\frac{\pi}{5}\prod_{n=1}^\infty\left(1-\frac{(\pi/5)^2}{n^2\pi^2} \right )} \\ &=2\prod_{n=1}^\infty\frac{(5n)^2-4}{(5n)^2-1} \\ &= 2\prod_{n=1}^\infty\frac{(5n+2)(5n-2)}{(5n+1)(5n-1)}\\ &= \prod_{n=0}^\infty\frac{(5n+2)(5n+3)}{(5n+1)(5n+4)}.\qquad\blacksquare\\\end{align*}$$
+$$\begin{align*}\frac{\sin\left(\frac{2\pi}{5} \right )}{\sin\left(\frac{\pi}{5} \right )} &=\frac{\frac{2\pi}{5}\prod_{n=1}^\infty\left(1-\frac{(2\pi/5)^2}{n^2\pi^2} \right )}{\frac{\pi}{5}\prod_{n=1}^\infty\left(1-\frac{(\pi/5)^2}{n^2\pi^2} \right )} \\ &=2\prod_{n=1}^\infty\frac{(5n)^2-4}{(5n)^2-1} \\ &= 2\prod_{n=1}^\infty\frac{(5n+2)(5n-2)}{(5n+1)(5n-1)}\\ &= \prod_{n=0}^\infty\frac{(5n+2)(5n+3)}{(5n+1)(5n+4)}.\qquad\blacksquare\\\end{align*}$$
 
- Nice and easy, but no real insight into why this pattern occurs.
+Nice and easy, but no real insight into why this pattern occurs.
  
- ## A class number formula
+## A class number formula
  
- It was not until much later that I realized this product could be obtained through a special case of the Dirichlet class number formula. Let $\chi(n)=\left(\frac{d}{n}\right)$  where $\left(\frac{d}{n}\right)$ is the Kronecker symbol associated to a real quadratic field $\mathbb{Q}(\sqrt{d})$. Also suppose the shortest period of $\chi(n)$ is a prime $p\equiv1\,(\text{mod}\,4)$, then
+It was not until much later that I realized this product could be obtained through a special case of the Dirichlet class number formula. Let $\chi(n)=\left(\frac{d}{n}\right)$  where $\left(\frac{d}{n}\right)$ is the Kronecker symbol associated to a real quadratic field $\mathbb{Q}(\sqrt{d})$. Also suppose the shortest period of $\chi(n)$ is a prime $p\equiv1\,(\text{mod}\,4)$, then
 
- $$\begin{align*}\sum_{n=1}^\infty\frac{\chi(n)}{n}=-\frac{1}{2\sqrt{p}}\sum_{n=1}^{p-1}\left(\frac{n}{p}\right)\ln\left(\sin\left(\frac{n\pi}{p}\right)\right).\tag{2}\end{align*}$$
+$$\begin{align*}\sum_{n=1}^\infty\frac{\chi(n)}{n}=-\frac{1}{2\sqrt{p}}\sum_{n=1}^{p-1}\left(\frac{n}{p}\right)\ln\left(\sin\left(\frac{n\pi}{p}\right)\right).\tag{2}\end{align*}$$
 
 
 We also have
