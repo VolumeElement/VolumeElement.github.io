@@ -77,7 +77,7 @@ Another way to generalize this is by asking: when is a quotient of gamma functio
 
 $$\frac{\Gamma\left(\frac{1}{24}\right)\Gamma\left(\frac{11}{24}\right)}{\Gamma\left(\frac{5}{24}\right)\Gamma\left(\frac{7}{24}\right)}=\sqrt{3}\sqrt{3+\sqrt{2}}$$
 
-which satisfies $x^4-12x^2+9=0$. Not to my surprise, this was already listed [here on Wolfram](http://mathworld.wolfram.com/GammaFunction.html). Some browsing on stack exchange also turns up [the remarkable identity](https://math.stackexchange.com/questions/3041736/how-to-derive-the-closed-form-of-this-gamma-quotient)
+which satisfies $x^4-12x^2+9=0$. Not to my surprise, this was already listed [on Wolfram](http://mathworld.wolfram.com/GammaFunction.html). Some browsing on stack exchange also turns up [the remarkable identity](https://math.stackexchange.com/questions/3041736/how-to-derive-the-closed-form-of-this-gamma-quotient)
 
 $$\frac{\Gamma\left(\frac{1}{21}\right)\Gamma\left(\frac{4}{21}\right)\Gamma\left(\frac{16}{21}\right)}{\Gamma\left(\frac{2}{21}\right)\Gamma\left(\frac{8}{21}\right)\Gamma\left(\frac{11}{21}\right)}=\sqrt[3]{14+3\sqrt{21}}$$
 
