@@ -12,7 +12,7 @@ Some time ago I was messing around and brewed up a cute little Wallace-type prod
 
 $$\begin{align*}\phi=\frac{2\cdot3}{1\cdot4}\cdot\frac{7\cdot8}{6\cdot9}\cdot\frac{12\cdot13}{11\cdot14}\cdot\frac{17\cdot18}{16\cdot19}\cdot\frac{22\cdot23}{21\cdot24}\cdots.\tag{1}\end{align*}$$
 
-At first glance this identity is pretty mundane, but there's something very odd about it &#8212; all of the denominator terms are quadractic residues mod $5$ and all of the numerator terms are quadratic non-residues mod $5$. Perhaps a proof of this product will shed light on why this is happening.
+At first glance this identity is pretty mundane, but there's something very peculiar about it &#8212; all of the denominator terms are quadractic residues mod $5$ and all of the numerator terms are quadratic non-residues mod $5$. Perhaps a proof of this product will shed light on why this is happening.
 
 **Proof of (1):** We can start with the fact that $2\cos\left(\frac{\pi}{5}\right)=\phi$, which implies $\frac{\sin\left(2\pi/5\right)}{\sin\left(\pi/5\right)}=\phi$. Applying Euler's product for the sine yields
 
