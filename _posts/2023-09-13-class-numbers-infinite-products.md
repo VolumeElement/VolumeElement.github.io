@@ -51,7 +51,7 @@ Using $(3)$ in combination with $\sin(n\pi/p)=\Gamma(n/p)\Gamma(1-n/p)$ and
 
 $$\prod_{m=1}^k\frac{\Gamma(1-b_m)}{\Gamma(1-a_m)}=\prod_{n=1}^\infty\prod_{m=1}^k\frac{n-a_m}{n-b_m}$$
 
-where $b_m\notin\mathbb{N}$ for all $m$ and $\sum_{m=1}^k(a_m-b_m)=0$ lets us quickly churn out a bunch of these products. As a quick note before we proceed, the fundamental unit, $\epsilon=\frac{x_0+y_0\sqrt{d}}{2}$, may be calculated by finding the smaller poitive integer solution $(x_0,\,y_0)$ to $x^2-dy^2=\pm4.$ And we can easily pick out fields wth class number $1$ with any old table.
+where $b_m\notin\mathbb{N}$ for all $m$ and $\sum_{m=1}^k(a_m-b_m)=0$ lets us quickly churn out a bunch of these products. As a quick note before we proceed, the fundamental unit, $\epsilon=\frac{x_0+y_0\sqrt{d}}{2}$, may be calculated by finding the smallest positive integer solution $(x_0,\,y_0)$ to $x^2-dy^2=\pm4.$ And we can easily pick out fields wth class number $1$ with any old table.
 
 ### $\mathbb{Q}(\sqrt{5})$
 
