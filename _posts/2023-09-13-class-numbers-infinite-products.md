@@ -81,4 +81,10 @@ which satisfies $x^4-12x^2+9=0$. Not to my surprise, this was already listed [on
 
 $$\frac{\Gamma\left(\frac{1}{21}\right)\Gamma\left(\frac{4}{21}\right)\Gamma\left(\frac{16}{21}\right)}{\Gamma\left(\frac{2}{21}\right)\Gamma\left(\frac{8}{21}\right)\Gamma\left(\frac{11}{21}\right)}=\sqrt[3]{14+3\sqrt{21}}$$
 
-conjectured by user Wolfgang and proven by pisco by making use of the Gauss multiplication formula for the gamma function.
+conjectured by user Wolfgang and proven by pisco by making use of the Gauss multiplication formula for the gamma function. These idnetities may also be expanded out into the similar infinite products
+
+$$\prod_{n=1}^\infty\frac{(24n+5)(24n+7)}{(24n+1)(24n+11)}=\sqrt{3}\sqrt{3+\sqrt{2}}$$
+
+and
+
+$$\prod_{n=0}^\infty\frac{(21n+2)(21n+8)(21n+11)}{(21n+1)(21n+4)(21n+16)}=\sqrt[3]{14+3\sqrt{21}}.$$
