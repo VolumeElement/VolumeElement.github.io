@@ -50,11 +50,11 @@ or upon removing the exponentials,
 
 $$\frac{\mathrm d}{\mathrm dx}\ln(f(x))+\frac{\mathrm d^2}{\mathrm dx^2}\ln(f(x))=\ln(f(x)).$$
 
-So we may renconsider this as trying to find the soltuion to
+So we can instead find the soltuion to
 
 $$g''(x)+g'(x)-g(x)=0$$
 
-where $g(x)=\ln(f(x))$. We may solve this using the characteristic equation
+where $g(x)=\ln(f(x))$. The characteristic equation for this is
 
 $$r^2+r-1=0$$
 
