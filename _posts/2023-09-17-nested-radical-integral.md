@@ -48,7 +48,7 @@ Now we may integrate using a hyperbolic substitution, $x=\sqrt{3}\sinh(u)/2-1/2$
 
 $$\int\sqrt{1+x+x^2}\,\mathrm dx =\frac{1}{4}(2x+1)\sqrt{1+x+x^2}+\frac{3}{8}\text{arcsinh}\left(\frac{2x+1}{\sqrt{3}}\right)+C.$$
 
-The other integral is done similarly to get,
+The other integral is done similarly to get
 
 $$\int\sqrt{1-x+x^2}\,\mathrm dx =\frac{1}{4}(2x-1)\sqrt{1-x+x^2}+\frac{3}{8}\text{arcsinh}\left(\frac{2x-1}{\sqrt{3}}\right)+C.$$
 
