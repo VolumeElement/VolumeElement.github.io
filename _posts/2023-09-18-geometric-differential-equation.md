@@ -72,16 +72,16 @@ $$f(x)=\exp\left(c_1e^{-\phi x}+c_2e^{-\bar{\phi}x}\right).$$
 
 ## Further reading
 
-The defintion of $f^*(x)$ given in the original problem is the [geometric derivative](https://en.wikipedia.org/wiki/Product_integral). Similarly, there is also a geometric integral given by
+The defintion of $f^*(x)$ given in the original problem is the [geometric derivative](https://en.wikipedia.org/wiki/Product_integral). There is also a geometric integral given by
 
-$$\lim_{\Delta x \to 0} \prod{f(x_i)^{\Delta x}}=\prod_a^b f(x)^{dx}.$$
+$$\lim_{\Delta x \to 0} \prod{f(x_i)^{\Delta x}}=\prod_a^b f(x)^{\mathrm dx}$$
 
-Playing similar games with limits gives a formula in terms of the  Riemann integral
+and playing similar games with limits gives a formula in terms of the  Riemann integral
 
-$$\prod f(x)^{dx}=\exp\left(\int\ln(f(x))\,\mathrm dx\right).$$
+$$\prod f(x)^{\mathrm dx}=\exp\left(\int\ln(f(x))\,\mathrm dx\right).$$
 
 One may also check that
 
-$$\left(\prod f(x)^{dx}\right)^*=f(x)$$
+$$\left(\prod f(x)^{\mathrm dx}\right)^*=f(x)$$
 
 as we'd would hope!
