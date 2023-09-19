@@ -8,7 +8,7 @@ math: True
 pin: False
 ---
 
-Some time ago I was messing around and brewed up a cute little Wallace-type product for the golden ratio,
+Some time ago I was messing around and brewed up a cute little Wallis-type product for the golden ratio,
 
 $$\begin{align*}\phi=\frac{2\cdot3}{1\cdot4}\cdot\frac{7\cdot8}{6\cdot9}\cdot\frac{12\cdot13}{11\cdot14}\cdot\frac{17\cdot18}{16\cdot19}\cdot\frac{22\cdot23}{21\cdot24}\cdots.\tag{1}\end{align*}$$
 
