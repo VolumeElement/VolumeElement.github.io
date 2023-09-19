@@ -84,4 +84,4 @@ One may also check that
 
 $$\left(\prod f(x)^{\mathrm dx}\right)^*=f(x)$$
 
-as we'd would hope!
+as we would hope!
