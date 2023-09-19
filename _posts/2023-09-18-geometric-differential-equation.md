@@ -1,7 +1,7 @@
 ---
 title: A Geometric Differential Equation
 # author: dxdydz
-date: 2023-09-18 18:30:00 -0400
+date: 2023-09-18 18:40:00 -0400
 categories: [Calculus]
 tags: [differential equations, geometric calculus]
 math: True
