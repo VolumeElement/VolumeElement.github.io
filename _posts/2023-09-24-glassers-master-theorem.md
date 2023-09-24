@@ -10,33 +10,13 @@ pin: False
 
  A quick way to make work of some challenging integrals is the following:
 
- > **Galsser's Master Theorem:** Let $f(x)$ be a Riemann integrable function over $(-\infty,\,\infty)$ then
+> **Galsser's Master Theorem:** Let $f(x)$ be a Riemann integrable function over $(-\infty,\,\infty)$ then
+>
 > $$\displaystyle{\int_{-\infty}^\infty f(x)\,\mathrm dx=\int_{-\infty}^\infty f\left(x-\frac{1}{x}\right)\,\mathrm dx.}$$
+>
 > $$\,$$
 
-**Proof:** Start with
-
-$$I=\int_0^\infty f\left(x-\frac{1}{x}\right)\,\mathrm dx$$
-
-and let $x=1/u$ so that
-
-$$I=\int_0^\infty\frac{1}{u^2}f\left(u-\frac{1}{u}\right)\,\mathrm du.$$
-
-Averaging these two expressions for $I$ gives
-
-$$I=\frac{1}{2}\int_0^\infty\left(1+\frac{1}{x^2}\right)f\left(x-\frac{1}{x}\right)\,\mathrm dx.$$
-
-If we make the change of variables $x-1/x\mapsto x$ so that $(1+1/x^2)\,\mathrm dx\mapsto\mathrm dx$ we get
-
-$$\int_0^\infty f(x)\,\mathrm dx=\int_0^\infty f\left(x-\frac{1}{x}\right)\,\mathrm dx.$$
-
-Applying the same argument, but starting with
-
-$$\int_{-\infty}^0 f\left(x-\frac{1}{x}\right)\,\mathrm dx$$
-
-instead yields the desired result
-
-$$\displaystyle{\int_{-\infty}^\infty f(x)\,\mathrm dx=\int_{-\infty}^\infty f\left(x-\frac{1}{x}\right)\,\mathrm dx.\qquad\blacksquare}$$
+**Proof:** It's short, so see Glasser's [original paper](https://www.ams.org/journals/mcom/1983-40-162/S0025-5718-1983-0689471-1/S0025-5718-1983-0689471-1.pdf). $\blacksquare$
 
 ## Example
 
