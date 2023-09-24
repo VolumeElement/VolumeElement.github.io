@@ -30,7 +30,7 @@ $$\begin{align*}J &= \frac{1}{2}\int_{-\infty}^\infty\sin^3\left(x^2+\frac{1}{x^
 
 Upon applying Glasser's Master theorem we have
 
-$$\begin{align*}\int_0^\infty\sin^3\left(x^2+\frac{1}{x^2}\right)\,\mathrm dx &=\frac{1}{2}\int_{-\infty}^\infty\sin^3(x^2+2)\,\mathrm dx\\ &= \frac{1}{4}\int_0^\infty\left(3\sin(x^2+2)-\sin(3x^2+6) \right )\,\mathrm dx \\ 
+$$\begin{align*}\int_0^\infty\sin^3\left(x^2+\frac{1}{x^2}\right)\,\mathrm dx &=\frac{1}{2}\int_{-\infty}^\infty\sin^3(x^2+2)\,\mathrm dx\\ &=\int_0^\infty\sin^3(x^2+2)\,\mathrm dx \\ &= \frac{1}{4}\int_0^\infty\left(3\sin(x^2+2)-\sin(3x^2+6) \right )\,\mathrm dx \\ 
  &=\frac{1}{4}\int_0^\infty\left(3\cos(2)\sin(x^2)+3\sin(2)\cos(x^2)-\cos(6)\sin(3x^2)-\sin(6)\cos(3x^2)\right)\,\mathrm dx \\ 
  &=\frac{3}{8}\sqrt{\frac{\pi}{2}}(\sin(2)+\cos(2))-\frac{1}{8}\sqrt{\frac{\pi}{6}}(\sin(6)+\cos(6)) \end{align*}$$
 
