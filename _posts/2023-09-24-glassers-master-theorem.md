@@ -16,7 +16,7 @@ pin: False
 >
 > $$\,$$
 
-**Proof:** It's short, so see [Glasser's original paper](https://www.ams.org/journals/mcom/1983-40-162/S0025-5718-1983-0689471-1/S0025-5718-1983-0689471-1.pdf). $\blacksquare$
+The proof is rather short and can be seen in [Glasser's original paper](https://www.ams.org/journals/mcom/1983-40-162/S0025-5718-1983-0689471-1/S0025-5718-1983-0689471-1.pdf).
 
 ## Example
 
