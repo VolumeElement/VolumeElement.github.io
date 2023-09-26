@@ -1,7 +1,7 @@
 ---
 title: Glasser's Master Theorem
 # author: dxdydz
-date: 2023-09-24 10:50:00 -0400
+date: 2023-09-24 11:00:00 -0400
 categories: [Calculus]
 tags: [integration]
 math: True
