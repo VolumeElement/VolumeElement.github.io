@@ -72,7 +72,7 @@ which is the mapping of the form
 
 $$\begin{align*}4\int_2^{\alpha'} \omega \cong \int_{\infty}^2\omega\tag{5}\end{align*}$$
 
-described in the previously linked math.se answer. Using this on the leftmost integral in $(4)$ results in
+described in the previously linked math.se page. Using this on the leftmost integral in $(4)$ results in
 
 $$\int_{\alpha'}^\infty\frac{\mathrm dx}{\sqrt{x^3-4x}}=\frac{3}{4}\int_2^\infty\frac{\mathrm dx}{\sqrt{x^3-4x}}.$$
 
