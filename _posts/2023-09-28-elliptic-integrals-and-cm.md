@@ -24,9 +24,9 @@ being an elliptic curve with complex multiplication. Understanding this integral
 
 ## Solution
 
-We begin by transforming the curve
+First we note that $v^2=1+u^4$ has genus $1$ and a rational point $(0,\,1)$, hence it is an elliptic curve. So we may transform the curve
 
-$$v^2=1+u^4$$
+$$E_0/\mathbb{Q}:\,v^2=1+u^4$$
 
 with the mapping
 
@@ -106,7 +106,7 @@ Together with the fact that $n$-isogenies have equivalences of the form given in
 
 $$(x,\,y)\mapsto\left(-x,\,\pm iy\right)$$
 
-so the elliptic curve $v^2=1+u^4$ related to $(1)$ also has complex multiplication (following from the maps provided from Washinton) and fits this heuristic.
+so the elliptic curve $E_0/\mathbb{Q}:\,v^2=1+u^4$ related to $(1)$ also has complex multiplication (following from the maps provided from Washinton) and fits this heuristic.
 
 ## Finding integrals quickly with Sage
 
