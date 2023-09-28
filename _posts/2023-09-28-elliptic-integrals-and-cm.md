@@ -64,7 +64,7 @@ Composing $g$ with itself results in the the rational function
 
 $$g(t)=\frac{(256+1280t^2-416t^4+80t^6+t^8)^2}{16t(t^2-4)(4+t^2)^2(16-24t^2+t^4)^2}$$
 
-that maps $g(2)=\infty$ and $g(\alpha')=2$, this leads us to use the utterly depraved $u$-substitution
+that maps $g(2)=\infty$ and $g(\alpha')=2$. This leads us to use the utterly depraved $u$-substitution
 
 $$\int_2^{\alpha'}\frac{\mathrm dx}{\sqrt{x^3-4x}}=-\frac{1}{4}\int_\infty^2\frac{\mathrm dt}{\sqrt{t^3-4t}},\,x=g(t)$$
 
