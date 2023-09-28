@@ -58,7 +58,7 @@ $$(x,\,y)\mapsto(f_1(x),\,f_2(x)):\,E\rightarrow E$$
 
 to the leftmost integral in $(4)$. The function $f_1(x)$ may be expressed as $f_1(x)=(g\circ g)(x)$ where $g$ corresponds to the change in $x$ coordinate given by the $2$-isogeny or [point doubling](https://en.wikipedia.org/wiki/Elliptic_curve_point_multiplication#Point_addition) formula
 
-$$g(x)=\frac{3x^2-4}{4(x^3-4x)^2}-2x.$$
+$$g(x)=\frac{3x^2-4}{4(x^3-4x)}-2x.$$
 
 Composing $g$ with itself results in the the rational function
 
