@@ -1,7 +1,7 @@
 ---
 title: Elliptic Integrals and CM Elliptic Curves
 # author: dxdydz
-date: 2023-09-28 09:00:00 -0400
+date: 2023-09-28 09:01:00 -0400
 categories: [Number Theory]
 tags: [elliptic curves, complex multiplication, integration, sage, python]
 math: True
@@ -62,11 +62,11 @@ $$g(x)=\frac{3x^2-4}{4(x^3-4x)}-2x.$$
 
 Composing $g$ with itself results in the the rational function
 
-$$g(t)=\frac{(256+1280t^2-416t^4+80t^6+t^8)^2}{16t(t^2-4)(4+t^2)^2(16-24t^2+t^4)^2}$$
+$$f_1(t)=\frac{(256+1280t^2-416t^4+80t^6+t^8)^2}{16t(t^2-4)(4+t^2)^2(16-24t^2+t^4)^2}$$
 
-that maps $g(2)=\infty$ and $g(\alpha')=2$. This leads us to use the utterly depraved $u$-substitution
+that maps $f_1(2)=\infty$ and $f_1(\alpha')=2$. This leads us to use the utterly depraved $u$-substitution
 
-$$\int_2^{\alpha'}\frac{\mathrm dx}{\sqrt{x^3-4x}}=-\frac{1}{4}\int_\infty^2\frac{\mathrm dt}{\sqrt{t^3-4t}},\,x=g(t)$$
+$$\int_2^{\alpha'}\frac{\mathrm dx}{\sqrt{x^3-4x}}=-\frac{1}{4}\int_\infty^2\frac{\mathrm dt}{\sqrt{t^3-4t}},\,x=f_1(t)$$
 
 which is the mapping of the form
 
