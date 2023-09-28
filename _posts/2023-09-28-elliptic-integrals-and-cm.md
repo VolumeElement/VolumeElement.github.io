@@ -52,7 +52,7 @@ and running the command `E = EllipticCurve('64a1'); E.division_polynomial(8).fac
 
 $$\begin{align*}\int_2^{\alpha'}\frac{\mathrm dx}{\sqrt{x^3-4x}}+\int_{\alpha'}^\infty\frac{\mathrm dx}{\sqrt{x^3-4x}}=\int_2^\infty\frac{\mathrm dx}{\sqrt{x^3-4x}}\tag{4}\end{align*}$$
 
-and looking at the factors of $\psi_8(x)$ shows, somewhat unsuprisingly, that $x=2$ is also an element of $E[8]$, the order $8$ division points of $E$. This second observation leads us to ask if there is a multiplication by by $n$ map, in the same style as described by pisco[^2] that turns the point $\alpha'$ into something *simple* and maps another integral bound in $(4)$ to something that is also easy to deal with. After a lot of pondering, the first canidate that came to mind for me is applying a $4$-isogeny
+and looking at the factors of $\psi_8(x)$ shows, somewhat unsuprisingly, that $x=2$ is also an element of $E[8]$, the order $8$ division points of $E$. This second observation leads us to ask if there is a multiplication by by $n$ map, in the same style as described by pisco[^2] that turns the point $\alpha'$ into something *simple* and maps another integral bound in $(4)$ to something that is also easy to deal with. After a lot of pondering, the first canidate that came to mind is applying a $4$-isogeny
 
 $$(x,\,y)\mapsto(f_1(x),\,f_2(x)):\,E\rightarrow E$$
 
