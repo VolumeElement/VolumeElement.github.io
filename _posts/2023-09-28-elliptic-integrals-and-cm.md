@@ -76,7 +76,7 @@ described in the previously linked math.se page. Using this on the leftmost inte
 
 $$\int_{\alpha'}^\infty\frac{\mathrm dx}{\sqrt{x^3-4x}}=\frac{3}{4}\int_2^\infty\frac{\mathrm dx}{\sqrt{x^3-4x}}.$$
 
-The rightmost integral in the above equality is very easy to evaluate in terms of the beta function,
+The righthand integral in the above equality is very easy to evaluate in terms of the beta function,
 
 $$\begin{align*}\int_2^\infty\frac{\mathrm dx}{\sqrt{x^3-4x}} &= \frac{1}{\sqrt{2}}\int_1^\infty\frac{\mathrm dx}{\sqrt{x^3-x}},\,x\mapsto 2x \\
 &=\frac{1}{2\sqrt{2}}\int_0^1 
