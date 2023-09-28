@@ -36,7 +36,7 @@ and its inverse $u=2x/y,\,v=-1+2x^3/y^2$ which takes us to the elliptic curve
 
 $$E/\mathbb{Q}:\,y^2=x^3-4x$$
 
-and back. details of this mapping and how it is found may be found in Washington[^1], pages 37 and 38. This map us the equality
+and back. details of this mapping and how it is found may be found in Washington[^1], pages 37 and 38. This map nets us the equality
 
 $$\begin{align*}\int_0^\alpha \frac{du}{\sqrt{1+u^4}}=\int_{\alpha'}^\infty\frac{\mathrm dx}{\sqrt{x^3-4x}}\tag{3}\end{align*}$$
 
