@@ -12,7 +12,7 @@ A long time ago, I saw [an intriguing question](https://www.tapatalk.com/groups/
 
 $$\begin{align*}\int_0^\alpha \frac{du}{\sqrt{1+u^4}}=\frac{3\Gamma^2\left(\frac{1}{4}\right)}{16\sqrt{\pi}}\tag{1}\end{align*}$$
 
-where $\alpha=\sqrt{1+\sqrt{2}+\sqrt{2+2\sqrt{2}}}$. I played with this problem off and on for a few years but did not make much progress on it other than noting it was a rational multiple of
+where $\alpha=\sqrt{1+\sqrt{2}+\sqrt{2+2\sqrt{2}}}$. I played with this problem off and on for a few years, but as I was unfamiliar with elliptic curves I did not make much progress on it other than noting it was a rational multiple of
 
 $$\int_0^1\frac{1}{\sqrt{1+u^4}}\,\mathrm du=\frac{\Gamma^2\left(\frac{1}{4}\right)}{8\sqrt{\pi}},$$
 
