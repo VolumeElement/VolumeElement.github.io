@@ -106,7 +106,7 @@ Together with the fact that $n$-isogenies have equivalences of the form given in
 
 $$(x,\,y)\mapsto\left(-x,\,\pm iy\right)$$
 
-so the elliptic curve we dealt with to solve $(1)$ fits this heuristic.
+so the elliptic curve $v^2=1+u^4$ related to $(1)$ also has complex multiplication (following from the maps provided from Washinton) and fits this heuristic.
 
 ## Finding integrals quickly with Sage
 
