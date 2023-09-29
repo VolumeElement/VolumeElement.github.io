@@ -68,7 +68,7 @@ that maps $f_1(2)=\infty$ and $f_1(\alpha')=2$. This leads us to use the utterly
 
 $$\int_2^{\alpha'}\frac{\mathrm dx}{\sqrt{x^3-4x}}=-\frac{1}{4}\int_\infty^2\frac{\mathrm dt}{\sqrt{t^3-4t}},\,x=f_1(t)$$
 
-which is the mapping of the form
+which is of the form
 
 $$\begin{align*}4\int_2^{\alpha'} \omega \cong \int_{\infty}^2\omega\tag{5}\end{align*}$$
 
