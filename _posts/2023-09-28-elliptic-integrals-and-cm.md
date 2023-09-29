@@ -20,7 +20,7 @@ which I found to be so strange that I thought it could not be a mere coincidence
 
 $$\begin{align*}E/\mathbb{Q}:\,y^2=x^3-4x\tag{2}\end{align*}$$
 
-being an elliptic curve with complex multiplication. Understanding this integral and how to create similar identities was one of my white whales and it feels great to have caught it.
+being an elliptic curve with [complex multiplication](https://en.wikipedia.org/wiki/Complex_multiplication). Understanding this integral and how to create similar identities was one of my white whales and it feels great to have caught it.
 
 ## Solution
 
@@ -96,7 +96,7 @@ which is what we had set out to confirm!
 
 ## The Chowla-Selberg formula
 
-Why is it that any of the above integrals have such nice closed forms in terms of gamma functions at all? Let $\omega_E$ be a non-zero differential for $E$ (an elliptic curve with [complex multiplication](https://en.wikipedia.org/wiki/Complex_multiplication)) over the algebraic numbers and let
+Why is it that any of the above integrals have such nice closed forms in terms of gamma functions at all? Let $\omega_E$ be a non-zero differential for $E$ (an elliptic curve with complex multiplication) over the algebraic numbers and let
 
 $$b_k=\sqrt{\pi}\prod_{a=1}^{d-1}\Gamma^{\frac{w\chi(a)}{4h}}\left(\frac{a}{d}\right)$$
 
