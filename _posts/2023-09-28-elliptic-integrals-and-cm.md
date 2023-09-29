@@ -96,7 +96,7 @@ which is what we had set out to confirm!
 
 ## The Chowla-Selberg formula
 
-Why is it that any of the above integrals have such nice closed forms in terms of gamma functions at all? Let $\omega_E=\int\omega$ be a non-zero differential for $E$ (an elliptic curve with [complex multiplication](https://en.wikipedia.org/wiki/Complex_multiplication)) over the algebraic numbers and let
+Why is it that any of the above integrals have such nice closed forms in terms of gamma functions at all? Let $\omega_E$ be a non-zero differential for $E$ (an elliptic curve with [complex multiplication](https://en.wikipedia.org/wiki/Complex_multiplication)) over the algebraic numbers and let
 
 $$b_k=\sqrt{\pi}\prod_{a=1}^{d-1}\Gamma^{\frac{w\chi(a)}{4h}}\left(\frac{a}{d}\right)$$
 
