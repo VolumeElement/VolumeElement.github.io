@@ -36,7 +36,7 @@ and its inverse $u=2x/y,\,v=-1+2x^3/y^2$ which takes us to the elliptic curve
 
 $$E/\mathbb{Q}:\,y^2=x^3-4x$$
 
-and back. Details on this mapping and how it generalizes may be seen in Washington[^1], pages 37 and 38. This map nets us the equality
+and back. Details on this mapping and how it generalizes may be seen in Washington, pages 37 and 38.[^1] This map nets us the equality
 
 $$\begin{align*}\int_0^\alpha \frac{du}{\sqrt{1+u^4}}=\int_{\alpha'}^\infty\frac{\mathrm dx}{\sqrt{x^3-4x}}\tag{3}\end{align*}$$
 
@@ -56,9 +56,9 @@ and looking at the factors of $\psi_8(x)$ shows, somewhat unsuprisingly, that $x
 
 $$(x,\,y)\mapsto(f_1(x),\,f_2(x)):\,E\rightarrow E$$
 
-to the leftmost integral in $(4)$. The function $f_1(x)$ may be expressed as $f_1(x)=(g\circ g)(x)$ where $g$ corresponds to the change in $x$ coordinate given by the $2$-isogeny or [point doubling](https://en.wikipedia.org/wiki/Elliptic_curve_point_multiplication#Point_addition) formula
+to the leftmost integral in $(4)$. The function $f_1(x)$ may be expressed as $f_1(x)=(g\circ g)(x)$ where $g$ corresponds to the change in $x$ coordinate given by the $2$-isogeny or [point doubling formula](https://en.wikipedia.org/wiki/Elliptic_curve_point_multiplication#Point_addition)
 
-$$g(x)=\frac{(3x^2-4)^2}{4(x^3-4x)}-2x.$$
+$$g(x)=\frac{(3x^2-4)^2 }{4(x^3-4x)}-2x.$$
 
 Composing $g$ with itself results in the the rational function
 
@@ -72,7 +72,7 @@ which is the mapping of the form
 
 $$\begin{align*}4\int_2^{\alpha'} \omega \cong \int_{\infty}^2\omega\tag{5}\end{align*}$$
 
-described in the previously linked math.se page. Using this on the leftmost integral in $(4)$ results in
+described in the previously referenced math.se page. Using this on the leftmost integral in $(4)$ results in
 
 $$\int_{\alpha'}^\infty\frac{\mathrm dx}{\sqrt{x^3-4x}}=\frac{3}{4}\int_2^\infty\frac{\mathrm dx}{\sqrt{x^3-4x}}.$$
 
@@ -106,7 +106,7 @@ Together with the fact that $n$-isogenies have equivalences of the form given in
 
 $$(x,\,y)\mapsto\left(-x,\,\pm iy\right)$$
 
-so the elliptic curve $E_0/\mathbb{Q}:\,v^2=1+u^4$ related to $(1)$ also has complex multiplication (following from the maps provided from Washinton) and fits this heuristic.
+so the elliptic curve $E_0/\mathbb{Q}:\,v^2=1+u^4$ related to $(1)$ also has complex multiplication (following from the maps provided from Washington) and fits this heuristic.
 
 ## Finding integrals quickly with Sage
 
