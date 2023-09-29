@@ -100,7 +100,7 @@ Why is it that any of the above integrals have such nice closed forms in terms o
 
 $$b_k=\sqrt{\pi}\prod_{a=1}^{d-1}\Gamma^{\frac{w\chi(a)}{4h}}\left(\frac{a}{d}\right)$$
 
-where $\chi$ is the Dirichlet character modulo $d$ associated to $k$, $h$ is the class number of $k$, and $w$ is the order of the group of units of $k$. Chowla and Selberg showed that the ratio $\omega_E/b_k$ is always an algebraic number.[^3] So we see that integrals of the form $\int\omega$ which yield periods of elliptic curves are expressable as a quotient of gamma functions times an element of $\bar{\mathbb{Q}}$.
+where $\chi$ is the Dirichlet character modulo $d$ associated to $k$, $h$ is the class number of $k$, and $w$ is the order of the group of units of $k$. Chowla and Selberg showed that the ratio $\omega_E/b_k$ is always an algebraic number.[^3] So we see that integrals of the form $\int\omega$ which yield periods of CM elliptic curves are expressable as a quotient of gamma functions times an element of $\bar{\mathbb{Q}}$.
 
 Together with the fact that $n$-isogenies have equivalences of the form given in $(5)$ up to an element of $H_1(E,\mathbb{Z})$ it should be of no suprise that any integral equivalent to a period under some isogeny should be expressable in terms of gamma functions. And just as a sanity check, the elliptic curve in $(2)$ does indeed have complex multiplication by the maps
 
