@@ -110,7 +110,7 @@ so the elliptic curve $E_0/\mathbb{Q}:\,v^2=1+u^4$ related to $(1)$ also has com
 
 ## Finding integrals quickly with Sage
 
-Using Sagemath (and on occasion the Chowla-Selberg formula) we can quickly calculate find canidate bounds for elliptic integrals. As done before, we can pick a CM elliptic curve by its [Cremona label](https://www.lmfdb.org/knowledge/show/ec.q.cremona_label), run the command `E = EllipticCurve(<cremona label>)`, then use `E.division_polynomial(n)` to produce the $n$th division polynomial to pick possible $x$ values from. Doing so, one can produce a multitude of identitites similar to that which we have already seen.
+Using Sagemath (and on occasion the Chowla-Selberg formula) we can quickly calculate canidate bounds for elliptic integrals. As done before, we can pick a CM elliptic curve by its [Cremona label](https://www.lmfdb.org/knowledge/show/ec.q.cremona_label), run the command `E = EllipticCurve(<cremona label>)`, then use `E.division_polynomial(n).factor()` to produce the $n$th division polynomial to pick possible $x$ values from. Doing so, one can produce a multitude of identitites similar to that which we have already seen.
 
 $$\int _\alpha^\infty\frac{\mathrm dx}{\sqrt{x^3-x}}=\frac{\Gamma^2\left(\frac{1}{4} \right )}{3\sqrt{2\pi}},\,\alpha=\sqrt{1+\frac{2\sqrt{3}}{3}}$$
 
