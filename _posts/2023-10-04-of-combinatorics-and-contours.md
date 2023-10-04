@@ -3,7 +3,7 @@ title: Of Combinatorics and Contours
 # author: dxdydz
 date: 2023-10-04 11:00:00 -0400
 categories: [Calculus]
-tags: [integration, infinite series, contour integrals, combinatorics]
+tags: [integration, infinite series, contour integration, combinatorics]
 math: True
 pin: False
 ---
