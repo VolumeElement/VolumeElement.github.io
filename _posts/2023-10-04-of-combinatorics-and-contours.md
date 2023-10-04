@@ -1,7 +1,7 @@
 ---
 title: On Combinatorics and Contours
 # author: dxdydz
-date: 2023-10-04 10:50:00 -0400
+date: 2023-10-04 11:00:00 -0400
 categories: [Calculus]
 tags: [integration, infinite series, contour integrals, combinatorics]
 math: True
