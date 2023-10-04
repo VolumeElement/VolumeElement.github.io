@@ -1,5 +1,5 @@
 ---
-title: On Combinatorics and Contours
+title: Of Combinatorics and Contours
 # author: dxdydz
 date: 2023-10-04 11:00:00 -0400
 categories: [Calculus]
