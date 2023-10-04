@@ -4,6 +4,7 @@ title: On Combinatorics and Contours
 date: 2023-10-04 10:50:00 -0400
 categories: [Calculus]
 tags: [integration, infinite series, contour integrals, combinatorics]
+math: True
 pin: False
 ---
 
