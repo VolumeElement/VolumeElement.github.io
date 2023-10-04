@@ -66,7 +66,7 @@ $$\binom{n}{k}=0\;\text{if}\;k>n$$
 
 and [Binet's formula](https://en.wikipedia.org/wiki/Fibonacci_sequence#Closed-form_expression). Let $\phi=(1+\sqrt{5})/2$ and $\bar{\phi}=(1-\sqrt{5})/2$, then
 
-$$\begin{align*}\sum_{k=0}^n\binom{n+k}{2k} &=\sum_{k=0}^\infty\binom{n+k}{2k} \\  &=\sum_{k=0}^\infty\frac{1}{2\pi i}\oint_C\frac{(1+z)^{n+k}}{z^{2k+1}}\,\mathrm dz \\  &=\frac{1}{2\pi i}\oint_C\frac{(1+z)^n}{z}\sum_{k=0}^\infty\left(\frac{1+z}{z^2}\right)^k\,\mathrm dz \\  &=\frac{1}{2\pi i}\oint_C\frac{z(1+z)^n}{z^2-z-1}\,\mathrm dz, \\ &\qquad\text{where }C\text{ encirlces the poles at }\phi\text{ and }\bar{\phi} \\ &=\frac{1}{2\pi i}\oint_C\frac{z(1+z)^n}{(z-\phi)(z-\bar{\phi})}\,\mathrm dz \\  &=\frac{\phi(1+\phi)^n}{\phi-\bar{\phi}}+\frac{\bar{\phi}(1+\bar{\phi})^n}{\bar{\phi}-\phi} \\  &=\frac{\phi(1+\phi)^n-\bar{\phi}(1+\bar{\phi})^n}{\sqrt{5}} \\  &=\frac{\phi\cdot\phi^{2n}-\bar{\phi}\cdot\bar{\phi}^{2n}}{\sqrt{5}} \\  &=F_{2n+1} \end{align*}$$
+$$\begin{align*}\sum_{k=0}^n\binom{n+k}{2k} &=\sum_{k=0}^\infty\binom{n+k}{2k} \\  &=\sum_{k=0}^\infty\frac{1}{2\pi i}\oint_C\frac{(1+z)^{n+k}}{z^{2k+1}}\,\mathrm dz \\  &=\frac{1}{2\pi i}\oint_C\frac{(1+z)^n}{z}\sum_{k=0}^\infty\left(\frac{1+z}{z^2}\right)^k\,\mathrm dz \\  &=\frac{1}{2\pi i}\oint_C\frac{z(1+z)^n}{z^2-z-1}\,\mathrm dz, \\ &\qquad\text{where }C\text{ encircles the poles at }\phi\text{ and }\bar{\phi} \\ &=\frac{1}{2\pi i}\oint_C\frac{z(1+z)^n}{(z-\phi)(z-\bar{\phi})}\,\mathrm dz \\  &=\frac{\phi(1+\phi)^n}{\phi-\bar{\phi}}+\frac{\bar{\phi}(1+\bar{\phi})^n}{\bar{\phi}-\phi} \\  &=\frac{\phi(1+\phi)^n-\bar{\phi}(1+\bar{\phi})^n}{\sqrt{5}} \\  &=\frac{\phi\cdot\phi^{2n}-\bar{\phi}\cdot\bar{\phi}^{2n}}{\sqrt{5}} \\  &=F_{2n+1} \end{align*}$$
 
 as was desired.
 
