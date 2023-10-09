@@ -124,7 +124,7 @@ $$\int_0^2 \frac{\mathrm dx}{\sqrt{x^3+1}}=\frac{\Gamma^3\left(\frac{1}{3}\right
 
 $$\int_0^\alpha\frac{\mathrm dx}{\sqrt{x-x^3}} = \frac{\Gamma^2\left(\frac{1}{4}\right)}{5\sqrt{2\pi}},\,\alpha=\sqrt{6\sqrt{5}-13-2\sqrt{85-38\sqrt{5}}}$$
 
-$$\int_\alpha^1\frac{\mathrm dx}{\sqrt{x-x^3}} = \frac{\Gamma^2\left(\frac{1}{4}\right)}{3\sqrt{2\pi}},\,\alpha=1+\sqrt{3}-\sqrt{3+2\sqrt{3}}$$
+$$\int_0^\alpha\frac{\mathrm dx}{\sqrt{x-x^3}} = \frac{\Gamma^2\left(\frac{1}{4}\right)}{6\sqrt{2\pi}},\,\alpha=1+\sqrt{3}-\sqrt{3+2\sqrt{3}}$$
 
 $$\int_0^{\sqrt{2}} \frac{\mathrm dx}{\sqrt{x^3+3x^2+2x}} = \frac{\Gamma^2\left(\frac{1}{4}\right)}{4\sqrt{2\pi}}$$
 
