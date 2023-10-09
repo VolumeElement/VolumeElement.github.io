@@ -130,11 +130,11 @@ $$\int_0^{1/7}\frac{\mathrm dx}{\sqrt{x-35x^3-98x^4}}=\frac{\Gamma\left(\frac{1}
 
 $$\int_0^\alpha\frac{\mathrm dx}{\sqrt{x-35x^3-98x^4}}=\frac{\Gamma\left(\frac{1}{7}\right)\Gamma\left(\frac{2}{7}\right)\Gamma\left(\frac{4}{7}\right)}{8\pi\sqrt{7}},\,\alpha=\frac{4\sqrt{7}}{63}-\frac{1}{9}$$
 
-$$\int_0^{4\sqrt{7}}\frac{\mathrm dx}{\sqrt{x^3+21x^2+112x}}=\frac{\Gamma\left(\frac{1}{7}\right)\Gamma\left(\frac{2}{7}\right)\Gamma\left(\frac{4}{7}\right)}{8\pi\sqrt{7}}$$
-
 $$\int_0^\alpha\frac{\mathrm dx}{\sqrt{x-35x^3-98x^4}}=\frac{\Gamma\left(\frac{1}{7}\right)\Gamma\left(\frac{2}{7}\right)\Gamma\left(\frac{4}{7}\right)}{6\pi\sqrt{7}},\,\alpha=\frac{\sqrt{\frac{7}{3}}}{3+\sqrt{6+3\sqrt{21}}}$$
 
 $$\int_0^\alpha\frac{\mathrm dx}{\sqrt{x-35x^3-98x^4}}=\frac{\Gamma\left(\frac{1}{7}\right)\Gamma\left(\frac{2}{7}\right)\Gamma\left(\frac{4}{7}\right)}{12\pi\sqrt{7}},\,\alpha=-\frac{7}{47}+\frac{6}{47}\sqrt{\frac{3}{7}}+\frac{1}{2}\sqrt{\frac{416}{2209}\sqrt{\frac{3}{7}}-\frac{1392}{15463}}$$
+
+$$\int_0^{4\sqrt{7}}\frac{\mathrm dx}{\sqrt{x^3+21x^2+112x}}=\frac{\Gamma\left(\frac{1}{7}\right)\Gamma\left(\frac{2}{7}\right)\Gamma\left(\frac{4}{7}\right)}{8\pi\sqrt{7}}$$
 
 ## References
 
