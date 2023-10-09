@@ -112,13 +112,13 @@ so the elliptic curve $E_0/\mathbb{Q}:\,v^2=u^4+1$ related to $(1)$ also has com
 
 Using Sagemath (and on occasion the Chowla-Selberg formula) we can quickly calculate canidate bounds for elliptic integrals. As done before, we can pick a CM elliptic curve by its [Cremona label](https://www.lmfdb.org/knowledge/show/ec.q.cremona_label), run the command `E = EllipticCurve(<cremona label>)`, then use `E.division_polynomial(n).factor()` to produce the $n$th division polynomial to pick possible $x$ values from. Doing so, one can produce a multitude of identitites similar to that which we have already seen.
 
-$$\int _0^\alpha\frac{\mathrm dx}{\sqrt{x-x^3}}=\frac{\Gamma^2\left(\frac{1}{4} \right )}{3\sqrt{2\pi}},\,\alpha=\sqrt{2\sqrt{3}-3}$$
-
 $$\int_0^\alpha \frac{\mathrm dx}{\sqrt{1+x^3}}=\frac{2\Gamma^3\left(\frac{1}{3}\right)}{5\pi\sqrt{3}\sqrt[3]{2}},\,\alpha=\sqrt[3]{9\sqrt{5}-19+3\sqrt{78-\frac{174}{\sqrt{5}}}}$$
 
 $$\int_0^{\sqrt{3}-1} \frac{\mathrm dx}{\sqrt{1+x^3}}=\frac{\Gamma^3\left(\frac{1}{3}\right)}{4\pi\sqrt{3}\sqrt[3]{2}}$$
 
 $$\int_0^2 \frac{\mathrm dx}{\sqrt{1+x^3}}=\frac{\Gamma^3\left(\frac{1}{3}\right)}{2\pi\sqrt{3}\sqrt[3]{2}}$$
+
+$$\int _0^\alpha\frac{\mathrm dx}{\sqrt{x-x^3}}=\frac{\Gamma^2\left(\frac{1}{4} \right )}{3\sqrt{2\pi}},\,\alpha=\sqrt{2\sqrt{3}-3}$$
 
 $$\int_0^\alpha\frac{\mathrm dx}{\sqrt{x-x^3}} = \frac{\Gamma^2\left(\frac{1}{4}\right)}{5\sqrt{2\pi}},\,\alpha=\sqrt{6\sqrt{5}-13-2\sqrt{85-38\sqrt{5}}}$$
 
