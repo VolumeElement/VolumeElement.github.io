@@ -56,7 +56,7 @@ and looking at the factors of $\psi_8(x)$ shows, somewhat unsuprisingly, that $x
 
 $$(x,\,y)\mapsto(f_1(x),\,f_2(x)):\,E\rightarrow E$$
 
-to the leftmost integral in $(4)$. The function $f_1(x)$ may be expressed as $f_1(x)=(g\circ g)(x)$ where $g$ corresponds to the change in $x$ coordinate given by the $2$-isogeny or [point doubling formula](https://en.wikipedia.org/wiki/Elliptic_curve_point_multiplication#Point_addition)
+to the leftmost integral in $(4)$. The function $f_1(x)$ may be expressed as $f_1(x)=g\circ g(x)$ where $g$ corresponds to the change in $x$ coordinate given by the $2$-isogeny or [point doubling formula](https://en.wikipedia.org/wiki/Elliptic_curve_point_multiplication#Point_addition)
 
 $$g(x)=\frac{(3x^2-4)^2 }{4(x^3-4x)}-2x.$$
 
