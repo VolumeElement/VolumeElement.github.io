@@ -32,7 +32,7 @@ After cancelling this is
 
 $$\exp\left(\frac{1}{n+1}\sum_{k=1}^{n+1}\ln\left(\frac{k}{n+1}\right)\right)<\sqrt[n+1]{(n+1)!}-\sqrt[n]{n!}<\exp\left(\frac{1}{n}\sum_{k=1}^{n}\ln\left(\frac{k}{n}\right)\right)$$
 
-But we've already noted these Riemann sums converge to $-1$, so by the squeeze theorem we must have
+and we've already noted these Riemann sums converge to $-1$, so by the squeeze theorem we must have
 
 $$\lim_{n\to\infty}\left(\sqrt[n+1]{(n+1)!}-\sqrt[n]{n!}\right)=\frac{1}{e}$$
 
