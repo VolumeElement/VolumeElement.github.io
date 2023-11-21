@@ -3,7 +3,7 @@ title: Elliptic Integrals and CM Elliptic Curves
 # author: dxdydz
 date: 2023-09-28 09:01:00 -0400
 categories: [Number Theory]
-tags: [elliptic curves, complex multiplication, integration, sage, python]
+tags: [elliptic curves, complex multiplication, integration, elliptic integrals, sage, python]
 math: True
 pin: False
 ---
