@@ -68,7 +68,7 @@ $$\int_0^{\sqrt{1+\sqrt{2}+\sqrt{2+2\sqrt{2}}}}\frac{\mathrm dx}{\sqrt{1+x^4}}\B
 
 This quotinet of integrals should have good applications in [nerd sniping](https://xkcd.com/356/).
 
-<center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/Kurisu_Elliptic_Integral_Meme.png"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/Kurisu_Elliptic_Integral_Meme.png" alt="centered image" height="auto" width="450" title="source: github.com" /></a></center>
+<center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/Kurisu_Elliptic_Integral_Meme_2.png><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/Kurisu_Elliptic_Integral_Meme_2.png" alt="centered image" height="auto" width="450" title="source: github.com" /></a></center>
 
 ## References
 
