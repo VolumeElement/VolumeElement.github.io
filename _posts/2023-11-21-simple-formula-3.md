@@ -66,7 +66,7 @@ To derive $(2)$ first note that $\int_0^1\frac{\mathrm dx}{\sqrt{1+x^4}}=\Gamma^
 
 $$\int_0^{\sqrt{1+\sqrt{2}+\sqrt{2+2\sqrt{2}}}}\frac{\mathrm dx}{\sqrt{1+x^4}}\Bigg/\int_0^{\sqrt{1+\sqrt{2}-\sqrt{2+2\sqrt{2}}}}\frac{\mathrm dx}{\sqrt{1+x^4}}=3$$
 
-This quotinet of integrals should have good applications in [nerd sniping](https://xkcd.com/356/).
+This quotient of integrals should have good applications in [nerd sniping](https://xkcd.com/356/).
 
 <center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/Kurisu_Elliptic_Integral_Meme_2.png"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/Kurisu_Elliptic_Integral_Meme_2.png" alt="centered image" height="auto" width="450" title="source: github.com" /></a></center>
 
