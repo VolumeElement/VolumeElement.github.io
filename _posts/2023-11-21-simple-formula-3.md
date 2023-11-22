@@ -62,7 +62,7 @@ Integrating on the appropriate interval then yields Fagnano's theorem. $\blacksq
 
 This can be easily shown by letting $x\mapsto e^{i\pi/4}x$ in Fagnano's theorem. $\blacksquare$
 
-To derive $(2)$ first note that $\int_0^1\frac{\mathrm dx}{\sqrt{1+x^4}}=\Gamma^3(1/4)/8$ (which can be proven using the [beta function](https://en.wikipedia.org/wiki/Beta_function)). Second, we let $t=1$ then solve for $s$, from which we find that $s=\beta$. As a consequence, we get an absurd expression for $3$ that only uses the numbers $0,\,1,\,2,$ and $4$.
+To derive $(2)$ first let $t=1$ then solve for $s$, from which we find that $s=\beta$. Then we can show $\int_0^1\frac{\mathrm dx}{\sqrt{1+x^4}}=\Gamma^3(1/4)/8$ (which can be proven using the [beta function](https://en.wikipedia.org/wiki/Beta_function)). As a consequence, we get an absurd expression for $3$ that only uses the numbers $0,\,1,\,2,$ and $4$.
 
 $$\int_0^{\sqrt{1+\sqrt{2}+\sqrt{2+2\sqrt{2}}}}\frac{\mathrm dx}{\sqrt{1+x^4}}\Bigg/\int_0^{\sqrt{1+\sqrt{2}-\sqrt{2+2\sqrt{2}}}}\frac{\mathrm dx}{\sqrt{1+x^4}}=3$$
 
