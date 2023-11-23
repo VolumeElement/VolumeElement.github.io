@@ -20,9 +20,9 @@ where $\beta=\sqrt{1+\sqrt{2}-\sqrt{2+2\sqrt{2}}}$, which actually ends up being
 
 ## Proof
 
-We start by proving the following, which is due to Fagnano.[^1]
+We start by proving the following,
 
-> **Fagnano's lemniscatic doubling theorem:**
+> **Fagnano's lemniscatic doubling theorem:**[^1]
 >
 > Let $0<s<\sqrt{\sqrt{2}-1}$, then
 >
@@ -48,7 +48,7 @@ therefore
 
 $$\frac{\mathrm dt}{\sqrt{1-t^4(s)}}=2\frac{\mathrm ds}{\sqrt{1-s^4}}.$$
 
-Integrating on the appropriate interval then yields Fagnano's theorem. $\blacksquare$
+Integrating on the appropriate interval then yields the theorem. $\blacksquare$
 
 > **Corollary:**
 >
