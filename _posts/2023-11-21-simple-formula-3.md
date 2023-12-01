@@ -26,7 +26,7 @@ We start by proving the following,
 >
 > Let $0<s<\sqrt{\sqrt{2}-1}$, then
 >
-> $$\displaystyle{2\int_0^s\frac{\mathrm dx}{\sqrt{1-x^4}}=\int_0^s\frac{\mathrm dx}{\sqrt{1-x^4}}=\int_0^t\frac{\mathrm dx}{\sqrt{1-x^4}}}$$
+> $$\displaystyle{2\int_0^s\frac{\mathrm dx}{\sqrt{1-x^4}}=\int_0^t\frac{\mathrm dx}{\sqrt{1-x^4}}}$$
 >
 > where
 >
