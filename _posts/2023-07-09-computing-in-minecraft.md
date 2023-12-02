@@ -14,7 +14,7 @@ In July of 2010 I was introduced to Minecraft by a friend and he showed me a red
 
 The fundamental redstone components, other than basic building blocks, are redstone dust and the redstone torch. Dust is used to carry signals and the redstone torch has the ability to invert signals, the simplest device that demostrates this is the NOT gate,
 
-<center><a href="https://imgur.com/l6xtdBv"><img src="https://i.imgur.com/l6xtdBv.gif" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
+<center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/NOT.gif"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/NOT.gif" alt="centered image" height="auto" width="400" title="source: github.com" /></a></center>
 
 which is a logic gate that outputs $0$ when it receives a $1$, and outputs a $1$ when it receives a $0$. Wiring these simple gates together with multiple inputs forms the basis of the most common logic gate designs that could be found in Minecraft Alpha.
 
@@ -22,13 +22,13 @@ which is a logic gate that outputs $0$ when it receives a $1$, and outputs a $1$
 
 The AND gate only outputs a $1$ when both of its inputs are $1\text{s}$.
 
-<center><a href="https://imgur.com/fSsBDq4"><img src="https://i.imgur.com/fSsBDq4.gif" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
+<center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/AND.gif"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/AND.gif" alt="centered image" height="auto" width="400" title="source: github.com" /></a></center>
 
 ### XOR gate
 
 The XOR gate (short for exclusive or) will only output a $1$ if only one of its inputs is a $1$.
 
-<center><a href="https://imgur.com/aCp6J4u"><img src="https://i.imgur.com/aCp6J4u.gif" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
+<center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/XOR.gif"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/XOR.gif" alt="centered image" height="auto" width="400" title="source: github.com" /></a></center>
 
 These gates, and others, can be combined in ways that preform calculations and fascilitate the storage of data.
 
@@ -45,21 +45,21 @@ The first ALU I constructed was a 4 bit machine which could preform a variety of
 * logical AND, OR, and XOR
 * invert any output with NOT
 
-<center><a href="https://imgur.com/a/Czx8gY7"><img src="https://i.imgur.com/Y376rwy.png" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
+<center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ALU1.png"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ALU1.png" alt="centered image" height="auto" width="400" title="source: github.com" /></a></center>
 
 and had a simple interface that I intended to hook up to other fundamental computer components. This ALU was supposed to be the mathematical heart of my first computer design, but I never finished it as I had moved on to larger projects.
 
-<center><a href="https://imgur.com/a/Czx8gY7"><img src="https://i.imgur.com/aLEanPn.png" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
+<center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/interface.png"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/interface.png" alt="centered image" height="auto" width="400" title="source: github.com" /></a></center>
 
 ### Memory and timing
 
 Now that I had the ability to do basic calcualtions, I needed a way to store and retrieve results. The simplest way to do this is by use of an RS NOR latch
 
-<center><a href="https://imgur.com/a/dweOiVs"><img src="https://i.imgur.com/0IR10EK.png" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
+<center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/latch.png"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/latch.png" alt="centered image" height="auto" width="400" title="source: github.com" /></a></center>
 
  and I ended up testing the best ways to organize these and settled on a verticle design to make efficient use of rendered space. However, pistons were also released around this time and I ended up using those to store data instead.
 
- <center><a href="https://imgur.com/a/dweOiVs"><img src="https://i.imgur.com/abD7YF3.png" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
+ <center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/tower.png"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/tower.png" alt="centered image" height="auto" width="400" title="source: github.com" /></a></center>
 
  In front of the above memory tower is the first program counter I designed. The program counter is responsible for reading lines of the program stored in ROM, and managing the computation cycle. For me this was the most challenging part of a computer to design, as it needs to be efficient and accurate, it must be quick but not too quick, as data takes time to travel through the whole machine, so if it were too fast data would not make it to its destination.
 
@@ -71,7 +71,7 @@ My second design for a Minecraft computer was the first one that I finished asse
 * 10 memory addresses
 * 32 lines of ROM to write code in.
 
- <center><a href="https://imgur.com/a/iG3YnNc"><img src="https://i.imgur.com/mqbX3Gb.png" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
+ <center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/comp1.png"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/comp1.png" alt="centered image" height="auto" width="400" title="source: github.com" /></a></center>
 
  With a greater render distance on a better (real) computer, I no longer had to stack my memory vertically, which reduced the pain of wiring it up. The main drawback of this redstone computer is that it was extremely slow, I needed something faster.
 
@@ -79,7 +79,7 @@ My second design for a Minecraft computer was the first one that I finished asse
 
 My third and final* Minecraft computer is an 8-bit machine and a signifigant improvement on my previous designs in terms of speed, amount of RAM, amount of ROM, ALU functionality, and instruction size.
 
- <center><a href="https://imgur.com/XjsGE5j"><img src="https://i.imgur.com/XjsGE5j.gif" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
+ <center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/above.gif"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/above.gif" alt="centered image" height="auto" width="400" title="source: github.com" /></a></center>
 
  The above image shows a complete computation cycle in a program that computes Fibonacci numbers (described further below); here is a [labeled image](https://i.imgur.com/lqbnTHk.png) of the machine to give a better idea of what is going on. Another huge upgrade this machine has is a pair of two digit hexadecimal displays instead of a binary readout (which is what my second computer has).
 
@@ -91,7 +91,7 @@ My third and final* Minecraft computer is an 8-bit machine and a signifigant imp
 
 The RAM consists of 16 memory addresses, each of which can store one 8-bit number. The memory works by storing information in piston states, which relies on [BUD switches](https://minecraft.fandom.com/wiki/Tutorials/Block_update_detector).
 
- <center><a href="https://imgur.com/P0LDSoL"><img src="https://i.imgur.com/P0LDSoL.gif" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
+ <center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/RAM.gif"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/RAM.gif" alt="centered image" height="auto" width="400" title="source: github.com" /></a></center>
 
  This image shows writing the number $11101001$ to RAM address 3. This is the second instruction my machine executes in its Fibonacci program. Every time the machine adds two numbers together, it checks to see if the result is greater than or equal to this $11101001$, as this is the largest Fibonacci number the machine can hold before it overflows.
 
@@ -109,13 +109,13 @@ The ALU has two memory registers and capable of
 
 Here two numbers are being added togther. Some chaotic looking flashing can be seen on the right as the carries on the full adders propagate.
 
- <center><a href="https://imgur.com/nyqKzaY"><img src="https://i.imgur.com/nyqKzaY.gif" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
+ <center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ALU.gif"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ALU.gif" alt="centered image" height="auto" width="400" title="source: github.com" /></a></center>
 
 ### Program counter
 
 The program counter's job is to read through the ROM line by line, and execute jumps for branches in the program. These jumps rely on comparisons of values in the ALU's registers, as mentioned before.
 
- <center><a href="https://imgur.com/fGs64pE"><img src="https://i.imgur.com/fGs64pE.gif" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
+ <center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/PC.gif"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/PC.gif" alt="centered image" height="auto" width="400" title="source: github.com" /></a></center>
 
  In the Fibonacci program, at the end of the computation cycle for ROM line $001111$, the machine checks if the most recent result from the addition step is greater than or equal to $11101001$ (the largest Fibonacci number that can be stored in 8 bits). Here the result was less than the aformentioned number, so it jumps back to line $000011$ and continues its loop.
 
@@ -123,7 +123,7 @@ The program counter's job is to read through the ROM line by line, and execute j
 
 There are 64 lines of program memory available to code in.
 
-<center><a href="https://imgur.com/RvrczwC"><img src="https://i.imgur.com/RvrczwC.gif" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
+<center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ROM.gif"><img src="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/ROM.gif" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
 
 The program is stored as rows of torches in a large grid. Here we see the program advance forward one line of code. The red region is the 'read from' address.
 White is the 'write to' address.
