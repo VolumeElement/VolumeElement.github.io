@@ -1,7 +1,7 @@
 ---
 title: Computing in Minecraft
 # author: dxdydz
-date: 2023-07-09 16:10:00 -0400
+date: 2023-12-02 08:00:00 -0400
 categories: [Computer Science]
 tags: [computer architecture, machine code, digital logic]
 math: True
@@ -79,7 +79,7 @@ My second design for a Minecraft computer was the first one that I finished asse
 
 My third and final* Minecraft computer is an 8-bit machine and a signifigant improvement on my previous designs in terms of speed, amount of RAM, amount of ROM, ALU functionality, and instruction size.
 
- <center><a href="https://imgur.com/XjsGE5j"><img src="https://i.imgur.com/XjsGE5j.gif" alt="centered image" height="auto" width="400" title="source: imgur.com" /></a></center>
+ <center><a href="https://github.com/VolumeElement/VolumeElement.github.io/blob/main/images/above.gif"><img src="https://github.com/VolumeElement/VolumeElement.github.io/blob/main/images/above.gif?raw=true" alt="centered image" height="auto" width="400" title="source: github.com" /></a></center>
 
  The above image shows a complete computation cycle in a program that computes Fibonacci numbers (described further below); here is a [labeled image](https://i.imgur.com/lqbnTHk.png) of the machine to give a better idea of what is going on. Another huge upgrade this machine has is a pair of two digit hexadecimal displays instead of a binary readout (which is what my second computer has).
 
