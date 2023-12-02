@@ -10,7 +10,7 @@ pin: False
 
 It has been known since the time of the Babylonians that it is possible to parametrize Pythagorean triples using a rather simple collection of expressions <code>&#8212;</code>  their understanding of this is recorded on [Plimpton 322](https://en.wikipedia.org/wiki/Plimpton_322). A fantastic geometric derivation of the same parametrization was also discovered later in ancient Greece. Consider a circle of unit radius centered at the origin and a line of rational slope passing through the point $(-1,\,0)$.
 
-<center><a href="https://imgur.com/a/h07jx0w"><img src="https://i.imgur.com/auWDssN.png" alt="centered image" height="auto" width="367" title="source: imgur.com" /></a></center>
+<center><a href="https://github.com/VolumeElement/VolumeElement.github.io/blob/main/images/triples.png"><img src="https://github.com/VolumeElement/VolumeElement.github.io/blob/main/images/triples.png?raw=true" alt="centered image" height="auto" width="367" title="source: github.com" /></a></center>
 
 $$x^2+y^2=1,\,b(x+1)/a=y$$
 
