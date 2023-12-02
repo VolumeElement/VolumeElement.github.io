@@ -1,7 +1,7 @@
 ---
 title: Triangles and Hilbert's Theorem 90
 # author: dxdydz
-date: 2023-07-31 22:30:00 -0400
+date: 2023-12-02 08:15:00 -0400
 categories: [Number Theory]
 tags: [Galois theory, Galois cohomology, field theory, Diophantine equations]
 math: True
