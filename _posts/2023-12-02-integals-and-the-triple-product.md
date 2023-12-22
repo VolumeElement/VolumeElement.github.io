@@ -68,7 +68,7 @@ or written differently,
 
 It's remarkable that if you cube $\phi(x)$, whose corresponding sum contains $x$ to the power of pentagonal numbers, that you get another sum which contains $x$ to the power of triangular numbers.
 
-The last two product to sum idenities we need are comparatively simple, in the triple product we let $z=1$ and see that
+The last two product to sum identities we need are comparatively simple, in the triple product we let $z=1$ and see that
 
 > **Corollary 2:**
 >
