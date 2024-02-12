@@ -1,7 +1,7 @@
 ---
 title: A Simple Formula for 3
 # author: dxdydz
-date: 2024-12-02 15:10:00 -0400
+date: 2024-02-12 15:10:00 -0400
 categories: [Calculus]
 tags: [integration, elliptic integrals]
 math: True
@@ -20,7 +20,7 @@ where $\beta=\sqrt{1+\sqrt{2}-\sqrt{2+2\sqrt{2}}}$, which actually ends up being
 
 ## Proof
 
-We start by proving the following,[^1]
+We start by proving the following,
 
 > **Fagnano's lemniscatic doubling theorem:**
 >
@@ -48,7 +48,7 @@ therefore
 
 $$\frac{\mathrm dt}{\sqrt{1-t^4(s)}}=2\frac{\mathrm ds}{\sqrt{1-s^4}}.$$
 
-Integrating on the appropriate interval then yields the theorem. $\blacksquare$
+Integrating on the appropriate interval then yields the theorem.[^1] $\blacksquare$
 
 > **Corollary:**
 >
