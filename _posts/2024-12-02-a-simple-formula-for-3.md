@@ -1,7 +1,7 @@
 ---
 title: A Simple Formula for 3
 # author: dxdydz
-date: 2024-12-02 14:00:00 -0400
+date: 2024-12-02 15:10:00 -0400
 categories: [Calculus]
 tags: [integration, elliptic integrals]
 math: True
@@ -20,9 +20,9 @@ where $\beta=\sqrt{1+\sqrt{2}-\sqrt{2+2\sqrt{2}}}$, which actually ends up being
 
 ## Proof
 
-We start by proving the following,
+We start by proving the following,[^1]
 
-> **Fagnano's lemniscatic doubling theorem:**[^1]
+> **Fagnano's lemniscatic doubling theorem:**
 >
 > Let $0<s<\sqrt{\sqrt{2}-1}$, then
 >
