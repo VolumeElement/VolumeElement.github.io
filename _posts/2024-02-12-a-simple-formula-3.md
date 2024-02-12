@@ -1,7 +1,7 @@
 ---
-title: An Easy Formula for 3
+title: A Simple Formula for 3
 # author: dxdydz
-date: 2024-02-12 14:15:00 -0400
+date: 2024-02-12 14:10:00 -0400
 categories: [Calculus]
 tags: [integration, elliptic integrals]
 math: True
