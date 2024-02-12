@@ -22,7 +22,7 @@ where $\beta=\sqrt{1+\sqrt{2}-\sqrt{2+2\sqrt{2}}}$, which actually ends up being
 
 We start by proving the following,
 
-> **Fagnano's lemniscatic doubling theorem:** [^1]
+> **Fagnano's lemniscatic doubling theorem:**[^1]
 >
 > Let $0<s<\sqrt{\sqrt{2}-1}$, then
 >
