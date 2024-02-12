@@ -48,7 +48,7 @@ therefore
 
 $$\frac{\mathrm dt}{\sqrt{1-t^4(s)}}=2\frac{\mathrm ds}{\sqrt{1-s^4}}.$$
 
-Integrating on the appropriate interval then yields the theorem.[^1] $\blacksquare$
+Integrating on the appropriate interval then yields the theorem. $\blacksquare$ [^1]
 
 > **Corollary:**
 >
