@@ -45,7 +45,7 @@ The last item in this list is extremely important because it allows us to identi
 
 <center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/search_1.png"><img src="https://github.com/VolumeElement/VolumeElement.github.io/blob/main/images/search_1.png?raw=true" alt="centered image" height="auto" width="" title="source: github.com" /></a></center>
 
-If I wanted to search for multiple terms, I could replace `rings` in the previous command with something like `"rings fields algebra"`. By default, this returns the top 3 matches, this can be changed to get the top N matches by adding the argument `-n N` to the query. And the results yielded from the query in the above image is not bad!
+If I wanted to search for multiple terms, I could replace `rings` in the previous command with something like `"rings fields algebra"`. By default, this returns the top 3 matches, this can be changed to get the top N matches by adding the argument `-n N` to the query. And the results yielded from the query in the above image are not bad!
 
 <center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/search_results_1.png"><img src="https://github.com/VolumeElement/VolumeElement.github.io/blob/main/images/search_results_1.png?raw=true" alt="centered image" height="auto" width="" title="source: github.com" /></a></center>
 
