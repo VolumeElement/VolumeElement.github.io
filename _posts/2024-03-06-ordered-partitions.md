@@ -32,7 +32,7 @@ Note that
 
 $$\left(\sum_{n=1}^\infty nx^n\right)^k$$
 
-is the generating function for the sum of all the ordered products containing $k$ factors we get when starting from $n$. (I.e., the $k\text{th}$ power of this sum associates sums of $k$ numbers in the exponent of $x$ to sums of products of $k$ numbers as the coefficient of $x$.) If we sum over all $k$, by the definition of $S_n$, we get $h(x)$,
+is the generating function for the sum of all the ordered products containing $k$ factors we get when starting from $n$. (I.e., the $k\text{th}$ power of this sum associates a number in an exponent of $x$ to its sums of products of $k$ numbers as the coefficient of $x$.) If we sum over all $k$, by the definition of $S_n$, we get $h(x)$,
 
 $$\begin{align*}h(x) &=\sum_{k=1}^\infty\left(\sum_{n=1}^\infty nx^n\right)^k \\  &=\sum_{k=1}^\infty\left(\frac{x}{(1-x)^2}\right)^k \\  &=\frac{x}{1-3x+x^2}.\end{align*}$$
 
