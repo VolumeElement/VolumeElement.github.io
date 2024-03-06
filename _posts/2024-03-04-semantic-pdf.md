@@ -41,7 +41,7 @@ The last item in this list is extremely important because it allows us to identi
 
 # Using Semantic PDF
 
-[Semantic PDF may be downloaded here](https://github.com/VolumeElement/SemanticPDF) along with detailed instructions for use. As a demonstration of basic use, I downloaded [Keith Conrad's expository papers](https://kconrad.math.uconn.edu/blurbs/) and ran a few searches on them. Processing them did not take as long as I expected (roughly 40 minutes for 246 documents), although with a much larger corpus it would certainly be slow. Here I have entered the command `python semantic_pdf/cli.py search ring` to look for any documents containting any information about rings.
+[Semantic PDF may be downloaded here](https://github.com/VolumeElement/SemanticPDF) along with detailed instructions for use. As a demonstration of basic use, I downloaded [Keith Conrad's expository papers](https://kconrad.math.uconn.edu/blurbs/) and ran a few searches on them. Processing them did not take as long as I expected (roughly 40 minutes for 246 documents), although with a much larger corpus it would certainly be slow. Here I have entered the command `python semantic_pdf/cli.py search ring` to look for any documents containting any information about rings. (Note that the program is initializing as it's the first time it has been rum.)
 
 <center><a href="https://raw.githubusercontent.com/VolumeElement/VolumeElement.github.io/main/images/search_1.png"><img src="https://github.com/VolumeElement/VolumeElement.github.io/blob/main/images/search_1.png?raw=true" alt="centered image" height="auto" width="" title="source: github.com" /></a></center>
 
