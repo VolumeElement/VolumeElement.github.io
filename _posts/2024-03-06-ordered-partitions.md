@@ -8,7 +8,7 @@ math: True
 pin: False
 ---
 
-[A problem](https://youtu.be/iJ8pnCO0nTY?t=2943) posed by Mathologer asks: Pick any positive integer, say $n=4$, then write out all of its ordered partitions
+[A problem](https://youtu.be/iJ8pnCO0nTY?t=2943) given by Mathologer is the following: Pick any positive integer, say $n=4$, then write out all of its ordered partitions
 
 $$\begin{align*}4 &=4 \\ 4 &=3+1 \\ 4 &=1+3 \\ 4 &=2+2 \\ 4 &=2+1+1 \\ 4 &=1+2+1 \\ 4 &=1+1+2 \\ 4 &=1+1+1+1.\end{align*}$$
 
