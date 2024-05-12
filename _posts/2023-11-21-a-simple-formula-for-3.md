@@ -10,11 +10,11 @@ pin: False
 
 In a [previous post](https://volumeelement.github.io/posts/elliptic-integrals-and-cm/) we proved that
 
-$$\begin{align*}\int_0^\alpha \frac{du}{\sqrt{1+u^4}}=\frac{3\Gamma^2\left(\frac{1}{4}\right)}{16\sqrt{\pi}}\tag{1}\end{align*}$$
+$$\int_0^\alpha \frac{du}{\sqrt{1+u^4}}=\frac{3\Gamma^2\left(\frac{1}{4}\right)}{16\sqrt{\pi}}$$
 
 where $\alpha=\sqrt{1+\sqrt{2}+\sqrt{2+2\sqrt{2}}}$. Here we will show that
 
-$$\begin{align*}\int_0^\beta \frac{du}{\sqrt{1+u^4}}=\frac{\Gamma^2\left(\frac{1}{4}\right)}{16\sqrt{\pi}}\tag{2}\end{align*}$$
+$$\begin{align*}\int_0^\beta \frac{du}{\sqrt{1+u^4}}=\frac{\Gamma^2\left(\frac{1}{4}\right)}{16\sqrt{\pi}}\tag{1}\end{align*}$$
 
 where $\beta=\sqrt{1+\sqrt{2}-\sqrt{2+2\sqrt{2}}}$, which actually ends up being much easier to do.
 
@@ -62,7 +62,7 @@ Integrating on the appropriate interval then yields the theorem.[^1] $\blacksqua
 
 This can be easily shown by letting $x\mapsto e^{i\pi/4}x$ in Fagnano's theorem. $\blacksquare$
 
-To derive $(2)$ first let $t=1$ then solve for $s$, from which we find that $s=\beta$. Then we can show $\int_0^1\frac{\mathrm dx}{\sqrt{1+x^4}}=\Gamma^3(1/4)/8$ (which can be proven using the [beta function](https://en.wikipedia.org/wiki/Beta_function)). As a consequence, upon dividing $(1)$ by $(2)$, we get an absurd expression for $3$ that only uses the numbers $0,\,1,\,2,$ and $4$.
+To derive $(1)$ first let $t=1$ then solve for $s$, from which we find that $s=\beta$. Then we can show $\int_0^1\frac{\mathrm dx}{\sqrt{1+x^4}}=\Gamma^3(1/4)/8$ (which can be proven using the [beta function](https://en.wikipedia.org/wiki/Beta_function)). As a consequence, we get an absurd expression for $3$ that only uses the numbers $0,\,1,\,2,$ and $4$.
 
 $$\int_0^{\sqrt{1+\sqrt{2}+\sqrt{2+2\sqrt{2}}}}\frac{\mathrm dx}{\sqrt{1+x^4}}\Bigg/\int_0^{\sqrt{1+\sqrt{2}-\sqrt{2+2\sqrt{2}}}}\frac{\mathrm dx}{\sqrt{1+x^4}}=3$$
 
