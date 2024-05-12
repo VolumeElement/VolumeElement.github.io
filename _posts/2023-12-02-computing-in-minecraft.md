@@ -93,7 +93,7 @@ The RAM consists of 16 memory addresses, each of which can store one 8-bit numbe
 
  <center><a href="https://github.com/VolumeElement/VolumeElement.github.io/blob/main/images/RAM.gif"><img src="https://github.com/VolumeElement/VolumeElement.github.io/blob/main/images/RAM.gif?raw=true" alt="centered image" height="auto" width="400" title="source: github.com" /></a></center>
 
- This image shows writing the number $11101001$ to RAM address 3. This is the second instruction my machine executes in its Fibonacci program. Every time the machine adds two numbers together, it checks to see if the result is greater than or equal to this $11101001$, as this is the largest Fibonacci number the machine can hold before it overflows.
+ This image shows writing the number $11101001$ to RAM address 3. This is the second instruction my machine executes in its Fibonacci program. Every time the machine adds two numbers together, it checks to see if the result is greater than or equal to $11101001$, as this is the largest Fibonacci number the machine can hold before it overflows.
 
 When a redstone block is down a $1$ is being stored, otherwise it is a $0$.
 
