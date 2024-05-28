@@ -18,7 +18,7 @@ $$\int_0^1\frac{1}{\sqrt{1+u^4}}\,\mathrm du=\frac{\Gamma^2\left(\frac{1}{4}\rig
 
 which I found to be so strange that I thought it could not be a mere coincidence. It turns out that it's not a coincidence and is really a consequence of
 
-$$\begin{align*}E/\mathbb{Q}:\,y^2=x^3-4x\tag{2}\end{align*}$$
+$$\begin{align*}E/\mathbb{C}:\,y^2=x^3-4x\tag{2}\end{align*}$$
 
 being an elliptic curve with [complex multiplication](https://en.wikipedia.org/wiki/Complex_multiplication). Understanding this integral and how to create similar identities was one of my white whales and it feels great to have caught it.
 
@@ -26,7 +26,7 @@ being an elliptic curve with [complex multiplication](https://en.wikipedia.org/w
 
 First we note that $v^2=u^4+1$ has genus $1$ and a rational point $(0,\,1)$, hence it is an elliptic curve. So we may transform the curve
 
-$$E_0/\mathbb{Q}:\,v^2=u^4+1$$
+$$E_0/\mathbb{C}:\,v^2=u^4+1$$
 
 with the mapping
 
@@ -34,7 +34,7 @@ $$x=\frac{2v+2}{u^2},\,y=\frac{4v+4}{u^3}$$
 
 and its inverse $u=2x/y,\,v=-1+2x^3/y^2$ which takes us to the elliptic curve
 
-$$E/\mathbb{Q}:\,y^2=x^3-4x$$
+$$E/\mathbb{C}:\,y^2=x^3-4x$$
 
 and back. Details on this mapping and how it generalizes may be seen in Washington, pages 37 and 38.[^1] This map nets us the equality
 
@@ -102,11 +102,11 @@ $$b_k=\sqrt{\pi}\prod_{a=1}^{d-1}\Gamma^{\frac{w\chi(a)}{4h}}\left(\frac{a}{d}\r
 
 where $\chi$ is the Dirichlet character modulo $d$ associated to $k$, $h$ is the class number of $k$, and $w$ is the order of the group of units of $k$. Chowla and Selberg showed that the ratio $\omega_E/b_k$ is always an algebraic number.[^3] So we see that integrals of the form $\int\omega$ which yield periods of CM elliptic curves are expressable as a quotient of gamma functions times an element of $\bar{\mathbb{Q}}$.
 
-Together with the fact that $n$-isogenies have equivalences of the form given in $(5)$ up to an element of $H_1(E,\mathbb{Z})$ it should be of no suprise that any integral equivalent to a period under some isogeny should be expressable in terms of gamma functions. And just as a sanity check, the elliptic curve in $(2)$ does indeed have complex multiplication by the maps
+Together with the fact that $n$-isogenies have equivalences of the form given in $(5)$ up to an element of $H_1(E,\mathbb{Z})$ it should be of no suprise that any integral equivalent to a period under some isogeny should be expressable in terms of gamma functions. As a sanity check, the elliptic curve in $(2)$ does indeed have complex multiplication by the maps
 
 $$(x,\,y)\mapsto\left(-x,\,\pm iy\right)$$
 
-so the elliptic curve $E_0/\mathbb{Q}:\,v^2=u^4+1$ related to $(1)$ also has complex multiplication (following from the maps provided from Washington) and fits this heuristic.
+so the elliptic curve $E_0/\mathbb{C}:\,v^2=u^4+1$ related to $(1)$ also has complex multiplication (following from the maps provided from Washington) and fits this heuristic.
 
 ## Finding integrals quickly with Sage
 
